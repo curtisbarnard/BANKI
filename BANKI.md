@@ -1,16 +1,16 @@
 # BANKI: All the questions to prep for interviews
 - Any questions on this list are fair game for technical interviews. 
 - Resources where you can find most answers are at the end.
-- Origianl list without anwsers courtesy of https://leonnoel.com/100devs/
+- Original list without answers, courtesy of https://leonnoel.com/100devs/
   
 ## Behavioral
-Most of the behavioral questions should be answered in the CAR format. At least three sentences for each question (one for cause, one for action and one for result). When answering being with "At my last opportunity..." or "At my last company" Don't sell yourself out and say "bootcamp" or "school"
+Most of the behavioral questions should be answered in the CAR format. At least three sentences for each question (one for cause, one for action and one for result). When answering begin with "At my last opportunity..." or "At my last company". Don't sell yourself out and say "bootcamp" or "school".
 
 ### CAR
 - **Cause**
 	- Why did you need to take action?
 - **Action**
-	- Steps you took so solve problem.
+	- Steps you took so solve problem
 	- Be positive
 	- Don't be humble
 - **Result**
@@ -115,7 +115,7 @@ Most of the technical questions should have a three sentence response in the EUE
 
 ### HTML
 - [x]  What does a doctype do?
-	- **Explanation:** Instruction to the browser about what version of HTML the webpage is written in, ensuring the web page is parsed the same way across web browsers.
+	- **Explanation:** Instructions to the browser about what version of HTML the webpage is written in, ensuring the web page is parsed the same way across web browsers.
 	- **Use:** It's the first line of code in the HTML document.
 	- **Example:** For an HTML5 document the tag would be `<!DOCTYPE html>`
 	- **Source:** https://www.freecodecamp.org/news/what-is-the-doctype-declaration-in-html/
@@ -124,12 +124,12 @@ Most of the technical questions should have a three sentence response in the EUE
 	- **Use:** The lang attribute can be used on various elements (typically html, p, li...)
 	- **Example:** You can set the whole site as being english by setting the html element `<html lang="en">` Or you could set a paragraph as spanish with `<p lang="es">`
 	- **Source:** https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang
-- [ ]   What kind of things must you be wary of when design or developing for multilingual sites?   
+- [ ]   What kinds of things must you be wary of when designing or developing for multilingual sites?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:**
-- [ ]   What are data- attributes good for?   
+- [ ]   What are `data-` attributes good for?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
@@ -149,7 +149,7 @@ Most of the technical questions should have a three sentence response in the EUE
 	- **Use:**
 	- **Example:**
 	- **Source:**
-- [ ]   Why is it generally a good idea to position CSS `<link>s between <head></head> and JS <script>s just before </body>`? Do you know any exceptions?   
+- [ ]   Why is it generally a good idea to position CSS `<link>`s within `<head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
@@ -159,12 +159,12 @@ Most of the technical questions should have a three sentence response in the EUE
 	- **Use:**
 	- **Example:**
 	- **Source:**
-- [ ]   Why you would use a srcset attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.   
+- [ ]   Why you would use a `srcset` attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:**
-- [ ]   Have you used different HTML templating languages before?  
+- [ ]   Have different HTML templating languages have you used before?  
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
@@ -236,7 +236,7 @@ Most of the technical questions should have a three sentence response in the EUE
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ]  Can you give an example of an @media property other than screen?   
+- [ ]  Can you give an example of an `@media` property other than screen?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
@@ -271,27 +271,27 @@ Most of the technical questions should have a three sentence response in the EUE
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.   
+- [ ] Explain your understanding of the box model and how you would tell the browser, through CSS, to render your layout in different box models.   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:** 
-- [ ]  What does * { box-sizing: border-box; } do? What are its advantages?   
+- [ ]  What does `* { box-sizing: border-box; }` do? What are its advantages?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ]  What is the CSS display property and can you give a few examples of its use?   
+- [ ]  What is the CSS `display` property and can you give a few examples of its use?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ]  What's the difference between inline and inline-block?   
+- [ ]  What's the difference between `inline` and `inline-block`?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ]  What's the difference between a relative, fixed, absolute and statically positioned element?   
+- [ ]  What's the difference between a `relative`, `fixed`, `absolute` and `static` positioned element?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
@@ -321,7 +321,7 @@ Most of the technical questions should have a three sentence response in the EUE
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] Is there any reason you'd want to use translate() instead of absolute positioning, or vice-versa? And why?   
+- [ ] Is there any reason you'd want to use `translate()` instead of `absolute` positioning, or vice-versa? And why?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
@@ -332,11 +332,13 @@ Most of the technical questions should have a three sentence response in the EUE
 	- **Explanation:** Setting an event listener on a parent element an having events that happen on a child element bubble up to the parent.
 	- **Use:** When you want some code to run when the user interacts with any one of a large number of child elements.
 	- **Example:** 
-```
+```html
 <div id="container">
-	<div class="tile"></div>
+    <div class="tile"></div>
 </div>
-container.addEventListener('click', event => event.target.style.backgroundColor = bgChange());
+<script>
+    container.addEventListener('click', event => event.target.style.backgroundColor = bgChange());
+</script>
 ```
 **Source:** 
 - [ ] Explain how this works in JavaScript   
@@ -354,12 +356,12 @@ container.addEventListener('click', event => event.target.style.backgroundColor 
 	- **Use:**
 	- **Example:**
 	- **Source:** 
-- [ ] Explain why the following doesn't work as an IIFE: function foo(){ }();. What needs to be changed to properly make it an IIFE?   
+- [ ] Explain why the following doesn't work as an IIFE: `function foo(){ }();`. What needs to be changed to properly make it an IIFE?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:** 
-- [ ] What's the difference between a variable that is: null, undefined or undeclared? How would you go about checking for any of these states?
+- [ ] What's the difference between a variable that is: `null`, `undefined` or undeclared? How would you go about checking for any of these states?
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
@@ -369,7 +371,7 @@ container.addEventListener('click', event => event.target.style.backgroundColor 
 	- **Use:**
 	- **Example:**
 	- **Source:** 
-- [ ] Can you describe the main difference between a .forEach loop and a .map() loop and why you would pick one versus the other?   
+- [ ] Can you describe the main difference between a `.forEach()` loop and a `.map()` loop and why you would pick one versus the other?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
@@ -389,22 +391,22 @@ container.addEventListener('click', event => event.target.style.backgroundColor 
 	- **Use:**
 	- **Example:**
 	- **Source:** 
-- [ ] Difference between: function Person(){}, var person = Person(), and var person = new Person()?   
+- [ ] Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:** 
-- [ ] What's the difference between .call and .apply?   
+- [ ] What's the difference between `.call()` and `.apply()`?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] Explain Function.prototype.bind.   
+- [ ] Explain `Function.prototype.bind`.   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] When would you use document.write()?   
+- [ ] When would you use `document.write()`?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
@@ -454,12 +456,12 @@ container.addEventListener('click', event => event.target.style.backgroundColor 
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] Difference between document load event and document DOMContentLoaded event?   
+- [ ] Difference between document `load` event and document `DOMContentLoaded` event?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] What is the difference between == and ===?   
+- [ ] What is the difference between `==` and `===`?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
@@ -469,12 +471,12 @@ container.addEventListener('click', event => event.target.style.backgroundColor 
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] Make this work: duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]   
+- [ ] Make this work: `duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5] `  
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] Why is it called a Ternary expression, what does the word "Ternary" indicate?   
+- [ ] Why is it called a ternary expression, what does the word "ternary" indicate?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
@@ -494,7 +496,7 @@ container.addEventListener('click', event => event.target.style.backgroundColor 
 	- **Use:**
 	- **Example:**
 	- **Source:** 
-- [ ] Why would you use something like the load event? Does this event have disadvantages? Do you know a ny alternatives, and why would you use those?   
+- [ ] Why would you use something like the `load` event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
@@ -544,12 +546,12 @@ container.addEventListener('click', event => event.target.style.backgroundColor 
 	- **Use:**
 	- **Example:**
 	- **Source:** 
-- [ ] Explain the differences on the usage of foo between function foo() {} and var foo = function() {} 
+- [ ] Explain the differences on the usage of foo between `function foo() {}` and `var foo = function() {}` 
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:** 
-- [ ] What are the differences between variables created using let, var or const?   
+- [ ] What are the differences between variables created using `let`, `var` or `const`?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
@@ -636,7 +638,7 @@ container.addEventListener('click', event => event.target.style.backgroundColor 
 
 ### Node
 - [x] What is Node.js? Where can you use it?   
-	- Node.js is a single-threaded, open-source, cross-platform runtime environment used to build server side and networking applications. IT uses event-driven, non-blocking I/O architecture, which makes it efficient and suitable for real-time applications.
+	- Node.js is a single-threaded, open-source, cross-platform runtime environment used to build server-side and networking applications. It uses event-driven, non-blocking I/O architecture, which makes it efficient and suitable for real-time applications.
 - [ ] Why use Node.js?  
 	- **Explanation:**
 	- **Use:**
@@ -717,7 +719,7 @@ container.addEventListener('click', event => event.target.style.backgroundColor 
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] What is the purpose of module.exports in Node.js?  
+- [ ] What is the purpose of `module.exports` in Node.js?  
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
@@ -737,12 +739,12 @@ container.addEventListener('click', event => event.target.style.backgroundColor 
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] Difference between setImmediate() vs setTimeout()?   
+- [ ] Difference between `setImmediate()` and `setTimeout()`?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] What is process.nextTick()   
+- [ ] What is `process.nextTick()`? 
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
@@ -762,7 +764,7 @@ container.addEventListener('click', event => event.target.style.backgroundColor 
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] What is EventEmitter in Node.js?   
+- [ ] What is `EventEmitter` in Node.js?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
@@ -770,10 +772,11 @@ container.addEventListener('click', event => event.target.style.backgroundColor 
 
 ### CS Theory 
 - [x] What is recursion and give an example using javascript?   
-	- **Explanation:** Recursion is when a function call itself within it's own body. Besides the recursive call it should always have a base case which stops it from calling itself which prevents infinite loops.
+	- **Explanation:** Recursion is when a function calls itself within its own body. Besides the recursive call, it should always have a base case which stops it from calling itself to prevent infinite loops.
 	- **Use:** Recursion is made for solving problems that can be broken down into smaller, repetitive problems. It is especially good for working on things that have many possible branches and are too complex for an iterative approach.
-	- **Example:** A classic example is computing a factorial given a number "num":
-```
+	- **Example:** A classic example is computing a factorial given a number `num`:
+
+```js
 function factorial(num){
 	if(num === 1){
 		return num;
@@ -781,6 +784,7 @@ function factorial(num){
 	return num * factorial(num-1)
 }
 ```
+
 **Source:**
 - [ ] What are types?   
 	- **Explanation:**
@@ -812,57 +816,57 @@ function factorial(num){
 	- **Use:**
 	- **Example:**
 	- **Source:** 
-- [ ] What is a Linked List   
+- [ ] What is a Linked List?  
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] What is a Doubly Linked List   
+- [ ] What is a Doubly Linked List?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] What is a Queue   
+- [ ] What is a Queue?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] What is a Stack   
+- [ ] What is a Stack?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] What is a Hash Table   
+- [ ] What is a Hash Table?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] What is a Heap   
+- [ ] What is a Heap?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] What is a Trie   
+- [ ] What is a Trie?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] What is a Tree   
+- [ ] What is a Tree?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] What is a Binary Search Tree   
+- [ ] What is a Binary Search Tree?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] What is a Disjoint Set   
+- [ ] What is a Disjoint Set?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] What is a Bloom Filter   
+- [ ] What is a Bloom Filter?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
@@ -890,9 +894,9 @@ function factorial(num){
 
 ## Questions to ask your interviewer
 1. How does Bob’s Burgers measure the success of their engineers?
-2. What challenges can an engineer come across working at Bob’s Burgers?
+2. What challenges can an engineer come across while working at Bob’s Burgers?
 3. Can you explain "thing you read on their engineering blog" and how it affects Bob’s Burgers Engineers?
-4. What traits in an engineer are hard to find in an engineer that Bob’s Burgers would like to have?
+4. What traits are hard to find in an engineer that Bob’s Burgers would like to have?
 5. How is critique given to engineers at Bob’s Burgers?
 6. Do you have any questions or concerns about my qualifications?  
 
@@ -913,7 +917,7 @@ When talking through a whiteboard problem or a coding challenge with an intervie
 		- Do you want it returned or is a console.log better?
 		- Should I pass a whole array of solutions back or just a single solution?
 - **Examples**
-	- Show a couple black box examples aka test cases
+	- Show a couple black box examples, aka test cases
 		- I pass in these arguments and get these results, is that correct?
 	- Examples are a good idea because "you have the receipts" if the interviewer decides to change things.
 - **Pseudocode**
