@@ -175,12 +175,32 @@ Most of the technical questions should have a three sentence response in the EUE
 	- **Explanation:** The means by which browsers decide which CSS property values are the most relevant to an element and, therefore, will be applied.
 	- **Use:** Specificity is a weight that is applied to a given CSS declaration, determined by the number of each selector type in the matching selector.
 	- **Example:** A selector of `#id .class tag` would have 111 points as id's count for 100, classes for 10 and tags 1.
-	- **Source:**
-- [ ]  What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?   
-	- **Explanation:**
-	- **Use:**
+	- **Source:** https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+- [x]  What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?   
+	- **Explanation:** "Normalize" alters the default styles of various browser to match each other. "Reset" will remove the browsers default styles so you are starting from scratch.
+	- **Use:** Applying one or the other is done to try and make websites visually consistent across different browsers. I prefer to use a mix of both. Starting with the normalize to keep it conscise and then add some elements like anchors and headers with a reset. Going full "nuke" is often unnecessary and creates a larger, harder to debug file.
 	- **Example:**
-	- **Source:**
+
+Normalize:
+```css
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+```
+Reset:
+```css
+html, body, h1, h2, h3, h4, h5, h6, {  
+   margin: 0;  
+   padding: 0;
+}
+```
+**Source:** https://elad.medium.com/normalize-css-or-css-reset-9d75175c5d1e
 - [ ]  Describe floats and how they work.  
 	- **Explanation:**
 	- **Use:**
