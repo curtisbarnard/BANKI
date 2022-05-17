@@ -18,46 +18,97 @@ Most of the behavioral questions should be answered in the CAR format. At least 
 
 ### Questions
 - [x] Give me an example of a project or initiative that you started on your own. What prompted you to get started?
-	- Cause: At a previous company we had project managers assigned to several different teams where workload would fluctuate quite a bit.
-	- Action: I noticed an opportunity to flatten the workload of the PM's, by creating a shared PM pool. 
-	- Result: This was possible by running a high level kanban of all projects assigned by PM to get visibility to workload. It also allowed knowledge sharing such that it was much easier for a PM to step in on any given team.
+	- **Cause:** At a previous company we had project managers assigned to several different teams where workload would fluctuate quite a bit.
+	- **Action:** I noticed an opportunity to flatten the workload of the PM's, by creating a shared PM pool. 
+	- **Result:** This was possible by running a high level kanban of all projects assigned by PM to get visibility to workload. It also allowed knowledge sharing such that it was much easier for a PM to step in on any given team.
 - [x] Tell me about a time you had to work on several projects at once. How did you handle this?
-	- Cause: I was working on two large projects for two separate clients that were at different stages of their lifecycle. One project was in production and the other project was in the implementation phase.
-	- Action: I decided to send a less experienced colleague to the installation site while I went to do a production check-in on the other project in China. Prior to leaving I briefed my colleague in on the project and told then what to look out for.
-	- Result: While in China I had daily calls with my colleague as well as received daily photo reports to review the installation. Both projects end up being financially successful. The tight communication and teamwork is ultimately what allowed it to be so.
+	- **Cause:** I was working on two large projects for two separate clients that were at different stages of their lifecycle. One project was in production and the other project was in the implementation phase.
+	- **Action:** I decided to send a less experienced colleague to the installation site while I went to do a production check-in on the other project in China. Prior to leaving I briefed my colleague in on the project and told then what to look out for.
+	- **Result:** While in China I had daily calls with my colleague as well as received daily photo reports to review the installation. Both projects end up being financially successful. The tight communication and teamwork is ultimately what allowed it to be so.
 - [ ] Describe a situation in which you felt you had not communicated well enough. What did you do? How did you handle it?
-	- Cause:
-	- Action:
-	- Result:
+	- **Cause:**
+	- **Action:**
+	- **Result:**
 - [ ] Tell me about when you had to deal with conflict within your team. How was the conflict solved? How did you handle that? How would you deal with it now?
-	- Cause:
-	- Action:
-	- Result:
+	- **Cause:**
+	- **Action:**
+	- **Result:**
 - [ ] Give me an example of a time you had to take a creative and unusual approach to solve coding problem. How did this idea come to your mind? Why do you think it was unusual?
-	- Cause:
-	- Action:
-	- Result:
-8. Describe a situation in which you worked diligently on a project and it did not produce the desired results. Why didn't you get the desired results? What did you learn from the experience?
-7.  Give an example of an important project goal you reached and how you achieved it.
-8. Describe a situation in which you experienced difficulty in getting others to accept your ideas? What was your approach? How did this work? Were you able to successfully persuade someone to see things your way
-9. Tell me about a situation when you were responsible for project planning. Did everything go according to your plan? If not, then why and what kind of counteractions did you have to take?
-10. Tell me about a situation when you made a mistake at work. What happened exactly and how did you deal with it? What steps did you take to improve the situation?
-11. Tell me about a time when you worked with someone who was not completing his or her share of the work. How did you handle the situation? Did you discuss your concern with your coworker? With your manager? If yes, how did your coworker respond to your concern? What was your manager's response?
-12. Describe a situation when you worked effectively under pressure. How did you feel when working under pressure? What was going on, and how did you get through it?
-13. Tell me about yourself.
-14. Tell me about your experience at 100Devs. 
-15. What do you know about our company?
-16. Why do you want to work for us?
-17. Why are you interested in this opportunity?
-18. Tell me about your dream job?  What do you really want to do with your career?
-19. Tell me a time when you failed.
-20. What do you read on a regular basis?
-21. What's some critical feedback you've gotten recently?
-22. Do you have any questions?
+	- **Cause:**
+	- **Action:**
+	- **Result:**
+- [ ] Describe a situation in which you worked diligently on a project and it did not produce the desired results. Why didn't you get the desired results? What did you learn from the experience?
+ 	- **Cause:**
+	- **Action:**
+	- **Result:**
+- [ ] Give an example of an important project goal you reached and how you achieved it.
+ 	- **Cause:**
+	- **Action:**
+	- **Result:**
+- [ ] Describe a situation in which you experienced difficulty in getting others to accept your ideas? What was your approach? How did this work? Were you able to successfully persuade someone to see things your way
+	- **Cause:**
+	- **Action:**
+	- **Result:**
+- [ ] Tell me about a situation when you were responsible for project planning. Did everything go according to your plan? If not, then why and what kind of counteractions did you have to take?
+ 	- **Cause:**
+	- **Action:**
+	- **Result:**
+- [ ] Tell me about a situation when you made a mistake at work. What happened exactly and how did you deal with it? What steps did you take to improve the situation?
+ 	- **Cause:**
+	- **Action:**
+	- **Result:**
+- [ ] Tell me about a time when you worked with someone who was not completing his or her share of the work. How did you handle the situation? Did you discuss your concern with your coworker? With your manager? If yes, how did your coworker respond to your concern? What was your manager's response?
+ 	- **Cause:**
+	- **Action:**
+	- **Result:**
+- [ ] Describe a situation when you worked effectively under pressure. How did you feel when working under pressure? What was going on, and how did you get through it?
+ 	- **Cause:**
+	- **Action:**
+	- **Result:**
+- [ ] Tell me about yourself.
+ 	- **Cause:**
+	- **Action:**
+	- **Result:**
+- [ ] Tell me about your experience at 100Devs. 
+ 	- **Cause:**
+	- **Action:**
+	- **Result:**
+- [ ] What do you know about our company?
+ 	- **Cause:**
+	- **Action:**
+	- **Result:**
+- [ ] Why do you want to work for us?
+ 	- **Cause:**
+	- **Action:**
+	- **Result:**
+- [ ] Why are you interested in this opportunity?
+ 	- **Cause:**
+	- **Action:**
+	- **Result:**
+- [ ] Tell me about your dream job?  What do you really want to do with your career?
+ 	- **Cause:**
+	- **Action:**
+	- **Result:**
+- [ ] Tell me a time when you failed.
+ 	- **Cause:**
+	- **Action:**
+	- **Result:**
+- [ ] What do you read on a regular basis?
+ 	- **Cause:**
+	- **Action:**
+	- **Result:**
+- [ ] What's some critical feedback you've gotten recently?
+ 	- **Cause:**
+	- **Action:**
+	- **Result:**
+- [ ] Do you have any questions?
+ 	- **Cause:**
+	- **Action:**
+	- **Result:**
 
 ## Technical Questions
 
-Most of the technical questions should have a three sentence response in the EUE formet:
+Most of the technical questions should have a three sentence response in the EUE format:
 - **Explanation**
 - **Use**
 - **Example**
