@@ -331,12 +331,14 @@ Most of the technical questions should have a three sentence response in the EUE
 - [x] Explain event delegation   
 	- **Explanation:** Setting an event listener on a parent element an having events that happen on a child element bubble up to the parent.
 	- **Use:** When you want some code to run when the user interacts with any one of a large number of child elements.
-	- **Example:** ```
-	<div id="container">
-	  <div class="tile"></div>
-	</div>
-	container.addEventListener('click', event => event.target.style.backgroundColor = bgChange());```
-	- **Source:** 
+	- **Example:** 
+```
+<div id="container">
+	<div class="tile"></div>
+</div>
+container.addEventListener('click', event => event.target.style.backgroundColor = bgChange());
+```
+**Source:** 
 - [ ] Explain how this works in JavaScript   
 	- **Explanation:**
 	- **Use:**
@@ -771,13 +773,15 @@ Most of the technical questions should have a three sentence response in the EUE
 	- **Explanation:** Recursion is when a function call itself within it's own body. Besides the recursive call it should always have a base case which stops it from calling itself which prevents infinite loops.
 	- **Use:** Recursion is made for solving problems that can be broken down into smaller, repetitive problems. It is especially good for working on things that have many possible branches and are too complex for an iterative approach.
 	- **Example:** A classic example is computing a factorial given a number "num":
-	- ```function factorial(num){
-	    if(num === 1){
-	        return num;
-	    }
-		return num * factorial(num-1)
-	}```
-	- **Source:**
+```
+function factorial(num){
+	if(num === 1){
+		return num;
+	}
+	return num * factorial(num-1)
+}
+```
+**Source:**
 - [ ] What are types?   
 	- **Explanation:**
 	- **Use:**
