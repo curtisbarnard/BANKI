@@ -332,11 +332,13 @@ Most of the technical questions should have a three sentence response in the EUE
 	- **Explanation:** Setting an event listener on a parent element an having events that happen on a child element bubble up to the parent.
 	- **Use:** When you want some code to run when the user interacts with any one of a large number of child elements.
 	- **Example:** 
-```
+```html
 <div id="container">
-	<div class="tile"></div>
+    <div class="tile"></div>
 </div>
-container.addEventListener('click', event => event.target.style.backgroundColor = bgChange());
+<script>
+    container.addEventListener('click', event => event.target.style.backgroundColor = bgChange());
+</script>
 ```
 **Source:** 
 - [ ] Explain how this works in JavaScript   
@@ -770,10 +772,11 @@ container.addEventListener('click', event => event.target.style.backgroundColor 
 
 ### CS Theory 
 - [x] What is recursion and give an example using javascript?   
-	- **Explanation:** Recursion is when a function call itself within it's own body. Besides the recursive call it should always have a base case which stops it from calling itself which prevents infinite loops.
+	- **Explanation:** Recursion is when a function calls itself within its own body. Besides the recursive call, it should always have a base case which stops it from calling itself to prevent infinite loops.
 	- **Use:** Recursion is made for solving problems that can be broken down into smaller, repetitive problems. It is especially good for working on things that have many possible branches and are too complex for an iterative approach.
-	- **Example:** A classic example is computing a factorial given a number "num":
-```
+	- **Example:** A classic example is computing a factorial given a number `num`:
+
+```js
 function factorial(num){
 	if(num === 1){
 		return num;
@@ -781,6 +784,7 @@ function factorial(num){
 	return num * factorial(num-1)
 }
 ```
+
 **Source:**
 - [ ] What are types?   
 	- **Explanation:**
@@ -812,57 +816,57 @@ function factorial(num){
 	- **Use:**
 	- **Example:**
 	- **Source:** 
-- [ ] What is a Linked List   
+- [ ] What is a Linked List?  
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] What is a Doubly Linked List   
+- [ ] What is a Doubly Linked List?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] What is a Queue   
+- [ ] What is a Queue?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] What is a Stack   
+- [ ] What is a Stack?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] What is a Hash Table   
+- [ ] What is a Hash Table?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] What is a Heap   
+- [ ] What is a Heap?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] What is a Trie   
+- [ ] What is a Trie?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] What is a Tree   
+- [ ] What is a Tree?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] What is a Binary Search Tree   
+- [ ] What is a Binary Search Tree?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] What is a Disjoint Set   
+- [ ] What is a Disjoint Set?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
 	- **Source:**  
-- [ ] What is a Bloom Filter   
+- [ ] What is a Bloom Filter?   
 	- **Explanation:**
 	- **Use:**
 	- **Example:**
@@ -890,9 +894,9 @@ function factorial(num){
 
 ## Questions to ask your interviewer
 1. How does Bob’s Burgers measure the success of their engineers?
-2. What challenges can an engineer come across working at Bob’s Burgers?
+2. What challenges can an engineer come across while working at Bob’s Burgers?
 3. Can you explain "thing you read on their engineering blog" and how it affects Bob’s Burgers Engineers?
-4. What traits in an engineer are hard to find in an engineer that Bob’s Burgers would like to have?
+4. What traits are hard to find in an engineer that Bob’s Burgers would like to have?
 5. How is critique given to engineers at Bob’s Burgers?
 6. Do you have any questions or concerns about my qualifications?  
 
@@ -913,7 +917,7 @@ When talking through a whiteboard problem or a coding challenge with an intervie
 		- Do you want it returned or is a console.log better?
 		- Should I pass a whole array of solutions back or just a single solution?
 - **Examples**
-	- Show a couple black box examples aka test cases
+	- Show a couple black box examples, aka test cases
 		- I pass in these arguments and get these results, is that correct?
 	- Examples are a good idea because "you have the receipts" if the interviewer decides to change things.
 - **Pseudocode**
