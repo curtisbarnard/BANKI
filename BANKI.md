@@ -118,34 +118,48 @@ Most of the technical questions should have a three sentence response in the EUE
 	- **Explanation:** Instruction to the browser about what version of HTML the webpage is written in, ensuring the web page is parsed the same way across web browsers.
 	- **Use:** It's the first line of code in the HTML document.
 	- **Example:** For an HTML5 document the tag would be `<!DOCTYPE html>`
-- [ ]   How do you serve a page with content in multiple languages?  
-	- Explanation:
-	- Use:
-	- Example:
+	- **Source:** https://www.freecodecamp.org/news/what-is-the-doctype-declaration-in-html/
+- [x]   How do you serve a page with content in multiple languages?  
+	- **Explanation:** By setting the lang attributes on the various elements within the page.
+	- **Use:** The lang attribute can be used on various elements (typically html, p, li...)
+	- **Example:** You can set the whole site as being english by setting the html element `<html lang="en">` Or you could set a paragraph as spanish with `<p lang="es">`
+	- **Source:** https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang
 - [ ]   What kind of things must you be wary of when design or developing for multilingual sites?   
-	- Explanation:
-	- Use:
-	- Example:
+	- **Explanation:**
+	- **Use:**
+	- **Example:**
 - [ ]   What are data- attributes good for?   
-	- Explanation:
-	- Use:
-	- Example:
+	- **Explanation:**
+	- **Use:**
+	- **Example:**
 - [ ]   Consider HTML5 as an open web platform. What are the building blocks of HTML5?   
-	- Explanation:
-	- Use:
-	- Example:
+	- **Explanation:**
+	- **Use:**
+	- **Example:**
 - [ ]   Describe the difference between a cookie, sessionStorage and localStorage.   
-	- Explanation:
-	- Use:
-	- Example:
+	- **Explanation:**
+	- **Use:**
+	- **Example:**
 - [ ]   Describe the difference between `<script>, <script async> and <script defer>`.  
-	- Explanation:
-	- Use:
-	- Example:
+	- **Explanation:**
+	- **Use:**
+	- **Example:**
 - [ ]   Why is it generally a good idea to position CSS `<link>s between <head></head> and JS <script>s just before </body>`? Do you know any exceptions?   
+	- **Explanation:**
+	- **Use:**
+	- **Example:**
 - [ ]   What is progressive rendering?   
+	- **Explanation:**
+	- **Use:**
+	- **Example:**
 - [ ]   Why you would use a srcset attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.   
+	- **Explanation:**
+	- **Use:**
+	- **Example:**
 - [ ]   Have you used different HTML templating languages before?  
+	- **Explanation:**
+	- **Use:**
+	- **Example:**
 
 ### CSS
 - [x]  What is CSS selector specificity and how does it work?  
