@@ -667,11 +667,11 @@ class MyThing {
 ### Node
 - [x] What is Node.js? Where can you use it?   
 	- Node.js is a single-threaded, open-source, cross-platform runtime environment used to build server-side and networking applications. It uses event-driven, non-blocking I/O architecture, which makes it efficient and suitable for real-time applications.
-- [ ] Why use Node.js?  
-	- **Explanation:**
-	- **Use:**
-	- **Example:**
-	- **Source:** 
+	- **Source:** https://kinsta.com/knowledgebase/what-is-node-js/
+- [x] Why use Node.js?  
+	- **Explanation:** It uses fewer resources and memory because it is single threaded, it has wide adoption with many open source pacakages available, it is multi-platform and it simplifies the full stack as you can use just one language: Javascript.
+	- **Use:** It's best used for real time applications that aren't data intensive. For programs that require more data processing a multi-threaded language like Java is a better choice.
+	- **Source:**  https://kinsta.com/knowledgebase/what-is-node-js/
 - [ ] What are the features of Node.js?   
 	- **Explanation:**
 	- **Use:**
