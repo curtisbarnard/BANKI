@@ -360,12 +360,19 @@ html, body, h1, h2, h3, h4, h5, h6, {
     container.addEventListener('click', event => event.target.style.backgroundColor = bgChange());
 </script>
 ```
-**Source:** 
-- [ ] Explain how this works in JavaScript   
-	- **Explanation:**
-	- **Use:**
+**Source:** https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#event_delegation
+- [x] Explain how `this` works in JavaScript   
+	- **Explanation:** `this` references an object. When inside of a constructor function or class it will reference the object on instantiation. 
+	- **Use:** It is used to assign properties and values to an object on instantiation.
 	- **Example:**
-	- **Source:** 
+```javascript
+class MyThing {
+	constructor(passThisIn) {
+	this.passThisIn = passThisIn
+	}
+}
+```
+**Source:** https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
 - [ ] Explain how prototypal inheritance works   
 	- **Explanation:**
 	- **Use:**
