@@ -637,11 +637,12 @@ class MyThing {
 ### Javascript General
 - [x] Can you name two programming paradigms important for JavaScript app developers?   
 	- OOP and Functional Programming are the most often used. OOP allows inheritance via different "classes". Functional is pure-functions without side effects.
-- [ ] What is functional programming?  
-	- **Explanation:**
-	- **Use:**
-	- **Example:**
-	- **Source:** 
+	- **Source:** https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95
+- [x] What is functional programming?  
+	- **Explanation:** Using pure functions with no side effects to compose your program.
+	- **Use:** You avoid mutable data and shared states and instead make use of simple functions. It makes the code more predictable. 
+	- **Example:** Instead of having a function with two parameters that does two tasks, you break it into two functions. Each function would have a single parameter and do a single task.
+	- **Source:** https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95
 - [ ] What is the difference between classical inheritance and prototypal inheritance?   
 	- **Explanation:**
 	- **Use:**
