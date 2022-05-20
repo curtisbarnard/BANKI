@@ -130,30 +130,48 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Use:** The lang attribute can be used on various elements (typically html, p, li...)
   - **Example:** You can set the whole site as being english by setting the html element `<html lang="en">` Or you could set a paragraph as spanish with `<p lang="es">`
   - **Source:** https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang
-- [ ] What kinds of things must you be wary of when designing or developing for multilingual sites?
+- [x] What kinds of things must you be wary of when designing or developing for multilingual sites?
+  - **Explanation:** There are quite a few different nuances to pay attention to including:
+    - Including the `lang` attribute
+    - Allowing users to change the language
+    - Minimize text in raster based images
+    - Text overflow when translated
+    - How colors are perceived
+    - Date and currency formats
+    - Language reading direction
+    - Don't concatenate translated strings
+  - **Source:** https://www.frontendinterviewhandbook.com/html-questions
+- [x] What are `data-` attributes good for?
+  - **Explanation:** They store data private to the page or application.
+  - **Use:** They were often used for storing extra data in the DOM, but are generally discouraged now.
+  - **Example:** The exception is to add a hook for end to end testing frameworks like Selenium.
+  - **Source:** https://www.frontendinterviewhandbook.com/html-questions
+- [x] Consider HTML5 as an open web platform. What are the building blocks of HTML5?
   - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] What are `data-` attributes good for?
+    - Semantics: Describe the content
+    - Connectivity: Communicate with the server
+    - Offline and storage: Store data client-side
+    - Multimedia: Make audio and video first-class citizens
+    - Graphics and effects: Diverse range of presentation options
+    - Performance and integration: Speed optimization
+    - Device access: Various input and output devices
+    - Styling: More sophisticated themes
+  - **Source:** https://www.frontendinterviewhandbook.com/html-questions
+- [x] Describe the difference between a cookie, sessionStorage and localStorage.
+  - **Explanation:** Cookies can be initiated by the server, have a manually set expiration date are small file size and are sent to the server with HTTP request. Local and session are both initiated by the client, are a relatively large file and aren't sent to the server. The main difference between local and session is that local storage will persist forever until cleared manually.
+  - **Use:** They are all used for client side storage of strings in key-value pairs.
+  - **Source:** https://www.frontendinterviewhandbook.com/html-questions
+- [x] Describe the difference between `<script>, <script async> and <script defer>`.
   - **Explanation:**
+    - `<script>` HTML parsing is blocked, script is fetched and executed immediately.
+    - `<script async>` script fetched in parallel to HTML parsing and executed as soon as it is available.
+    - `<script defer>` script fetched in parallel to HTML parsing and executed when the page has finished parsing.
   - **Use:**
+    - Use `async` when the script is independent of any other scripts on the page
+    - `defer` is useful when you need to make sure the HTML is fully parsed before executing.
   - **Example:**
-  - **Source:**
-- [ ] Consider HTML5 as an open web platform. What are the building blocks of HTML5?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] Describe the difference between a cookie, sessionStorage and localStorage.
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] Describe the difference between `<script>, <script async> and <script defer>`.
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
+    - `async` could be used for analytics scripts.
+    - A deferred script must not contain `document.write`
   - **Source:**
 - [ ] Why is it generally a good idea to position CSS `<link>`s within `<head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
   - **Explanation:**
