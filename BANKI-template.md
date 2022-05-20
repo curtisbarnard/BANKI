@@ -170,7 +170,7 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Use:**
   - **Example:**
   - **Source:**
-- [ ] Have different HTML templating languages have you used before?
+- [ ] Have you used different HTML templating languages before?
   - **Explanation:**
   - **Use:**
   - **Example:**
