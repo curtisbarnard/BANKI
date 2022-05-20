@@ -290,31 +290,46 @@ h6 {
   - **Use:** I use them on every website and typically build mobile first. The breakpoints and media queries are then used to convert the layout from mobile to desktop.
   - **Example:** Some examples is changing a bunch of cards from being a single column stack on mobile to a three column layout on desktop.
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
-- [ ] Are you familiar with styling SVG?
-  - **Explanation:**
-  - **Use:**
+- [x] Are you familiar with styling SVG?
+  - **Explanation:** Yes there are a few ways to style them including inline CSS, embedded CSS or an external style sheet. Basic coloring can be done with the fill and stroke attributes.
   - **Example:**
+  ```html
+  <rect width="100" height="100" stroke="blue" fill="purple" />
+  ```
+  - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
+- [x] Can you give an example of an `@media` property other than screen?
+  - **Explanation & Use:** There are four types:
+    - `all` - for all media type devices
+    - `print` - for printers
+    - `speech` - for screenreaders that "reads" the page out loud
+    - `screen` - for computer screens, tablets, smart-phones etc.
+  - **Example:** An example of using print and making all the text black:
+  ```css
+  @media print {
+    body {
+      color: black;
+    }
+  }
+  ```
   - **Source:**
-- [ ] Can you give an example of an `@media` property other than screen?
+- [x] What are three "gotchas" for writing efficient CSS?
   - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] What are some of the "gotchas" for writing efficient CSS?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] What are the advantages/disadvantages of using CSS preprocessors?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] Describe what you like and dislike about the CSS preprocessors you have used.
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+    - Browsers match selectors from rightmost (key selector) to left. The shorter the length of the chain the faster the browser can find a match. Avoid using tag and universal selectors for your key selector.
+    - Avoid using styles that trigger reflow.
+  - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
+- [x] What are the advantages/disadvantages of using CSS preprocessors?
+  - **Explanation:** Some advantages would be:
+    - The code is easier to maintain
+    - More efficient to write with nested selectors
+    - Mixins can be used for repeated styles
+    - Ability to split into different files
+      Disadvantages would be:
+    - Additional tooling is required
+    - You aren't able to use the most current features of standard CSS
+  - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
+- [x] Describe what you like and dislike about the CSS preprocessors you have used.
+  - **Explanation:** I've found that being able to split files and nest selectors is the most useful. A couple of downsides are that debugging is a little more difficult and having to wait for compilation.
+  - **Source:** https://adamsilver.io/blog/the-disadvantages-of-css-preprocessors/
 - [ ] How would you implement a web design comp that uses non-standard fonts?
   - **Explanation:**
   - **Use:**
