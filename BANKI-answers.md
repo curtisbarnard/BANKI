@@ -264,31 +264,32 @@ h6 {
   - **Use:** Browsers limit the number of concurrent requests a site can make so leading several images with a single HTTP request helps increase page load speed.
   - **Example:** An example would be combining press logo's for Wired, NY Times and The Washington Post into a single image file. Then on the site, with CSS, placing the file three times and moving/cropping it to display the applicable logo.
   - **Source:** https://css-tricks.com/css-sprites/
-- [ ] How would you approach fixing browser-specific styling issues?
+- [x] How would you approach fixing browser-specific styling issues?
+  - **Explanation:** There are a handful of ways to solve the issue such as browser specific stylesheets, using a library like bootstrap, etc. MY preference would be to use a combination normalize/reset style sheet. I'd rather use a combination as going full nuke with a reset isn't necessary and makes it a little harder to debug.
+  - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
+- [x] How do you serve your pages for feature-constrained browsers? What techniques/processes do you use?
+  - **Explanation:** My preference is to try and build lightweight simple websites that incorporate progressive enhancement.
+  - **Use:** Build the base level of HTML/CSS with semantics and accessibility in the forefront you get a site that works well on feature-constrained browsers. I would then add any CSS on JavaScript enhancements deliberately, checking [caniuse.com](https://caniuse.com/) and using vendor prefixs and polyfills if required.
+  - **Example:** Instead of filling the site with `<div>` using more semantically appropriate tags like `<section> <aside> <article> <header> <footer>`
+  - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
+- [x] What are the different ways to visually hide content (and make it available only for screen readers)?
   - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] How do you serve your pages for feature-constrained browsers? What techniques/processes do you use?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] What are the different ways to visually hide content (and make it available only for screen readers)?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] Have you ever used a grid system, and if so, what do you prefer?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] Have you used or implemented media queries or mobile specific layouts/CSS?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+  - Make the element have a size of zero `width: 0; height: 0`
+  - Absolute position off screen `position: absolute; left: -99999px`
+  - Text indent off screen if within block element `text-indent: -9999px`
+  - aria-label which will read the string given to the attribute.
+  - **Use:** I typically absolutely position the element off screen as it covers the most scenarios.
+  - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
+- [x] Have you ever used a grid system, and if so, what do you prefer?
+  - **Explanation:** I have used both flexbox and grid and like to employ both of them.
+  - **Use:** I find grid to be useful for the top level page layout and any elements which have a typical grid layout. I prefer using flexbox for sections and other elements which don't need a rigid grid alignment.
+  - **Example:** If I had something like a tic-tac-toe board I would use grid as it is easy to get the boxes to align and be the same size. If I had some sort of information card with multiple pieces of information I would likely use flexbox.
+  - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
+- [x] Have you used or implemented media queries or mobile specific layouts/CSS?
+  - **Explanation:** I use them quite frequently.
+  - **Use:** I use them on every website and typically build mobile first. The breakpoints and media queries are then used to convert the layout from mobile to desktop.
+  - **Example:** Some examples is changing a bunch of cards from being a single column stack on mobile to a three column layout on desktop.
+  - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
 - [ ] Are you familiar with styling SVG?
   - **Explanation:**
   - **Use:**
