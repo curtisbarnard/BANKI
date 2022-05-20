@@ -235,31 +235,35 @@ h6 {
 
 **Source:** https://elad.medium.com/normalize-css-or-css-reset-9d75175c5d1e
 
-- [ ] Describe floats and how they work.
+- [x] Describe floats and how they work.
+  - **Explanation:** Floats are a positioning property where the element that is floated will remain a part of the flow of the page and affect the elements around it. A parent element will collapse to zero height if it contains only floated elements, to fix this it was common to use a `.clearfix` hack.
+  - **Use:** It was used prior to flex and grid to layout pages in a more flexible manner.
+  - **Example:** You could float three elements left and give them widths of 33% to create three even width columns.
+  - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
+- [x] Describe z-index and how stacking context is formed.
+  - **Explanation:** The `z-index` property in CSS controls the vertical stacking order of elements that overlap. A stacking context is an element that contains a set of layers. The z-index values of its children are set relative to that element rather than to the document root. Layers outside of that context can't sit between layers within it.
+  - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
+- [x] Describe BFC (Block Formatting Context) and how it works.
+  - **Explanation:** A BFC is an HTML box that satisfies at least one of the following conditions:
+    - The value of float is not none.
+    - The value of position is neither static nor relative.
+    - The value of display is table-cell, table-caption, inline-block, flex, or inline-flex, grid, or inline-grid.
+    - The value of overflow is not visible.
+  - **Use:** Knowing how to establish a block formatting context is important, because without doing so, the containing box will not contain floated children.
+  - **Example:** Without forming a BFC you could have content of a float that is taller than the content alongside it. The border of the parent element could then "cut-through" the floated box.
+  - **Source:** https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context
+- [x] What are the various clearing techniques and which is appropriate for what context?
   - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] Describe z-index and how stacking context is formed.
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] Describe BFC (Block Formatting Context) and how it works.
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] What are the various clearing techniques and which is appropriate for what context?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] Explain CSS sprites, and how you would implement them on a page or site.
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+    - Empty `div` method
+    - Clearfix method
+    - `overflow: auto` or `overflow: hidden` method
+  - **Use:** `.clearfix` utility class is probably the best method to use in general as it doesn't take long to construct and doesn't suffer from clipping issues like the overflow methods.
+  - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
+- [x] Explain CSS sprites, and how you would implement them on a page or site.
+  - **Explanation:** CSS Sprites are a means of combining multiple images into a single image file for use on a website, to help with performance.
+  - **Use:** Browsers limit the number of concurrent requests a site can make so leading several images with a single HTTP request helps increase page load speed.
+  - **Example:** An example would be combining press logo's for Wired, NY Times and The Washington Post into a single image file. Then on the site, with CSS, placing the file three times and moving/cropping it to display the applicable logo.
+  - **Source:** https://css-tricks.com/css-sprites/
 - [ ] How would you approach fixing browser-specific styling issues?
   - **Explanation:**
   - **Use:**
