@@ -274,10 +274,10 @@ h6 {
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
 - [x] What are the different ways to visually hide content (and make it available only for screen readers)?
   - **Explanation:**
-  - Make the element have a size of zero `width: 0; height: 0`
-  - Absolute position off screen `position: absolute; left: -99999px`
-  - Text indent off screen if within block element `text-indent: -9999px`
-  - aria-label which will read the string given to the attribute.
+    - Make the element have a size of zero `width: 0; height: 0`
+    - Absolute position off screen `position: absolute; left: -99999px`
+    - Text indent off screen if within block element `text-indent: -9999px`
+    - aria-label which will read the string given to the attribute.
   - **Use:** I typically absolutely position the element off screen as it covers the most scenarios.
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
 - [x] Have you ever used a grid system, and if so, what do you prefer?
