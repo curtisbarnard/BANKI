@@ -172,27 +172,24 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Example:**
     - `async` could be used for analytics scripts.
     - A deferred script must not contain `document.write`
-  - **Source:**
-- [ ] Why is it generally a good idea to position CSS `<link>`s within `<head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] What is progressive rendering?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] Why you would use a `srcset` attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] Have different HTML templating languages have you used before?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+  - **Source:** https://www.frontendinterviewhandbook.com/html-questions
+- [x] Why is it generally a good idea to position CSS `<link>`s within `<head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
+  - **Explanation:** Putting `<link>`s in the `<head>` allows for quick "first meaningful paint". When a page first loads, HTML and CSS are being parsed simultaneously. Conversely `<script>` tags block HTML parsing while they are being downloaded and executed which can slow down your page. Placing the scripts at the bottom will allow the HTML to be parsed and displayed to the user first.
+  - **Exceptions:** When your script contains `document.write`, however it isn't consider good practice to use `document.write`. Also if you need scripts to run on page load it may be beneficial to split them out from your main script and place in the head.
+  - **Source:** https://www.frontendinterviewhandbook.com/html-questions
+- [x] What is progressive rendering?
+  - **Explanation:** Techniques used to improve the performance of a webpage to render content for display as quickly as possible.
+  - **Use:** Improving perceived load time
+  - **Example:** Lazy loading of images, Prioritizing visible content (or above-the-fold rendering) and Async HTML fragments
+  - **Source:** https://www.frontendinterviewhandbook.com/html-questions
+- [x] Why you would use a `srcset` attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.
+  - **Explanation:** When you want to serve different images to users depending on their device display width.
+  - **Use:** Sending lower resolution to limit data waste and increase performance or sending larger images to a higher resolution display to enhance the UX.
+  - **Example:** `<img srcset="small.jpg 500w, medium.jpg 1000w, large.jpg 2000w" src="..." alt="">`
+  - **Source:** https://www.frontendinterviewhandbook.com/html-questions
+- [x] Have you used different HTML templating languages before?
+  - I've used nunjucks, haml and markdown. They seem relatively similar and have helpful features.
+  - **Source:** https://www.frontendinterviewhandbook.com/html-questions
 
 ### CSS
 
