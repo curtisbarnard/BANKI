@@ -281,10 +281,9 @@ h6 {
   - **Use:** I typically absolutely position the element off screen as it covers the most scenarios.
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
 - [x] Have you ever used a grid system, and if so, what do you prefer?
-  - **Explanation:** I have used both flexbox and grid and like to employ both of them.
-  - **Use:** I find grid to be useful for the top level page layout and any elements which have a typical grid layout. I prefer using flexbox for sections and other elements which don't need a rigid grid alignment.
-  - **Example:** If I had something like a tic-tac-toe board I would use grid as it is easy to get the boxes to align and be the same size. If I had some sort of information card with multiple pieces of information I would likely use flexbox.
-  - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
+  - **Explanation:** I typically use a 12 column "grid" system when doing my initial web layout.
+  - **Use:** I find that it works well for laying out the average website and giving the site some visual consistency. When if comes to coding the site I find it helps speed up the layout immensely.
+  - **Source:** https://www.flux-academy.com/blog/how-to-use-a-grid-in-web-design
 - [x] Have you used or implemented media queries or mobile specific layouts/CSS?
   - **Explanation:** I use them quite frequently.
   - **Use:** I use them on every website and typically build mobile first. The breakpoints and media queries are then used to convert the layout from mobile to desktop.
@@ -318,16 +317,21 @@ h6 {
     - Avoid using styles that trigger reflow.
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
 - [x] What are the advantages/disadvantages of using CSS preprocessors?
+
   - **Explanation:** Some advantages would be:
+
     - The code is easier to maintain
     - More efficient to write with nested selectors
     - Mixins can be used for repeated styles
     - Ability to split into different files
-  
+
     Disadvantages would be:
+
     - Additional tooling is required
     - You aren't able to use the most current features of standard CSS
+
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
+
 - [x] Describe what you like and dislike about the CSS preprocessors you have used.
   - **Explanation:** I've found that being able to split files and nest selectors is the most useful. A couple of downsides are that debugging is a little more difficult and having to wait for compilation.
   - **Source:** https://adamsilver.io/blog/the-disadvantages-of-css-preprocessors/
@@ -349,31 +353,34 @@ h6 {
 - [x] What does `* { box-sizing: border-box; }` do? What are its advantages?
   - **Explanation & Use:** It allows you to specify the actual width and height of a box using the `width` and `height` properties. This allows you to input true sizes and not have to do any math to take padding and borders into account.
   - **Source:** https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#the_alternative_css_box_model
-- [ ] What is the CSS `display` property and can you give a few examples of its use?
+- [x] What is the CSS `display` property and can you give a few examples of its use?
+  - **Explanation & Use:** The display CSS property sets whether an element is treated as a block or inline element and the layout used for its children, such as flow layout, grid or flex.
+  - **Example:** `display: block` would make the element consume the whole line width. `display: grid` would allow you to layout children in a grid system. If you wanted three columns you could pair it with something like `grid-template-columns: 1fr 1fr 1fr`
+  - **Source:** https://developer.mozilla.org/en-US/docs/Web/CSS/display
+- [x] What's the difference between `inline` and `inline-block`?
   - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] What's the difference between `inline` and `inline-block`?
+    - `inline`
+      - CANNOT specify width and height
+      - Can only set margin and padding for the sides, not top and bottom.
+    - `inline-block`
+      - CAN specify width and height
+      - Can set margin and padding on all sides
+  - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
+- [x] What's the difference between a `relative`, `fixed`, `absolute` and `static` positioned element?
   - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] What's the difference between a `relative`, `fixed`, `absolute` and `static` positioned element?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] What existing CSS frameworks have you used locally, or in production? How would you change/improve them?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] Have you played around with the new CSS Flexbox or Grid specs?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+    - Relative - Position is relative to it's original static position. Original space on the page is preserved.
+    - Fixed - Element removed from page flow and placed in spot relative to viewport. It won't move when scrolled.
+    - Absolute - Element removed from page flow and positioned relative to it closest "positioned" ancestor. Original space on the page is not preserved
+    - Static - The default position. `top`, `right`, `bottom`, `left` and `z-index` properties do not apply.
+  - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
+- [x] What existing CSS frameworks have you used locally, or in production? How would you change/improve them?
+  - Bootstrap - It takes a while to get the latest CSS features added. Your sites end up looking very similar to others.
+  - Tailwind - The HTML can feel very cluttered. Reusing styles is a bit clunky.
+- [x] Have you played around with the new CSS Flexbox or Grid specs?
+  - **Explanation:** I have used both flexbox and grid and like to employ both of them.
+  - **Use:** I find grid to be useful for the top level page layout and any elements which have a typical grid layout. I prefer using flexbox for sections and other elements which don't need a rigid grid alignment.
+  - **Example:** If I had something like a tic-tac-toe board I would use grid as it is easy to get the boxes to align and be the same size. If I had some sort of information card with multiple pieces of information I would likely use flexbox.
+  - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
 - [ ] Can you explain the difference between coding a web site to be responsive versus using a mobile-first strategy?
   - **Explanation:**
   - **Use:**
