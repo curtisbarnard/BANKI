@@ -381,26 +381,46 @@ h6 {
   - **Use:** I find grid to be useful for the top level page layout and any elements which have a typical grid layout. I prefer using flexbox for sections and other elements which don't need a rigid grid alignment.
   - **Example:** If I had something like a tic-tac-toe board I would use grid as it is easy to get the boxes to align and be the same size. If I had some sort of information card with multiple pieces of information I would likely use flexbox.
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
-- [ ] Can you explain the difference between coding a web site to be responsive versus using a mobile-first strategy?
-  - **Explanation:**
-  - **Use:**
+- [x] Can you explain the difference between coding a web site to be responsive versus using a mobile-first strategy?
+  - **Explanation:** Making a website responsive means the some elements will respond by adapting its size or other functionality according to the device's screen size. A mobile-first strategy is also responsive, however it agrees we should default and define all the styles for mobile devices, and only add specific responsive rules to other devices later.
+  - **Use:** You would use media queries to make the above changes at certain screen size breakpoints.
+  - **Example:** An example of mobile first and responsive would be:
+
+```css
+.my-class {
+  font-size: 12px;
+}
+
+@media (min-width: 600px) {
+  .my-class {
+    font-size: 24px;
+  }
+}
+```
+
+- **Source:** https://www.frontendinterviewhandbook.com/css-questions/
+- [x] How is responsive design different from adaptive design?
+  - **Explanation:** Both responsive and adaptive design attempt to optimize the user experience across different devices.
+  - **Use:** Responsive design works on the principle of flexibility - a single fluid website that can look good on any device. Instead of one flexible design, adaptive design detects the device then provides the appropriate feature and layout based on a predefined set of viewport sizes and other characteristics. I believe responsive is the best approach to provide a great experience for all users.
+  - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
+- [x] Have you ever worked with retina graphics? If so, when and what techniques did you use?
+  - **Explanation:** Retina is just a marketing term to refer to high resolution screens with a pixel ratio bigger than 1. In order to have crisp, good-looking graphics that make the best of retina displays we need to use high resolution images whenever possible. However using highest resolution images will have an impact on page load times.
+  - **Use:** To overcome this problem, we can use responsive images, as specified in HTML5 with the `srcset` attribute.
   - **Example:**
-  - **Source:**
-- [ ] How is responsive design different from adaptive design?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] Have you ever worked with retina graphics? If so, when and what techniques did you use?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] Is there any reason you'd want to use `translate()` instead of `absolute` positioning, or vice-versa? And why?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+  ```html
+  <img
+    src="/images/test-1600.jpg"
+    srcset="
+      /images/test-400.jpg   400w,
+      /images/test-800.jpg   800w,
+      /images/test-1200.jpg 1200w
+    "
+  />
+  ```
+  - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
+- [x] Is there any reason you'd want to use `translate()` instead of `absolute` positioning, or vice-versa? And why?
+  - **Explanation:** `translate()` is a value of CSS `transform`. `transform` causes the browser to create a GPU layer for the element but changing absolute positioning properties uses the CPU. `translate()` would be the more efficient solution with shorter paint times. If you do not want the original space of the element preserved you would want to use `absolute` positioning.
+  - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
 
 ### Javascript
 
