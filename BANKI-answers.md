@@ -311,8 +311,8 @@ h6 {
     }
   }
   ```
-  - **Source:**
-- [x] What are three "gotchas" for writing efficient CSS?
+  - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
+- [x] What are two "gotchas" for writing efficient CSS?
   - **Explanation:**
     - Browsers match selectors from rightmost (key selector) to left. The shorter the length of the chain the faster the browser can find a match. Avoid using tag and universal selectors for your key selector.
     - Avoid using styles that trigger reflow.
@@ -323,7 +323,8 @@ h6 {
     - More efficient to write with nested selectors
     - Mixins can be used for repeated styles
     - Ability to split into different files
-      Disadvantages would be:
+  
+    Disadvantages would be:
     - Additional tooling is required
     - You aren't able to use the most current features of standard CSS
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
