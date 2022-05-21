@@ -330,31 +330,24 @@ h6 {
 - [x] Describe what you like and dislike about the CSS preprocessors you have used.
   - **Explanation:** I've found that being able to split files and nest selectors is the most useful. A couple of downsides are that debugging is a little more difficult and having to wait for compilation.
   - **Source:** https://adamsilver.io/blog/the-disadvantages-of-css-preprocessors/
-- [ ] How would you implement a web design comp that uses non-standard fonts?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] Explain how a browser determines what elements match a CSS selector.
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] Describe pseudo-elements and discuss what they are used for.
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] Explain your understanding of the box model and how you would tell the browser, through CSS, to render your layout in different box models.
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] What does `* { box-sizing: border-box; }` do? What are its advantages?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+- [x] How would you implement a web design comp that uses non-standard fonts?
+  - **Explanation:** Use @font-face and define font-family
+  - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
+- [x] Explain how a browser determines what elements match a CSS selector.
+  - **Explanation:** Browsers match selectors from rightmost (key selector) to left.
+  - **Example:** For example with this selector `p span`, browsers firstly find all the `<span>` elements and traverse up its parent all the way up to the root to find the `<p>` element. For a particular `<span>`, as soon as it finds a `<p>`, it knows that the `<span>` matches and can stop its matching.
+  - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
+- [x] Describe pseudo-elements and discuss what they are used for.
+  - **Explanation & Use:** A CSS pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element(s)
+  - **Example:** ::first-line can be used to change the font of the first line of a paragraph
+  - **Source:** https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
+- [x] Explain your understanding of the box model and how you would tell the browser, through CSS, to render your layout in different box models.
+  - **Explanation:** The CSS box model describes the rectangular boxes that are generated for elements in the document tree and laid out according to the visual formatting model. Each box has a content area and optional surrounding padding, border, and margin areas.
+  - **Use:** The standard box model calculates box size by taking a specified `height` and `width`, then adding the padding and border. However to change to the alternative box model you would set `box-sizing: border-box` which allows you to set the box size with `height` and `width`.
+  - **Source:** https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#what_is_the_css_box_model
+- [x] What does `* { box-sizing: border-box; }` do? What are its advantages?
+  - **Explanation & Use:** It allows you to specify the actual width and height of a box using the `width` and `height` properties. This allows you to input true sizes and not have to do any math to take padding and borders into account.
+  - **Source:** https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#the_alternative_css_box_model
 - [ ] What is the CSS `display` property and can you give a few examples of its use?
   - **Explanation:**
   - **Use:**
