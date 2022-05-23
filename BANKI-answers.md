@@ -520,31 +520,75 @@ init();
 ```
 
 - **Source:** https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
-- [ ] Can you describe the main difference between a `.forEach()` loop and a `.map()` loop and why you would pick one versus the other?
-  - **Explanation:**
-  - **Use:**
+- [x] Can you describe the main difference between a `.forEach()` loop and a `.map()` loop and why you would pick one versus the other?
+  - **Explanation:** `.forEach()` executes a callback function on each element, but does not return a value. `.map()` executes a callback function on each element and "maps" the result to a new array. The new array is returned.
+  - **Use:** If you need the result and don't want to mutate the original array, use map. If you only need to iterate over the array then forEach can be used.
   - **Example:**
-  - **Source:**
-- [ ] What's a typical use case for anonymous functions?
-  - **Explanation:**
-  - **Use:**
+    `.forEach()`:
+
+```javascript
+const a = [1, 2, 3];
+const doubled = a.forEach((num, index) => {
+  // Do something with num and/or index.
+});
+// doubled = undefined
+```
+
+`.map()`:
+
+```javascript
+const a = [1, 2, 3];
+const doubled = a.map((num) => {
+  return num * 2;
+});
+// doubled = [2, 4, 6]
+```
+
+- **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
+- [x] What's a typical use case for anonymous functions?
+  - **Explanation:** I've typically encountered them as callback functions that don't need to be used anywhere else.
+  - **Use:** Essentially when you don't need a named function and the function is bound to some other action.
   - **Example:**
-  - **Source:**
-- [ ] How do you organize your code? (module pattern, classical inheritance?)
-  - **Explanation:**
-  - **Use:**
+
+```javascript
+setTimeout(function () {
+  console.log('Hello world!');
+}, 1000);
+```
+
+- **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
+- [x] How do you organize your code? (module pattern, classical inheritance?)
+  - **Explanation:** My preference is to use ES6 Modules to organize my code for the following reasons:
+    - Easier to reuse code
+    - Easier to keep code separated leading to...
+    - Easier to maintain
+  - **Source:** https://www.theodinproject.com/lessons/node-path-javascript-es6-modules
+- [x] What's the difference between host objects and native objects?
+  - **Explanation:** Native objects are part of the language as defined by ECMAScript specification. Host objects are those provided by the runtime (browser or Node).
+  - **Example:** Some native objects are `String`, `Math`, `RegExp`, and `Object`. A couple of host objects are `window` and `console`
+  - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
+- [x] What is the difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
+  - **Explanation & Use:**
+    - `function Person(){}` is likely being used as a constructor.
+    - `var person = new Person()`is instantiated a new Person object as person.
+    - `var person = Person()` is not correct and would likely return undefined. To create a new instance you would need to use the `new` operator as above.
   - **Example:**
-  - **Source:**
-- [ ] What's the difference between host objects and native objects?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [TODO] Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+
+```javascript
+function Person(name) {
+  this.name = name;
+}
+
+var person = Person('John');
+console.log(person); // undefined
+console.log(person.name); // Uncaught TypeError: Cannot read property 'name' of undefined
+
+var person = new Person('John');
+console.log(person); // Person { name: "John" }
+console.log(person.name); // "john"
+```
+
+- **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
 - [ ] What's the difference between `.call()` and `.apply()`?
   - **Explanation:**
   - **Use:**
