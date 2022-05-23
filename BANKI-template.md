@@ -391,7 +391,7 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Use:**
   - **Example:**
   - **Source:**
-- [ ] Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
+- [ ] What is the difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
   - **Explanation:**
   - **Use:**
   - **Example:**
