@@ -458,21 +458,42 @@ class MyThing {
 
 **Source:** https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
 
-- [ ] Explain how prototypal inheritance works
-  - **Explanation:**
-  - **Use:**
+- [x] Explain how prototypal inheritance works
+  - **Explanation:** All JavaScript objects have a `__proto__` property that is a reference to another object, which is called the object's "prototype". If a property is accessed on an object, but not found the JavaScript engine check's that object prototype. If again it's not found it checks that prototypes prototype on up the chain until it reaches the top of the chain.
+  - **Use:** It can help reduce redundant code.
   - **Example:**
-  - **Source:**
-- [ ] What do you think of AMD vs CommonJS?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] Explain why the following doesn't work as an IIFE: `function foo(){ }();`. What needs to be changed to properly make it an IIFE?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+
+```javascript
+function Parent() {
+  this.name = 'Parent';
+}
+Parent.prototype.greet = function () {
+  console.log('Hello from ' + this.name);
+};
+const child = Object.create(Parent.prototype);
+child.cry = function () {
+  console.log('waaaaaahhhh!');
+};
+child.cry();
+// waaaaaahhhh!
+child.greet();
+// hello from Parent
+child.constructor;
+// ƒ Parent() {
+// this.name = 'Parent';
+// }
+child.constructor.name;
+// 'Parent'
+```
+
+- **Source:** https://www.frontendinterviewhandbook.com/javascript-questions
+- [x] What do you think of AMD vs CommonJS?
+  - **Explanation:** I would actually prefer to use ESM (ECMAScript Modules) due to it's simple syntax and async nature. Historically CommonJS was used in the back end and runs synchronous and AMD was used in the front end and runs asynchronous.
+  - **Use:** CJS has been used in node.js for a while, but the current version of node now allows the use of EMS.
+  - **Source:** https://dev.to/iggredible/what-the-heck-are-cjs-amd-umd-and-esm-ikm
+- [x] Explain why the following doesn't work as an IIFE: `function foo(){ }();`. What needs to be changed to properly make it an IIFE?
+  - **Explanation:** The parser reads it as two seperate statements. First the function declaration `function foo(){ }` and then a blank function call attempt `();` The best way to fix this would be to add another set of parenthesis wrapping the function declaration `(function foo(){ })()` This changes it from a function declaration to a function expression.
+  - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions
 - [x] What's the difference between a variable that is: `null`, `undefined` or undeclared? How would you go about checking for any of these states?
   - **Explanation:**
     - `null`: the value is intentionally absent (points to nothing in memory).
@@ -519,7 +540,7 @@ init();
   - **Use:**
   - **Example:**
   - **Source:**
-- [ ] Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
+- [TODO] Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
   - **Explanation:**
   - **Use:**
   - **Example:**
