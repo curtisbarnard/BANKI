@@ -589,11 +589,9 @@ console.log(person.name); // "john"
 ```
 
 - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
-- [ ] What's the difference between `.call()` and `.apply()`?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+- [x] What's the difference between `.call()` and `.apply()`?
+  - **Explanation:** They are both used to invoke functions the difference is in how they take arguments. `.call()` takes them as comma-separated values and `.apply()` takes them as an array.
+  - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
 - [ ] Explain `Function.prototype.bind`.
   - **Explanation:**
   - **Use:**
