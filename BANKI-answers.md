@@ -634,22 +634,27 @@ console.log(person.name); // "john"
   - **Use:**
   - **Example:**
   - **Source:**
-- [ ] Describe event bubbling.
+- [x] Describe event bubbling.
   - **Explanation & Use:** When an event happens on an element, it first runs the handlers on it, then on its parent, then all the way up on other ancestors. The most deeply nested element that caused the event is called a target element, accessible as event.target.
   - **Example:**
-```<style>
+
+```html
+<style>
   body * {
     margin: 10px;
     border: 1px solid blue;
   }
 </style>
-<form onclick="alert('form')">FORM
-  <div onclick="alert('div')">DIV
+<form onclick="alert('form')">
+  FORM
+  <div onclick="alert('div')">
+    DIV
     <p onclick="alert('p')">P</p>
   </div>
 </form>
 ```
-  - **Source:**
+
+- **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
 - [ ] What's the difference between an "attribute" and a "property"?
   - **Explanation:**
   - **Use:**
@@ -665,18 +670,21 @@ console.log(person.name); // "john"
   - **Use:**
   - **Example:**
   - **Source:**
-- [ ] What is the difference between `==` and `===`?
+- [x] What is the difference between `==` and `===`?
   - **Explanation:** == checks for value equality while === checks for value and data type equality
   - **Use:** == should generally be avoided unless for null or undefined
-  - **Example:** 
-```1 == '1'; // true
+  - **Example:**
+
+```javascript
+1 == '1'; // true
 1 == [1]; // true
 1 == true; // true
 0 == ''; // true
 0 == '0'; // true
 0 == false; // true
 ```
-  - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/#what-is-the-difference-between--and-
+
+- **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
 - [ ] Explain the same-origin policy with regards to JavaScript.
   - **Explanation:**
   - **Use:**
@@ -687,14 +695,17 @@ console.log(person.name); // "john"
   - **Use:**
   - **Example:**
   - **Source:**
-- [ ] Why is it called a ternary expression, what does the word "ternary" indicate?
-  - **Explanation:** "Ternary" means 3, as the operator uses 3 operands. First, a condition followed by a question mark (?), then an expression to execute if the condition is truthy followed by a colon (:), and finally the expression to execute if the condition is falsy.
-  - **Use:** Can simplify code over if...else statements. 
+- [x] Why is it called a ternary expression, what does the word "ternary" indicate?
+  - **Explanation:** "Ternary" means "composed of three parts", as the expression accepts 3 operands. First, a condition followed by a question mark (?), then an expression to execute if the condition is truthy followed by a colon (:), and finally the expression to execute if the condition is falsy.
+  - **Use:** Can simplify code over if...else statements.
   - **Example:**
-```var age = 26;
-var beverage = (age >= 21) ? "Beer" : "Juice";
+
+```javascript
+const age = 26;
+const beverage = age >= 21 ? 'Beer' : 'Juice';
 ```
-  - **Source:** https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator
+
+- **Source:** https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator
 - [ ] What is "use strict";? what are the advantages and disadvantages to using it?
   - **Explanation:**
   - **Use:**
@@ -725,22 +736,23 @@ var beverage = (age >= 21) ? "Beer" : "Juice";
   - **Use:**
   - **Example:**
   - **Source:**
-- [ ] What are the pros and cons of using Promises instead of callbacks?
-  - **Pros:** 
-Avoid callback hell which can be unreadable.
-Makes it easy to write sequential asynchronous code that is readable with .then().
-Makes it easy to write parallel asynchronous code with Promise.all().
-With promises, these scenarios which are present in callbacks-only coding, will not happen:
-Call the callback too early
-Call the callback too late (or never)
-Call the callback too few or too many times
-Fail to pass along any necessary environment/parameters
-Swallow any errors/exceptions that may happen
+- [x] What are the pros and cons of using Promises instead of callbacks?
 
+  - **Pros:**
+    - Avoid callback
+    - Easy to write sequential asynchronous code that is readable with `.then()`.
+    - Easy to write parallel asynchronous code with `Promise.all()`.
+    - With promises, these scenarios which are present in callbacks-only coding, will not happen:
+      - Call the callback too early
+      - Call the callback too late (or never)
+      - Call the callback too few or too many times
+      - Fail to pass along any necessary environment/parameters
+      - Swallow any errors/exceptions that may happen
   - **Cons:**
-Slightly more complex code (debatable).
-In older browsers where ES2015 is not supported, you need to load a polyfill in order to use it.
-  - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/#what-are-the-pros-and-cons-of-using-promises-instead-of-callbacks
+    - Slightly more complex code (debatable).
+    - Older browsers may require a polyfill.
+  - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
+
 - [ ] What are some of the advantages/disadvantages of writing JavaScript code in a language that compiles to JavaScript?
   - **Explanation:**
   - **Use:**
