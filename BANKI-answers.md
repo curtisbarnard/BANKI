@@ -592,31 +592,45 @@ console.log(person.name); // "john"
 - [x] What's the difference between `.call()` and `.apply()`?
   - **Explanation:** They are both used to invoke functions the difference is in how they take arguments. `.call()` takes them as comma-separated values and `.apply()` takes them as an array.
   - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
-- [ ] Explain `Function.prototype.bind`.
+- [x] Explain `Function.prototype.bind`.
+  - **Explanation:** Creates a new function that, when called, has its `this` keyword set to the provided value.
+  - **Use:** For binding the value of `this` in methods of classes that you want to pass into other functions. This is frequently done in React components.
+  - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
+- [x] When would you use `document.write()`?
+  - **Explanation:** It is usually considered dangerous and prone to misuse. I would not use it in a modern day website.
+  - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
+- [x] What's the difference between feature detection, feature inference, and using the UA string?
   - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] When would you use `document.write()`?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] What's the difference between feature detection, feature inference, and using the UA string?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] Explain Ajax in as much detail as possible.
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] What are the advantages and disadvantages of using Ajax?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+    - **Feature Detection:** Working out whether a browser supports a certain block of code, and running different code depending on whether it does, so that the browser can provide a working experience rather crashing/erroring in some browsers.
+    - **Feature Inference:** Checks for a feature just like feature detection, but uses another function because it assumes it will also exist. Feature Detection is the better approach.
+    - **UA String:** A browser-reported string that allows the network protocol peers to identify various properties of the system. It's tricky to parse and can be spoofed so it's best to avoid this method.
+  - **Example:** Using feature detection:
+
+```javascript
+if ('geolocation' in navigator) {
+  // Can use navigator.geolocation
+} else {
+  // Handle lack of feature
+}
+```
+
+- **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
+- [x] Explain Ajax in as much detail as possible.
+  - **Explanation:** Ajax (asynchronous JavaScript and XML) is a set of web development techniques using many web technologies on the client side to create asynchronous web applications. With Ajax, web applications can send data to and retrieve from a server asynchronously (in the background) without interfering with the display and behavior of the existing page.
+  - **Use:** By decoupling the data interchange layer from the presentation layer, Ajax allows for web pages, and by extension web applications, to change content dynamically without the need to reload the entire page. In practice, modern implementations commonly use JSON instead of XML, due to the advantages of JSON being native to JavaScript.
+  - **Example:** The `fetch` API is typically used nowadays for asynchronous communication.
+  - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
+- [x] What are the advantages and disadvantages of using Ajax?
+  - **Advantages:**
+    - Better interactivity. New content from the server can be changed dynamically without the need to reload the entire page.
+    - Reduce connections to the server since scripts and stylesheets only have to be requested once.
+    - State can be maintained on a page. JavaScript variables and DOM state will persist because the main container page was not reloaded.
+  - **Disadvantages:**
+    - Dynamic webpages are harder to bookmark.
+    - Does not work if JavaScript has been disabled in the browser.
+    - Some webcrawlers do not execute JavaScript and would not see content that has been loaded by JavaScript.
+    - JavaScript will have to be parsed and executed on the browser, and low-end mobile devices might struggle with this.
+  - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
 - [ ] Explain how JSONP works (and how it's not really Ajax).
   - **Explanation:**
   - **Use:**
