@@ -781,15 +781,25 @@ const beverage = age >= 21 ? 'Beer' : 'Juice';
   - **Example:**
   - **Source:**
 - [ ] Explain the difference between mutable and immutable objects.
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+  - **Explanation:** Immutability is a core principle in functional programming, and has lots to offer to object-oriented programs as well. A mutable object is an object whose state can be modified after it is created. An immutable object is an object whose state cannot be modified after it is created.
+  - **Use:** It's important to decide which code you want to be able to be changed and which you don't. This is also tied to the idea of privacy for abstraction (OOP), where you may want to use the underscore to indicate you don't want certain properties to be changed.
+  - **Example:** declaring with const means immutable, let/var means mutable. underscore in a property means it should be respected as immutable
+  - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/#explain-the-difference-between-mutable-and-immutable-objects
 - [ ] Explain the difference between synchronous and asynchronous functions.
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+  - **Explanation:** Synchronous functions are blocking while asynchronous functions are not. In synchronous functions, statements complete before the next statement is run. In this case, the program is evaluated exactly in order of the statements and execution of the program is paused if one of the statements take a very long time.
+  - **Use:** Note that JavaScript is synchronous and it's actually the browser and Node.js that's actually asynchronous (think callbacks and promises)
+  - **Example:** 
+```function f1() {
+  // Some code   //synchronous
+}
+
+function main() {
+    console.log('main');
+    setTimeout(f1, 0);  // async, with a callback of f1 function 
+    f2();
+}
+``` 
+  - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/#explain-the-difference-between-synchronous-and-asynchronous-functions
 - [ ] What is event loop? What is the difference between call stack and task queue?
   - **Explanation:**
   - **Use:**
