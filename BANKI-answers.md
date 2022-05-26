@@ -679,7 +679,7 @@ if ('geolocation' in navigator) {
 ```
 
 - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
-- [ ] What's the difference between an "attribute" and a "property"?
+- [x] What's the difference between an "attribute" and a "property"?
   - **Explanation & Use:** Attributes are defined on the HTML markup but properties are defined on the DOM. An attribute is the initial state when rendered in the DOM. A property is the current state.
   - **Example:**
 
@@ -753,7 +753,7 @@ const beverage = age >= 21 ? 'Beer' : 'Juice';
   - **Use:**
   - **Example:**
   - **Source:**
-- [ ] Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?
+- [x] Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?
   - **Explanation:** Every script has access to the global scope, and if everyone uses the global namespace to define their variables, collisions will likely occur. Use the module pattern (IIFEs) to encapsulate your variables within a local namespace.
   - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
 - [ ] Why would you use something like the `load` event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?
@@ -803,12 +803,12 @@ const beverage = age >= 21 ? 'Beer' : 'Juice';
   - **Use:**
   - **Example:**
   - **Source:**
-- [ ] Explain the difference between mutable and immutable objects.
+- [x] Explain the difference between mutable and immutable objects.
   - **Explanation:** A mutable object is an object whose state can be modified after it is created. An immutable object is an object whose state cannot be modified after it is created.
   - **Use:** Immutable objects make it easier to detect changes, make programs less complicated to think about and sharing is easy with references. If immutable objects are setup incorrectly though it could lead to poor performance due to multiple copies being made.
   - **Example:** To make an object immutable you could `Object.freeze()` which prevents new properties from being added and existing properties from being altered or removed.
   - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
-- [ ] Explain the difference between synchronous and asynchronous functions.
+- [x] Explain the difference between synchronous and asynchronous functions.
   - **Explanation:** Synchronous functions are blocking while asynchronous functions are not. In synchronous functions, statements complete before the next statement is run. In this case, the program is evaluated exactly in order of the statements and execution of the program is paused if one of the statements take a very long time.
   - **Use:** Note that JavaScript is synchronous and it's actually the browser and Node.js that's actually asynchronous (think callbacks and promises)
   - **Example:**
@@ -830,11 +830,11 @@ function main() {
   - **Use:**
   - **Example:**
   - **Source:**
-- [ ] Explain the differences on the usage of foo between `function foo() {}` and `var foo = function() {}`
+- [x] Explain the differences on the usage of foo between `function foo() {}` and `var foo = function() {}`
   - **Explanation:** The former is a function declaration while the latter is a function expression.
   - **Use:** The function declaration is hoisted and can therefore be accessed from anywhere, whereas the function expression can only be accessed after it's been defined.
   - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
-- [ ] What are the differences between variables created using `let`, `var` or `const`?
+- [x] What are the differences between variables created using `let`, `var` or `const`?
   - **Explanation:** Variables declared using the var keyword are scoped to the function in which they are created, or if created outside of any function, to the global object. let and const are block scoped, meaning they are only accessible within the nearest set of curly braces (function, if-else block, or for-loop).
   - **Use:** var is hoisted and can be redeclared, whereas let and const cannot be redeclared. let and var can be reassigned, but const cannot be.
   - **Example:**
