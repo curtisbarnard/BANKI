@@ -910,7 +910,7 @@ var obj = {
   - **Use:**
   - **Example:**
   - **Source:**
-- [x] Why you might want to create static class members?
+- [x] Why might you want to create static class members?
   - **Explanation:** Static class members are properties and methods that do not change.
   - **Use:** You would use them for properties that stay the same throughout the application and every instance of the object needs to know that property. They could also be used for utility functions so they can be called without instantiating any object.
   - **Source:** https://stackoverflow.com/questions/21155438/when-to-use-static-variables-methods-and-when-to-use-instance-variables-methods
