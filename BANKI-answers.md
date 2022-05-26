@@ -859,11 +859,22 @@ console.log(thing3); // ReferenceError: qux is not defined
   - **Use:**
   - **Example:**
   - **Source:**
-- [ ] Can you offer a use case for the new arrow => function syntax? How does this new syntax differ from other functions?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+- [x] Can you offer a use case for the new arrow => function syntax? How does this new syntax differ from other functions?
+  - **Explanation & Use:** It simplifies the syntax needed to create functions and `this` is lexically bound meaning it uses `this` from the code that contains the arrow function.
+  - **Example:** Notice that you do not need to `.bind(this)` for the below to work.
+
+```javascript
+var obj = {
+  id: 42,
+  counter: function counter() {
+    setTimeout(() => {
+      console.log(this.id);
+    }, 1000);
+  },
+};
+```
+
+- **Source:** https://www.freecodecamp.org/news/when-and-why-you-should-use-es6-arrow-functions-and-when-you-shouldnt-3d851d7f0b26/
 - [ ] What advantage is there for using the arrow syntax for a method in a constructor?
   - **Explanation:**
   - **Use:**
@@ -899,11 +910,10 @@ console.log(thing3); // ReferenceError: qux is not defined
   - **Use:**
   - **Example:**
   - **Source:**
-- [ ] Why you might want to create static class members?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+- [x] Why you might want to create static class members?
+  - **Explanation:** Static class members are properties and methods that do not change.
+  - **Use:** You would use them for properties that stay the same throughout the application and every instance of the object needs to know that property. They could also be used for utility functions so they can be called without instantiating any object.
+  - **Source:** https://stackoverflow.com/questions/21155438/when-to-use-static-variables-methods-and-when-to-use-instance-variables-methods
 
 ### Javascript General
 
