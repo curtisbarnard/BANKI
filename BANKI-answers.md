@@ -681,16 +681,22 @@ if ('geolocation' in navigator) {
 - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
 - [ ] What's the difference between an "attribute" and a "property"?
   - **Explanation & Use:** Attributes are defined on the HTML markup but properties are defined on the DOM. An attribute is the initial state when rendered in the DOM. A property is the current state.
-  - **Example:** 
-```const input = document.querySelector('input');
+  - **Example:**
+
+```javascript
+const input = document.querySelector('input');
 console.log(input.getAttribute('value')); // Hello
 console.log(input.value); // Hello
-``` 
-//and then you add "World!"
-```console.log(input.getAttribute('value')); // Hello
+```
+
+Notice how the property updates after adding "World" to the input.
+
+```javascript
+console.log(input.getAttribute('value')); // Hello
 console.log(input.value); // Hello World!
-``` 
-  - **Source:** https://gomakethings.com/the-difference-between-attributes-and-properties-in-vanilla-js/#:~:text=In%20JavaScript%20(the%20DOM%2C%20really,property%20is%20the%20current%20state.
+```
+
+- **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/#whats-the-difference-between-an-attribute-and-a-property
 - [ ] Why is extending built-in JavaScript objects not a good idea?
   - **Explanation:**
   - **Use:**
@@ -749,7 +755,7 @@ const beverage = age >= 21 ? 'Beer' : 'Juice';
   - **Source:**
 - [ ] Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?
   - **Explanation:** Every script has access to the global scope, and if everyone uses the global namespace to define their variables, collisions will likely occur. Use the module pattern (IIFEs) to encapsulate your variables within a local namespace.
-  - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/#why-is-it-in-general-a-good-idea-to-leave-the-global-scope-of-a-website-as-is-and-never-touch-it
+  - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
 - [ ] Why would you use something like the `load` event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?
   - **Explanation:**
   - **Use:**
@@ -798,25 +804,27 @@ const beverage = age >= 21 ? 'Beer' : 'Juice';
   - **Example:**
   - **Source:**
 - [ ] Explain the difference between mutable and immutable objects.
-  - **Explanation:** Immutability is a core principle in functional programming, and has lots to offer to object-oriented programs as well. A mutable object is an object whose state can be modified after it is created. An immutable object is an object whose state cannot be modified after it is created.
-  - **Use:** It's important to decide which code you want to be able to be changed and which you don't. This is also tied to the idea of privacy for abstraction (OOP), where you may want to use the underscore to indicate you don't want certain properties to be changed.
-  - **Example:** declaring with const means immutable, let/var means mutable. underscore in a property means it should be respected as immutable
-  - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/#explain-the-difference-between-mutable-and-immutable-objects
+  - **Explanation:** A mutable object is an object whose state can be modified after it is created. An immutable object is an object whose state cannot be modified after it is created.
+  - **Use:** Immutable objects make it easier to detect changes, make programs less complicated to think about and sharing is easy with references. If immutable objects are setup incorrectly though it could lead to poor performance due to multiple copies being made.
+  - **Example:** To make an object immutable you could `Object.freeze()` which prevents new properties from being added and existing properties from being altered or removed.
+  - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
 - [ ] Explain the difference between synchronous and asynchronous functions.
   - **Explanation:** Synchronous functions are blocking while asynchronous functions are not. In synchronous functions, statements complete before the next statement is run. In this case, the program is evaluated exactly in order of the statements and execution of the program is paused if one of the statements take a very long time.
   - **Use:** Note that JavaScript is synchronous and it's actually the browser and Node.js that's actually asynchronous (think callbacks and promises)
-  - **Example:** 
-```function f1() {
+  - **Example:**
+
+```javascript
+function f1() {
   // Some code   //synchronous
 }
-
 function main() {
-    console.log('main');
-    setTimeout(f1, 0);  // async, with a callback of f1 function 
-    f2();
+  console.log('main');
+  setTimeout(f1, 0); // async, with a callback of f1 function
+  f2();
 }
-``` 
-  - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/#explain-the-difference-between-synchronous-and-asynchronous-functions
+```
+
+- **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
 - [ ] What is event loop? What is the difference between call stack and task queue?
   - **Explanation:**
   - **Use:**
@@ -824,26 +832,28 @@ function main() {
   - **Source:**
 - [ ] Explain the differences on the usage of foo between `function foo() {}` and `var foo = function() {}`
   - **Explanation:** The former is a function declaration while the latter is a function expression.
-  - **Use:** The function declaration is hoisted and can therefore be accessed from anywhere, whereas the function expression can only be accessed after it's been defined. 
-  - **Example:** `function foo() {}` is a declaration and var foo = function() {} is an expression
-  - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/#explain-the-differences-on-the-usage-of-foo-between-function-foo--and-var-foo--function-
+  - **Use:** The function declaration is hoisted and can therefore be accessed from anywhere, whereas the function expression can only be accessed after it's been defined.
+  - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
 - [ ] What are the differences between variables created using `let`, `var` or `const`?
-  - **Explanation:** Variables declared using the var keyword are scoped to the function in which they are created, or if created outside of any function, to the global object. let and const are block scoped, meaning they are only accessible within the nearest set of curly braces (function, if-else block, or for-loop). 
+  - **Explanation:** Variables declared using the var keyword are scoped to the function in which they are created, or if created outside of any function, to the global object. let and const are block scoped, meaning they are only accessible within the nearest set of curly braces (function, if-else block, or for-loop).
   - **Use:** var is hoisted and can be redeclared, whereas let and const cannot be redeclared. let and var can be reassigned, but const cannot be.
-  - **Example:** 
-```if (true) {
-  var bar = 'bar';
-  let baz = 'baz';
-  const qux = 'qux';
+  - **Example:**
+
+```javascript
+if (true) {
+  var thing1 = 'bar';
+  let thing2 = 'baz';
+  const thing3 = 'qux';
 }
 
 // var declared variables are accessible anywhere in the function scope.
-console.log(bar); // bar
+console.log(thing1); // bar
 // let and const defined variables are not accessible outside of the block they were defined in.
-console.log(baz); // ReferenceError: baz is not defined
-console.log(qux); // ReferenceError: qux is not defined
+console.log(thing2); // ReferenceError: baz is not defined
+console.log(thing3); // ReferenceError: qux is not defined
 ```
-  - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/#what-are-the-differences-between-variables-created-using-let-var-or-const
+
+- **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
 - [ ] What are the differences between ES6 class and ES5 function constructors?
   - **Explanation:**
   - **Use:**
