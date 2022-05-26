@@ -631,11 +631,23 @@ if ('geolocation' in navigator) {
     - Some webcrawlers do not execute JavaScript and would not see content that has been loaded by JavaScript.
     - JavaScript will have to be parsed and executed on the browser, and low-end mobile devices might struggle with this.
   - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
-- [ ] Explain how JSONP works (and how it's not really Ajax).
-  - **Explanation:**
-  - **Use:**
+- [x] Explain how JSONP works (and how it's not really Ajax).
+  - **Explanation:** JSONP (JSON with Padding) is a method commonly used to bypass the cross-domain policies in web browsers because Ajax requests from the current page to a cross-origin domain is not allowed.
+  - **Use:** JSONP can be unsafe as it can do everything else JavaScript can so you need to trust the provider of data. These days, CORS is the recommended approach and JSONP is seen as a hack.
   - **Example:**
-  - **Source:**
+
+```html
+<!-- https://mydomain.com -->
+<script>
+  function printData(data) {
+    console.log(`My name is ${data.name}!`);
+  }
+</script>
+
+<script src="https://example.com?callback=printData"></script>
+```
+
+- **Source:** https://www.frontendinterviewhandbook.com/javascript-questions
 - [ ] Have you ever used JavaScript templating? If so, what libraries have you used?
   - **Explanation:**
   - **Use:**
