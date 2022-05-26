@@ -236,10 +236,10 @@ h6 {
 **Source:** https://elad.medium.com/normalize-css-or-css-reset-9d75175c5d1e
 
 - [x] Describe floats and how they work.
-  - **Explanation:** Floats are a positioning property where the element that is floated will remain a part of the flow of the page and affect the elements around it. A parent element will collapse to zero height if it contains only floated elements, to fix this it was common to use a `.clearfix` hack.
+  - **Explanation:** Floats are a positioning property where the element that is floated will be removed from the flow of the page and affect the elements around it. A parent element will collapse to zero height if it contains only floated elements, to fix this it was common to use a `.clearfix` hack.
   - **Use:** It was used prior to flex and grid to layout pages in a more flexible manner.
   - **Example:** You could float three elements left and give them widths of 33% to create three even width columns.
-  - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
+  - **Source:** https://www.frontendinterviewhandbook.com/css-questions/ <!-- Same Source>
 - [x] Describe z-index and how stacking context is formed.
   - **Explanation:** The `z-index` property in CSS controls the vertical stacking order of elements that overlap. A stacking context is an element that contains a set of layers. The z-index values of its children are set relative to that element rather than to the document root. Layers outside of that context can't sit between layers within it.
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
