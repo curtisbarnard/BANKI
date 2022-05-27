@@ -648,11 +648,17 @@ if ('geolocation' in navigator) {
 ```
 
 - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions
-- [ ] Have you ever used JavaScript templating? If so, what libraries have you used?
-  - **Explanation:**
-  - **Use:**
+- [x] Have you ever used JavaScript templating? If so, what libraries have you used?
+  - **Explanation:** The only one I've used is JSX in React, which I don't think it quite javascript templating.
+  - **Use:** It's more of an extension to ECMAScript that allows you to easily structure components with familiar HTML syntax.
   - **Example:**
-  - **Source:**
+
+```javascript
+const name = 'Josh Perez';
+const element = <h1>Hello, {name}</h1>;
+```
+
+- **Source:** https://reactjs.org/docs/introducing-jsx.html
 - [ ] Explain "hoisting".
   - **Explanation:**
   - **Use:**
