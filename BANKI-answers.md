@@ -661,8 +661,8 @@ const element = <h1>Hello, {name}</h1>;
 - **Source:** https://reactjs.org/docs/introducing-jsx.html
 - [ ] Explain "hoisting".
   - **Explanation:** It's the process whereby the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, prior to execution of the code. Think of it as moving the code up to the top. Note that the assignment stays where it is despite this.
-  - **Use:** Allows you to execute code before they're declared.
-  - **Example:** Function declaration and var are initialized before delaration whereas const, let, and function expressions are not. This means the first two can be accessed globally and the last 3 only after they've been declared.
+  - **Use:** Allows you to execute code before they're declared. Function declaration and var are initialized before delaration whereas const, let, and function expressions are not. This means the first two can be accessed globally and the last 3 only after they've been declared.
+  - **Example:** 
 
 ```eat()  //this hoisting works b.c it's a function declaration below
 
@@ -670,6 +670,14 @@ function eat(){
   console.log('eat')
  }
  ```
+ 
+```javascript
+const a = [1, 2, 3];
+const doubled = a.forEach((num, index) => {
+  // Do something with num and/or index.
+});
+// doubled = undefined
+```
  
   - **Source:** https://developer.mozilla.org/en-US/docs/Glossary/Hoisting 
 - [x] Describe event bubbling.
