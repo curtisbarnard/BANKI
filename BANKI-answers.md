@@ -663,12 +663,14 @@ const element = <h1>Hello, {name}</h1>;
   - **Explanation:** It's the process whereby the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, prior to execution of the code. Think of it as moving the code up to the top. Note that the assignment stays where it is despite this.
   - **Use:** Allows you to execute code before they're declared.
   - **Example:** Function declaration and var are initialized before delaration whereas const, let, and function expressions are not. This means the first two can be accessed globally and the last 3 only after they've been declared.
+
 ```eat() //this hoisting works b.c it's a function declaration below
 
 function eat(){
   console.log('eat')
  }
  ```
+ 
   - **Source:** https://developer.mozilla.org/en-US/docs/Glossary/Hoisting 
 - [x] Describe event bubbling.
   - **Explanation & Use:** When an event happens on an element, it first runs the handlers on it, then on its parent, then all the way up on other ancestors. The most deeply nested element that caused the event is called a target element, accessible as event.target.
@@ -736,10 +738,12 @@ console.log(input.value); // Hello World!
   - **Source:** https://en.wikipedia.org/wiki/Same-origin_policy
 - [ ] Make this work: `duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5] `
   - **Example:** 
+
 ```function duplicate(arr){
 	return arr.concat(arr)
 }
 ```
+
 - [x] Why is it called a ternary expression, what does the word "ternary" indicate?
   - **Explanation:** "Ternary" means "composed of three parts", as the expression accepts 3 operands. First, a condition followed by a question mark (?), then an expression to execute if the condition is truthy followed by a colon (:), and finally the expression to execute if the condition is falsy.
   - **Use:** Can simplify code over if...else statements.
@@ -771,6 +775,7 @@ Concatenation of scripts written in different strict modes might cause issues.
 - [ ] Create a for loop that iterates up to 100 while outputting "fizz" at multiples of 3, "buzz" at multiples of 5 and "fizzbuzz" at multiples of 3 and 5
   - **Explanation:** for loop 1-100, if the index is divisible by 3 & 5, console log it along with 'fizzbuzz', then do the same with i divisible by 3 for 'fizz' and i divisible by 5 for 'buzz'
   - **Example:**
+
 ```function fizzBuzz(){
     for (let i=1; i<=100; i++){
         if (i%5===0 && i%3===0){
@@ -783,6 +788,7 @@ Concatenation of scripts written in different strict modes might cause issues.
     }
 }
 ```
+
 - [x] Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?
   - **Explanation:** Every script has access to the global scope, and if everyone uses the global namespace to define their variables, collisions will likely occur. Use the module pattern (IIFEs) to encapsulate your variables within a local namespace.
   - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
