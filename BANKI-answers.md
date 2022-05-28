@@ -664,7 +664,8 @@ const element = <h1>Hello, {name}</h1>;
   - **Use:** Allows you to execute code before they're declared.
   - **Example:** Function declaration and var are initialized before delaration whereas const, let, and function expressions are not. This means the first two can be accessed globally and the last 3 only after they've been declared.
 
-```eat() //this hoisting works b.c it's a function declaration below
+```
+eat() //this hoisting works b.c it's a function declaration below
 
 function eat(){
   console.log('eat')
