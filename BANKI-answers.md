@@ -664,20 +664,14 @@ const element = <h1>Hello, {name}</h1>;
   - **Use:** Allows you to execute code before they're declared. Function declaration and var are initialized before delaration whereas const, let, and function expressions are not. This means the first two can be accessed globally and the last 3 only after they've been declared.
   - **Example:** 
 
-```eat()  //this hoisting works b.c it's a function declaration below
+```
+eat()  //this hoisting works b.c it's a function declaration below
 
 function eat(){
   console.log('eat')
  }
  ```
- 
-```javascript
-const a = [1, 2, 3];
-const doubled = a.forEach((num, index) => {
-  // Do something with num and/or index.
-});
-// doubled = undefined
-```
+
  
   - **Source:** https://developer.mozilla.org/en-US/docs/Glossary/Hoisting 
 - [x] Describe event bubbling.
@@ -747,7 +741,8 @@ console.log(input.value); // Hello World!
 - [ ] Make this work: `duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5] `
   - **Example:** 
 
-```function duplicate(arr){
+```
+function duplicate(arr){
 	return arr.concat(arr)
 }
 ```
@@ -784,7 +779,8 @@ Concatenation of scripts written in different strict modes might cause issues.
   - **Explanation:** for loop 1-100, if the index is divisible by 3 & 5, console log it along with 'fizzbuzz', then do the same with i divisible by 3 for 'fizz' and i divisible by 5 for 'buzz'
   - **Example:**
 
-```function fizzBuzz(){
+```
+function fizzBuzz(){
     for (let i=1; i<=100; i++){
         if (i%5===0 && i%3===0){
             console.log(i, 'fizzbuzz')
