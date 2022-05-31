@@ -737,7 +737,7 @@ console.log(input.value); // Hello World!
 - [x] Explain the same-origin policy with regards to JavaScript.
   - **Explanation:** The same-origin policy prevents JavaScript from making requests across domain boundaries only allowing one webpage to access another webpage if they have the same origin . An origin is defined as a combination of URI scheme, hostname, and port number. This policy prevents a malicious script on one page from obtaining access to sensitive data on another web page through that page's Document Object Model.
   - **Source:** https://en.wikipedia.org/wiki/Same-origin_policy
-- [ ] Make this work: `duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5] `
+- [x] Make this work: `duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5] `
   - **Example:**
 
 ```javascript
@@ -759,21 +759,24 @@ const beverage = age >= 21 ? 'Beer' : 'Juice';
 
 - **Source:** https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator
 - [ ] What is "use strict";? what are the advantages and disadvantages to using it?
+
   - **Explanation:** 'use strict' is a statement used to enable strict mode to entire scripts or individual functions. Strict mode is a way to opt into a restricted variant of JavaScript. Overall, I think the benefits outweigh the disadvantages, and I never had to rely on the features that strict mode blocks. I would recommend using strict mode.
   - **Use:**
-    Advantages:
-    Makes it impossible to accidentally create global variables.
-    Makes assignments which would otherwise silently fail to throw an exception.
-    Makes attempts to delete undeletable properties throw an exception (where before the attempt would simply have no effect).
-    Requires that function parameter names be unique.
-    this is undefined in the global context.
-    It catches some common coding bloopers, throwing exceptions.
-    It disables features that are confusing or poorly thought out.
 
-Disadvantages:
-Many missing features that some developers might be used to.
-No more access to function.caller and function.arguments.
-Concatenation of scripts written in different strict modes might cause issues.
+    - Advantages:
+
+      - Makes it impossible to accidentally create global variables.
+      - Makes assignments which would otherwise silently fail to throw an exception.
+      - Makes attempts to delete undeletable properties throw an exception (where before the attempt would simply have no effect).
+      - Requires that function parameter names be unique.
+      - this is undefined in the global context.
+      - It catches some common coding bloopers, throwing exceptions.
+      - It disables features that are confusing or poorly thought out.
+
+    - Disadvantages:
+      - Many missing features that some developers might be used to.
+      - No more access to function.caller and function.arguments.
+      - Concatenation of scripts written in different strict modes might cause issues.
 
 - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/#what-is-use-strict-what-are-the-advantages-and-disadvantages-to-using-it
 - [ ] Create a for loop that iterates up to 100 while outputting "fizz" at multiples of 3, "buzz" at multiples of 5 and "fizzbuzz" at multiples of 3 and 5
