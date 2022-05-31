@@ -660,10 +660,20 @@ const element = <h1>Hello, {name}</h1>;
 
 - **Source:** https://reactjs.org/docs/introducing-jsx.html
 - [ ] Explain "hoisting".
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+  - **Explanation:** It's the process whereby the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, prior to execution of the code. Think of it as moving the code up to the top. Note that the assignment stays where it is despite this.
+  - **Use:** Allows you to execute code before they're declared. Function declaration and var are initialized before delaration whereas const, let, and function expressions are not. This means the first two can be accessed globally and the last 3 only after they've been declared.
+  - **Example:** 
+
+```
+eat()  //this hoisting works b.c it's a function declaration below
+
+function eat(){
+  console.log('eat')
+ }
+ ```
+
+ 
+  - **Source:** https://developer.mozilla.org/en-US/docs/Glossary/Hoisting 
 - [x] Describe event bubbling.
   - **Explanation & Use:** When an event happens on an element, it first runs the handlers on it, then on its parent, then all the way up on other ancestors. The most deeply nested element that caused the event is called a target element, accessible as event.target.
   - **Example:**
@@ -704,15 +714,12 @@ console.log(input.value); // Hello World!
 
 - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/#whats-the-difference-between-an-attribute-and-a-property
 - [ ] Why is extending built-in JavaScript objects not a good idea?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+  - **Explanation:** Extending a built-in/native JavaScript object means adding properties/functions to its prototype. While this may seem like a good idea at first, it is dangerous in practice. Imagine your code uses a few libraries that both extend the Array.prototype by adding the same contains method, the implementations will overwrite each other and your code will break if the behavior of these two methods is not the same.
+  - **Use:** The only time you may want to extend a native object is when you want to create a polyfill, essentially providing your own implementation for a method that is part of the JavaScript specification but might not exist in the user's browser due to it being an older browser.
+  - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/#why-is-extending-built-in-javascript-objects-not-a-good-idea
 - [ ] Difference between document `load` event and document `DOMContentLoaded` event?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+  - **Explanation:** The DOMContentLoaded event is fired when the initial HTML document has been completely loaded and parsed, without waiting for stylesheets, images, and subframes to finish loading. window's load event is only fired after the DOM and all dependent resources and assets have loaded.
+  - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/#difference-between-document-load-event-and-document-domcontentloaded-event
 - [x] What is the difference between `==` and `===`?
   - **Explanation:** == checks for value equality while === checks for value and data type equality
   - **Use:** == should generally be avoided unless for null or undefined
@@ -729,15 +736,17 @@ console.log(input.value); // Hello World!
 
 - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
 - [ ] Explain the same-origin policy with regards to JavaScript.
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+  - **Explanation:** The same-origin policy prevents JavaScript from making requests across domain boundaries. An origin is defined as a combination of URI scheme, hostname, and port number. This policy prevents a malicious script on one page from obtaining access to sensitive data on another web page through that page's Document Object Model.
+  - **Source:** https://en.wikipedia.org/wiki/Same-origin_policy
 - [ ] Make this work: `duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5] `
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+  - **Example:** 
+
+```
+function duplicate(arr){
+	return arr.concat(arr)
+}
+```
+
 - [x] Why is it called a ternary expression, what does the word "ternary" indicate?
   - **Explanation:** "Ternary" means "composed of three parts", as the expression accepts 3 operands. First, a condition followed by a question mark (?), then an expression to execute if the condition is truthy followed by a colon (:), and finally the expression to execute if the condition is falsy.
   - **Use:** Can simplify code over if...else statements.
@@ -750,15 +759,40 @@ const beverage = age >= 21 ? 'Beer' : 'Juice';
 
 - **Source:** https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator
 - [ ] What is "use strict";? what are the advantages and disadvantages to using it?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+  - **Explanation:** 'use strict' is a statement used to enable strict mode to entire scripts or individual functions. Strict mode is a way to opt into a restricted variant of JavaScript. Overall, I think the benefits outweigh the disadvantages, and I never had to rely on the features that strict mode blocks. I would recommend using strict mode.
+  - **Use:** 
+Advantages:
+Makes it impossible to accidentally create global variables.
+Makes assignments which would otherwise silently fail to throw an exception.
+Makes attempts to delete undeletable properties throw an exception (where before the attempt would simply have no effect).
+Requires that function parameter names be unique.
+this is undefined in the global context.
+It catches some common coding bloopers, throwing exceptions.
+It disables features that are confusing or poorly thought out.
+
+Disadvantages:
+Many missing features that some developers might be used to.
+No more access to function.caller and function.arguments.
+Concatenation of scripts written in different strict modes might cause issues.
+  - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/#what-is-use-strict-what-are-the-advantages-and-disadvantages-to-using-it
 - [ ] Create a for loop that iterates up to 100 while outputting "fizz" at multiples of 3, "buzz" at multiples of 5 and "fizzbuzz" at multiples of 3 and 5
-  - **Explanation:**
-  - **Use:**
+  - **Explanation:** for loop 1-100, if the index is divisible by 3 & 5, console log it along with 'fizzbuzz', then do the same with i divisible by 3 for 'fizz' and i divisible by 5 for 'buzz'
   - **Example:**
-  - **Source:**
+
+```
+function fizzBuzz(){
+    for (let i=1; i<=100; i++){
+        if (i%5===0 && i%3===0){
+            console.log(i, 'fizzbuzz')
+        }else if (i%3===0){
+            console.log(i, 'fizz')
+        }else if (i%5===0){
+            console.log(i, 'buzz')
+        }
+    }
+}
+```
+
 - [x] Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?
   - **Explanation:** Every script has access to the global scope, and if everyone uses the global namespace to define their variables, collisions will likely occur. Use the module pattern (IIFEs) to encapsulate your variables within a local namespace.
   - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
