@@ -758,7 +758,7 @@ const beverage = age >= 21 ? 'Beer' : 'Juice';
 ```
 
 - **Source:** https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator
-- [ ] What is "use strict";? what are the advantages and disadvantages to using it?
+- [x] What is "use strict";? what are the advantages and disadvantages to using it?
 
   - **Explanation:** 'use strict' is a statement used to enable strict mode to entire scripts or individual functions. Strict mode is a way to opt into a restricted variant of JavaScript. Overall, I think the benefits outweigh the disadvantages, and I never had to rely on the features that strict mode blocks. I would recommend using strict mode.
   - **Use:**
@@ -779,42 +779,38 @@ const beverage = age >= 21 ? 'Beer' : 'Juice';
       - Concatenation of scripts written in different strict modes might cause issues.
 
 - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/#what-is-use-strict-what-are-the-advantages-and-disadvantages-to-using-it
-- [ ] Create a for loop that iterates up to 100 while outputting "fizz" at multiples of 3, "buzz" at multiples of 5 and "fizzbuzz" at multiples of 3 and 5
-  - **Explanation:** for loop 1-100, if the index is divisible by 3 & 5, console log it along with 'fizzbuzz', then do the same with i divisible by 3 for 'fizz' and i divisible by 5 for 'buzz'
+- [x] Create a for loop that iterates up to 100 while outputting "fizz" at multiples of 3, "buzz" at multiples of 5 and "fizzbuzz" at multiples of 3 and 5
   - **Example:**
 
-```
-function fizzBuzz(){
-    for (let i=1; i<=100; i++){
-        if (i%5===0 && i%3===0){
-            console.log(i, 'fizzbuzz')
-        }else if (i%3===0){
-            console.log(i, 'fizz')
-        }else if (i%5===0){
-            console.log(i, 'buzz')
-        }
+```javascript
+function fizzBuzz() {
+  for (let i = 1; i <= 100; i++) {
+    if (i % 5 === 0 && i % 3 === 0) {
+      console.log(i, 'FizzBuzz');
+    } else if (i % 3 === 0) {
+      console.log(i, 'Fizz');
+    } else if (i % 5 === 0) {
+      console.log(i, 'Buzz');
     }
+  }
 }
 ```
 
 - [x] Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?
   - **Explanation:** Every script has access to the global scope, and if everyone uses the global namespace to define their variables, collisions will likely occur. Use the module pattern (IIFEs) to encapsulate your variables within a local namespace.
   - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
-- [ ] Why would you use something like the `load` event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] Explain what a single page app is and how to make one SEO-friendly.
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] What is the extent of your experience with Promises and/or their polyfills?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+- [x] Why would you use something like the `load` event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?
+  - **Explanation:** `load` fires when the entire page is finished loading (HTML, CSS, Scripts, etc.). You might want to use `DOMContentLoaded` which fires when the DOM is loaded, but before stylesheets, scripts, etc. are loaded.
+  - **Use:** It depends on the context, but perhaps there is some non-blocking resource that is a large file which you would wait to load until the entire page is done.
+  - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
+- [x] Explain what a single page app is and how to make one SEO-friendly.
+  - **Explanation:** SPA's render the page client side instead of server side. The server sends the initial page, but subsequent changes to the page do not initiate a page refresh. The data on the page is typically updated via an AJAX request which is then used to dynamically update the page via JavaScript.
+  - **Use:** A reason to use a SPA is that it feels more responsive to the user, fewer HTTP request are made so assets don
+    t have to be downloaded multiple times and there is a clear separation between client and server. As long as the API is the same either side can be modified without affecting the other. Some downsides would be heavier initial page load, additional server config needed and SEO can be more difficult. To overcome the SEO problem you could render your pages server side or use a service such as Prerender.
+  - **Source:** https://github.com/grab/front-end-guide
+- [x] What is the extent of your experience with Promises and/or their polyfills?
+  - **Explanation:** I've used Promises extensively as they are a main component in modern asynchronous JavaScript. They are used for operations that will produce a resolved value in the future. I haven't used polyfills much as they aren't required much these days.
+  - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
 - [x] What are the pros and cons of using Promises instead of callbacks?
 
   - **Pros:**
@@ -869,11 +865,9 @@ function main() {
 ```
 
 - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
-- [ ] What is event loop? What is the difference between call stack and task queue?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+- [x] What is event loop? What is the difference between call stack and task queue?
+  - **Explanation:** The event loop is a single-threaded loop that monitors the call stack and checks if there is any work to be done in the task queue. If the call stack is empty and there are callback functions in the task queue, a function is dequeued and pushed onto the call stack to be executed.
+  - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
 - [x] Explain the differences on the usage of foo between `function foo() {}` and `var foo = function() {}`
   - **Explanation:** The former is a function declaration while the latter is a function expression.
   - **Use:** The function declaration is hoisted and can therefore be accessed from anywhere, whereas the function expression can only be accessed after it's been defined.
