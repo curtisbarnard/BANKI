@@ -4,6 +4,24 @@
 - Resources where you can find most answers are at the end.
 - Original list courtesy of https://leonnoel.com/100devs/
 
+---
+
+## Table of Contents
+
+1. [Behaviorial](#behavioral)
+2. [Technical](#technical-questions)
+    - [HTML](#html)
+    - [CSS](#css)
+    - [Javascript](#javascript)
+    - [Javascript General](#javascript-general)
+    - [Node](#node)
+    - [CS Theory](#cs-theory)
+3. [Questions to ask your interviewer](#questions-to-ask-your-interviewer)
+4. [Whiteboard](#whiteboard)
+5. [Resources](#resources)
+
+---
+
 ## Behavioral
 
 Most of the behavioral questions should be answered in the CAR format. At least three sentences for each question (one for cause, one for action and one for result). When answering begin with "At my last opportunity..." or "At my last company". Don't sell yourself out and say "bootcamp" or "school".
