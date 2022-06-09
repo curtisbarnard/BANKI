@@ -1058,9 +1058,20 @@ var obj = {
 - **Example:**
 - **Source:**
 - [ ] What are the pros and cons of functional programming vs object-oriented programming?
-- **Explanation:**
-- **Use:**
-- **Example:**
+- **Pros:**
+  - Avoids side-effects, so no matter the state or time, input x will always output y
+  - In some instances it will be easier to follow than OOP.
+  - In cases where Tail call optimization is implemented, TCO recursive functions can be faster.
+  - Easy to test.
+- **Cons:**
+  - Tail call optimization makes it harder to debug. (This is described in the V8 issue page. https://bugs.chromium.org/p/v8/issues/detail?id=4698)
+  - Unlike functional languages, there is no general tail call optimization in Javascript (the ECMAScript 6 specification has an entry for TCO but no one other than Webkit, used mainly by safari supports it.), you have to keep in account stack size.
+  - Another consequence of no TCO is speed, as you need to traverse the stack when calling a recursive function. 
+  - Since you cannot mutate data, each time you create a new Array/Data Structure you are a making a completely new copy in memory. Functional languages avoid this by taking into account differences between the old data structure and the newly created one. Javascript does not have that optimization. This can be mitigated by using a helper library like https://immutable-js.com/ or a more framework like approach https://ramdajs.com/
+  - There is still debate on the proper implementation of Tail calls.
+    - https://v8.dev/blog/modern-javascript#proper-tail-calls
+    - https://github.com/tc39/proposal-ptc-syntax
+    - https://github.com/tc39/proposal-ptc-syntax/issues/23
 - **Source:**
 - [ ] What are two-way data binding and one-way data flow, and how are they different?
 - **Explanation:**
