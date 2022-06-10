@@ -1005,42 +1005,112 @@ var obj = {
   john.sayName2.bind(dave)(); // John
   ```
 
-- **Source:** https://www.frontendinterviewhandbook.com/javascript-questions#what-advantage-is-there-for-using-the-arrow-syntax-for-a-method-in-a-constructor
+  - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions#what-advantage-is-there-for-using-the-arrow-syntax-for-a-method-in-a-constructor
 
-- [ ] What is the definition of a higher-order function?
-- **Explanation:**
-- **Use:**
-- **Example:**
+- [x] What is the definition of a higher-order function?
+  - **Explanation:** A higher-order function is any function that takes one or more functions as arguments, which it uses to operate on some data, and/or returns a function as a result.
+  - **Use:** To abstract some operation that is performed repeatedly.
+  - **Example:** The classic example of this is `map`, which takes an array and a function as arguments. map then uses this function to transform each item in the array, returning a new array with the transformed data.
+  - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions#what-is-the-definition-of-a-higher-order-function
+- [x] Can you give an example for destructuring an object or an array?
+  - **Explanation:** Destructuring is an expression which enables a convenient way to extract values of Objects or Arrays and place them into distinct variables.
+  - **Use:** It's a more concise way to assign values to variables and can be particularly handy when passing function arguments.
+  - **Example:** An example of destructing a simple object:
+
+```javascript
+// Variable assignment
+const o = { p: 42, q: true };
+const { p, q } = o;
+
+console.log(p); // 42
+console.log(q); // true
+```
+
 - **Source:**
-- [ ] Can you give an example for destructuring an object or an array?
-- **Explanation:**
-- **Use:**
-- **Example:**
+
+  - https://www.frontendinterviewhandbook.com/javascript-questions#can-you-give-an-example-for-destructuring-an-object-or-an-array
+  - https://betterprogramming.pub/why-i-find-javascripts-destructuring-so-useful-7be41d9ba609
+
+- [x] ES6 Template Literals offer a lot of flexibility in generating strings, can you give an example?
+  - **Explanation:** Template literals are a way to do string interpolation, or to include variables in a string.
+  - **Use:** It is simpler and more readable than using concatenation methods prior to ES2015.
+  - **Example:**
+
+```javascript
+// Prior to ES2015
+'Hi, my name is ' + person.name + ' and I am ' + person.age + ' years old!';
+
+// Using template literals
+`Hi, my name is ${person.name} and I am ${person.age} years old!`;
+```
+
+- **Source:** https://www.frontendinterviewhandbook.com/javascript-questions#es6-template-literals-offer-a-lot-of-flexibility-in-generating-strings-can-you-give-an-example
+
+- [x] Can you give an example of a curry function and why this syntax offers an advantage?
+  - **Explanation:** Currying is a pattern where a function with more than one parameter is broken into multiple functions taking a single parameter each that, when called in series, will accumulate all of the required parameters one at a time.
+  - **Use:** This technique can be useful for making code written in a functional style easier to read and compose.
+  - **Example:**
+
+```javascript
+// regular function
+function sum3(x, y, z) {
+  return x + y + z;
+}
+
+// curried version
+function sum3(x) {
+  return (y) => {
+    return (z) => {
+      return x + y + z;
+    };
+  };
+}
+```
+
 - **Source:**
-- [ ] ES6 Template Literals offer a lot of flexibility in generating strings, can you give an example?
-- **Explanation:**
-- **Use:**
-- **Example:**
+
+  - https://www.frontendinterviewhandbook.com/javascript-questions#can-you-give-an-example-of-a-curry-function-and-why-this-syntax-offers-an-advantage
+  - https://hackernoon.com/currying-in-js-d9ddc64f162e
+
+- [x] What are the benefits of using spread syntax and how is it different from rest syntax?
+  - **Explanation:** Spread syntax is used to "unpack" data from an array, while rest syntax is the opposite and is used to put data into an array.
+  - **Use:** When coding in a functional paradigm it is easier to create copies of arrays or objects with spread syntax versus using `Object.create`, `slice`, or a library function. Rest syntax is useful when used as a function parameter where there will be an arbitrary number of arguments.
+  - **Example:**
+
+```javascript
+// Copying an object
+const person = {
+  name: 'Todd',
+  age: 29,
+};
+
+const copyOfTodd = { ...person };
+```
+
+- **Source:** https://www.frontendinterviewhandbook.com/javascript-questions#what-are-the-benefits-of-using-spread-syntax-and-how-is-it-different-from-rest-syntax
+
+- [x] How can you share code between files?
+  - **Explanation:** With ES6 modules via the `import ... export` syntax. Prior to ES6 modules you could use Asynchronous Module Definition for the client side scripts or CommonJS for server side scripts.
+  - **Use:** To better organize and abstract code bases.
+  - **Example:**
+
+```javascript
+// file square.js
+export { name, draw, reportArea, reportPerimeter };
+
+// file index.js
+import { name, draw, reportArea, reportPerimeter } from './modules/square.js';
+```
+
 - **Source:**
-- [ ] Can you give an example of a curry function and why this syntax offers an advantage?
-- **Explanation:**
-- **Use:**
-- **Example:**
-- **Source:**
-- [ ] What are the benefits of using spread syntax and how is it different from rest syntax?
-- **Explanation:**
-- **Use:**
-- **Example:**
-- **Source:**
-- [ ] How can you share code between files?
-- **Explanation:**
-- **Use:**
-- **Example:**
-- **Source:**
+
+  - https://www.frontendinterviewhandbook.com/javascript-questions#how-can-you-share-code-between-files
+  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+
 - [x] Why might you want to create static class members?
-- **Explanation:** Static class members are properties and methods that do not change.
-- **Use:** You would use them for properties that stay the same throughout the application and every instance of the object needs to know that property. They could also be used for utility functions so they can be called without instantiating any object.
-- **Source:** https://stackoverflow.com/questions/21155438/when-to-use-static-variables-methods-and-when-to-use-instance-variables-methods
+  - **Explanation:** Static class members are properties and methods that do not change.
+  - **Use:** You would use them for properties that stay the same throughout the application and every instance of the object needs to know that property. They could also be used for utility functions so they can be called without instantiating any object.
+  - **Source:** https://stackoverflow.com/questions/21155438/when-to-use-static-variables-methods-and-when-to-use-instance-variables-methods
 
 ### Javascript General
 
