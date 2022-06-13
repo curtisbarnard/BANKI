@@ -51,10 +51,10 @@ Most of the behavioral questions should be answered in the CAR format. At least 
   - **Cause:** I had a direct report working on building a client quote within a spreadsheet template.
   - **Action:** I explained to them how to use and fill out the template and then left them to finish it.
   - **Result:** After a few hours I came to see what the final result was and found that they only partially completed it and had many mistakes. What I did then and with subsequent reports was to have them work on the quote in front of me for 30 minutes so that I could guide them and allow them to ask question. I found that technique brought people up to speed more quickly.
-- [ ] Tell me about when you had to deal with conflict within your team. How was the conflict solved? How did you handle that? How would you deal with it now?
-  - **Cause:**
-  - **Action:**
-  - **Result:**
+- [x] Tell me about when you had to deal with conflict within your team. How was the conflict solved? How did you handle that? How would you deal with it now?
+  - **Cause:** We had a rollout of shipments going on in which the schedule was tight. For the goods to come in, get assembled and leave the warehouse "orders" needed to be created in our ERP system which was a particular team members responsibility. I requested several times that they be created, but by the day in which they had to be created to not affect timing they were still not done.
+  - **Action:** I gathered the team member along with two others on our team to discuss the issue. I explained the urgency of the matter along with the tasks that needed to be completed and when. I have to admit I had a rather frustrated demeanor. The responsible team member said they couldn't do it. I suggested that they build one order with all of us there and perhaps we could split the work.
+  - **Result:** The orders ended up mostly being done by the responsible team member once they realized I'd provided the information in a clear to follow format. I apologized for for my foul attitude. I learned that I should've had more present and active communication with a team member that is responsible for the next task in the workflow rather than "throwing" the task over the fence per se.
 - [ ] Give me an example of a time you had to take a creative and unusual approach to solve coding problem. How did this idea come to your mind? Why do you think it was unusual?
   - **Cause:**
   - **Action:**
@@ -67,14 +67,14 @@ Most of the behavioral questions should be answered in the CAR format. At least 
   - **Cause:**
   - **Action:**
   - **Result:**
-- [ ] Describe a situation in which you experienced difficulty in getting others to accept your ideas? What was your approach? How did this work? Were you able to successfully persuade someone to see things your way
+- [ ] Describe a situation in which you experienced difficulty in getting others to accept your ideas? What was your approach? How did this work? Were you able to successfully persuade someone to see things your way?
   - **Cause:**
   - **Action:**
   - **Result:**
-- [ ] Tell me about a situation when you were responsible for project planning. Did everything go according to your plan? If not, then why and what kind of counteractions did you have to take?
-  - **Cause:**
-  - **Action:**
-  - **Result:**
+- [x] Tell me about a situation when you were responsible for project planning. Did everything go according to your plan? If not, then why and what kind of counteractions did you have to take?
+  - **Cause:** Projects never go exactly to plan! I think one of the worst experiences I had was working on a set of brand new prototypes got a client that had a clear powder coat over steel, which is notoriously hard to produce. I was using a newer supplier to see if they could nail it, but after three tries they could not.
+  - **Action:** I made the call to split some of the more important pieces out to a different supplier which had been successful in the past, but cost significantly more. I then worked with the newer supplier to look at their powder coating process and identify area's that were causing issues (pre-powder cleaning was the main culprit).
+  - **Result:** I was able to deliver 95% of the parts to the client for review and was able to convince them that we were resolving some issues with other pieces and all would be fine. I was able to help the supplier adjust their cleaning process so that when final production started the QC rejection rate went from 75% on the prototypes to less than 5% on production. It sounds like a lot, but for the industry and process it was rather good.
 - [ ] Tell me about a situation when you made a mistake at work. What happened exactly and how did you deal with it? What steps did you take to improve the situation?
   - **Cause:**
   - **Action:**
@@ -115,10 +115,8 @@ Most of the behavioral questions should be answered in the CAR format. At least 
   - **Cause:**
   - **Action:**
   - **Result:**
-- [ ] What do you read on a regular basis?
-  - **Cause:**
-  - **Action:**
-  - **Result:**
+- [x] What do you read on a regular basis?
+  - I tend to go through phases of topics. Recently I've been reading various books on Data Structures & Algorithms along with books about Design/Graphic Design. I'll also typically read about the natural world (plant/animal species identification, geology, environmental issues), history (particularly Pacific Northwest and Japan), architecture and travel writing. I'm a huge fan of our public library system and I regularly use it.
 - [ ] What's some critical feedback you've gotten recently?
   - **Cause:**
   - **Action:**
@@ -1167,16 +1165,13 @@ import { name, draw, reportArea, reportPerimeter } from './modules/square.js';
 - **Use:**
 - **Example:**
 - **Source:**
-- [ ] Why is Node.js Single-threaded?
-- **Explanation:**
-- **Use:**
-- **Example:**
-- **Source:**
-- [ ] Explain callback in Node.js.
-- **Explanation:**
-- **Use:**
-- **Example:**
-- **Source:**
+- [x] Why is Node.js Single-threaded?
+  - **Explanation:** Node.js is single-threaded for async processing. By doing async processing on a single-thread under typical web loads, more performance and scalability can be achieved instead of the typical thread-based implementation.
+  - **Source:** https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions
+- [x] Explain callback in Node.js.
+  - **Explanation:** A callback function is called after a given task. All APIs of Node are written to support callbacks.
+  - **Use:** Callbacks allow other code to be run in the meantime and prevents any blocking. Being an asynchronous platform, Node.js heavily relies on callback.
+  - **Source:** https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions
 - [ ] What is callback hell in Node.js?
 - **Explanation:**
 - **Use:**
@@ -1233,10 +1228,9 @@ import { name, draw, reportArea, reportPerimeter } from './modules/square.js';
 - **Example:**
 - **Source:**
 - [ ] What is the purpose of `module.exports` in Node.js?
-- **Explanation:**
-- **Use:**
-- **Example:**
-- **Source:**
+  - **Explanation:** In Node.js, a module encapsulates all related code into a single unit of code by moving all relevant functions into a single file.
+  - **Use:** You may export a module with the `module.exports` function, which lets it be imported into another file using `require`
+  - **Source:** https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions
 - [ ] What is the difference between Asynchronous and Non-blocking?
 - **Explanation:**
 - **Use:**
