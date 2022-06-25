@@ -1401,16 +1401,16 @@ function factorial(num) {
   - **Use:**
   - **Example:**
   - **Source:**
-- [ ] What is a Queue?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] What is a Stack?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+- [x] What is a Queue?
+  - **Explanation:** A Queue is a linear structure which follows a particular order in which the operations are performed. The order is First In First Out (FIFO).
+  - **Use:** Queue is used when things don't have to be processed immediately, but have to be processed in First In First Out order like Breadth First Search.
+  - **Example:** The Event Loop Model prioritizes all the Jobs in a Job Queue. 
+  - **Source:** https://www.geeksforgeeks.org/queue-data-structure/
+- [x] What is a Stack?
+  - **Explanation:** A Stack is a linear data structure which follows a particular order in which the operations are performed. The order is LIFO(Last In First Out).
+  - **Use:** Stacks are used to implement functions, parsers, expression evaluation, and backtracking algorithms.
+  - **Example:** The Event loop uses call stack. Every time a script or function calls a function, it's added to the top of the call stack. Every time the function 	exits, the interpreter removes it from the call stack.
+  - **Source:** https://www.geeksforgeeks.org/stack-data-structure/
 - [ ] What is a Hash Table?
   - **Explanation:**
   - **Use:**
