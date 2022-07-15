@@ -1222,12 +1222,12 @@ import { name, draw, reportArea, reportPerimeter } from './modules/square.js';
 - **Use:**
 - **Example:**
 - **Source:**
-- [ ] What is Event loop in Node.js work? And How does it work?
+- [ ] What is Event loop in Node.js? And How does it work?
 - **Explanation:**
 - **Use:**
 - **Example:**
 - **Source:**
-- [ ] What is the purpose of `module.exports` in Node.js?
+- [x] What is the purpose of `module.exports` in Node.js?
   - **Explanation:** In Node.js, a module encapsulates all related code into a single unit of code by moving all relevant functions into a single file.
   - **Use:** You may export a module with the `module.exports` function, which lets it be imported into another file using `require`
   - **Source:** https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions
@@ -1271,11 +1271,10 @@ import { name, draw, reportArea, reportPerimeter } from './modules/square.js';
 - **Use:**
 - **Example:**
 - **Source:**
-- [ ] What is `EventEmitter` in Node.js?
-- **Explanation:**
-- **Use:**
-- **Example:**
-- **Source:**
+- [x] What is `EventEmitter` in Node.js?
+- **Explanation:** EventEmitter is a class that holds all the objects that can emit events.
+- **Use:** Whenever an object from the EventEmitter class throws an event, all attached functions are called upon synchronously.
+- **Source:** https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions
 
 ### CS Theory 
 
