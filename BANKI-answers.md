@@ -1172,7 +1172,7 @@ import { name, draw, reportArea, reportPerimeter } from './modules/square.js';
   - **Explanation:** A callback function is called after a given task. All APIs of Node are written to support callbacks.
   - **Use:** Callbacks allow other code to be run in the meantime and prevents any blocking. Being an asynchronous platform, Node.js heavily relies on callback.
   - **Source:** https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions
-- [ ] What is callback hell in Node.js?
+- [x] What is callback hell in Node.js?
 - **Explanation:** This is a big issue caused by coding with complex nested callbacks. Imagine each and every callback takes an argument that is a result of the previous callbacks. In this manner, The code structure looks like a pyramid, making it difficult to read and maintain. Also, if there is an error in one function, then all other functions get affected.
 - **Use:** This should be avoided.
 - **Example:**
@@ -1205,7 +1205,7 @@ fs.readdir(source, function (err, files) {
 ```
 
 - **Source:**
-- [ ] How do you prevent/fix callback hell?
+- [x] How do you prevent/fix callback hell?
 - **Explanation:** One of the most common ways is to use promises (an object that represents the eventual completion or failure of an async operation and its value). Once each step is finished and we have our value, we can run then() method to call the async callback or if it fails we can catch an error. We could also just keep our code shallow and modularize (make each block of code do one thing only).
 - **Example:**
 
@@ -1216,8 +1216,9 @@ houseOne()
 	.then(data=>console.log(data)
 	.then(houseTwo)
 ```
+
 - **Source:** https://www.geeksforgeeks.org/what-is-callback-hell-in-node-js/
-- [ ] Explain the role of REPL in Node.js.
+- [x] Explain the role of REPL in Node.js.
 - **Explanation:** The Node.js Read-Eval-Print-Loop (REPL) is an interactive shell that processes Node.js expressions. The shell reads JavaScript code the user enters, evaluates the result of interpreting the line of code, prints the result to the user, and loops until the user signals to quit.
 - **Use:** The REPL is bundled with with every Node.js installation and allows you to quickly test and explore JavaScript code within the Node environment without having to store it in a file. Entering "node" in the terminal starts the REPL
 - **Example:**
@@ -1246,11 +1247,16 @@ Type ".help" for more information.
 - **Use:**
 - **Example:**
 - **Source:**
-- [ ] What are “streams” in Node.js? Explain the different types of streams present in Node.js.
-- **Explanation:**
-- **Use:**
-- **Example:**
-- **Source:**
+
+- [x] What are “streams” in Node.js? Explain the different types of streams present in Node.js.
+- **Explanation:** Streams are objects that enable you to read data or write data continuously.
+- **Use:** There are four types of streams:
+  - Readable – Used for reading operations
+  - Writable − Used for write operations
+  - Duplex − Can be used for both reading and write operations
+  - Transform − A type of duplex stream where the output is computed based on input
+- **Source:** https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions
+
 - [ ] Explain chaining in Node.js.
 - **Explanation:**
 - **Use:**
@@ -1290,8 +1296,8 @@ Type ".help" for more information.
 - **Use:**
 - **Example:**
 - **Source:**
-- [ ] Difference between `setImmediate()` and `setTimeout()`?
-- **Explanation:** setImmediate() is to schedule the immediate execution of callback after I/O (input/output) event callbacks and before setTimeout and setInterval. setTimeout() is to schedule execution of a one-time callback after delay milliseconds. both are async. 
+- [x] Difference between `setImmediate()` and `setTimeout()`?
+- **Explanation:** setImmediate() is to schedule the immediate execution of callback after I/O (input/output) event callbacks and before setTimeout and setInterval. setTimeout() is to schedule execution of a one-time callback after delay milliseconds. both are async.
 - **Use:** Inside an I/O cycle, the setImmediate() should execute before setTimeout({},0).
 - **Example:**
 
@@ -1309,7 +1315,7 @@ fs.readFile(__filename, () => {
 ```
 
 - **Source:** https://dev.to/ynmanware/setimmediate-settimeout-and-process-nexttick-3mfd
-- [ ] What is `process.nextTick()`?
+- [x] What is `process.nextTick()`?
 - **Explanation:** Every time the event loop takes a full trip, we call it a tick. When we pass a function to process.nextTick(), we instruct the engine to invoke this function at the end of the current operation, before the next event loop tick starts. process.nextTick() is actually faster
 - **Use:** Calling setTimeout(() => {}, 0) will execute the function at the end of next tick, much later than when using nextTick() which prioritizes the call and executes it just before the beginning of the next tick.
 - **Example:**
@@ -1319,8 +1325,9 @@ process.nextTick(() => {
   // do something
 });
 ```
+
 - **Source:** https://nodejs.dev/learn/understanding-process-nexttick
-- [ ] What is package.json? What is it used for?
+- [x] What is package.json? What is it used for?
 - **Explanation:** All npm packages contain a file, usually in the project root, called package.json - this file holds various metadata relevant to the project. It's a central repository of configuration for tools, for example. It's also where npm and yarn store the names and versions for all the installed packages.
 - **Use:** This file is used to give information to npm that allows it to identify the project as well as handle **the project's dependencies**. It can also contain other metadata such as a project description, the version of the project in a particular distribution, license information, even configuration data - all of which can be vital to both npm and to the end users of the package. The package.json file is normally located at the root directory of a Node.js project.
 - **Source:** https://nodejs.org/en/knowledge/getting-started/npm/what-is-the-file-package-json/
@@ -1403,12 +1410,12 @@ function factorial(num) {
 - [x] What is a Queue?
   - **Explanation:** A Queue is a linear structure which follows a particular order in which the operations are performed. The order is First In First Out (FIFO).
   - **Use:** Queue is used when things don't have to be processed immediately, but have to be processed in First In First Out order like Breadth First Search.
-  - **Example:** The Event Loop Model prioritizes all the Jobs in a Job Queue. 
+  - **Example:** The Event Loop Model prioritizes all the Jobs in a Job Queue.
   - **Source:** https://www.geeksforgeeks.org/queue-data-structure/
 - [x] What is a Stack?
   - **Explanation:** A Stack is a linear data structure which follows a particular order in which the operations are performed. The order is LIFO(Last In First Out).
   - **Use:** Stacks are used to implement functions, parsers, expression evaluation, and backtracking algorithms.
-  - **Example:** The Event loop uses call stack. Every time a script or function calls a function, it's added to the top of the call stack. Every time the function 	exits, the interpreter removes it from the call stack.
+  - **Example:** The Event loop uses call stack. Every time a script or function calls a function, it's added to the top of the call stack. Every time the function exits, the interpreter removes it from the call stack.
   - **Source:** https://www.geeksforgeeks.org/stack-data-structure/
 - [ ] What is a Hash Table?
   - **Explanation:**
