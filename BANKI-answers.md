@@ -1272,11 +1272,12 @@ Type ".help" for more information.
 - **Use:**
 - **Example:**
 - **Source:**
-- [ ] What is Event loop in Node.js? And How does it work?
-- **Explanation:**
-- **Use:**
-- **Example:**
-- **Source:**
+
+- [x] What is Event loop in Node.js? And How does it work?
+- **Explanation:** The Event loop handles all async callbacks. We can attach listeners to events, and when a said event fires, the listener executes the callback we provided.
+- **Use:** Whenever we call `setTimeout`, `http.get` and `fs.readFile`, Node.js runs the operation and continues to run other code without waiting for the output. When the operation is finished, it receives the output and runs our callback function. All the callback functions are queued in an loop, and will run one-by-one when the response has been received.
+- **Source:** https://vigowebs.medium.com/frequently-asked-node-js-interview-questions-and-answers-b74fa1f20678
+
 - [x] What is the purpose of `module.exports` in Node.js?
   - **Explanation:** In Node.js, a module encapsulates all related code into a single unit of code by moving all relevant functions into a single file.
   - **Use:** You may export a module with the `module.exports` function, which lets it be imported into another file using `require`
