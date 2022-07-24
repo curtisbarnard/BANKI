@@ -1166,12 +1166,10 @@ import { name, draw, reportArea, reportPerimeter } from './modules/square.js';
   - **Example:**
   - **Source:**
 
-- [ ] How do you update NPM to a new version in Node.js?
+- [x] How do you update NPM to a new version in Node.js?
 
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+  - **Explanation:** With Mac or Linux systems it is rather easy just type the command `npm install -g npm@latest` into the terminal to update npm. With Windows it's a little more complex as you will need to either modify the Window's installation PATH or remove the npm files from the nodejs install directory then update npm in the terminal.
+  - **Source:** https://docs.npmjs.com/try-the-latest-stable-version-of-npm
 
 - [x] Why is Node.js Single-threaded?
 
