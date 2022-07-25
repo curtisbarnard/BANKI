@@ -1248,12 +1248,11 @@ import { name, draw, reportArea, reportPerimeter } from './modules/square.js';
 
   - **Source:** https://www.digitalocean.com/community/tutorials/how-to-use-the-node-js-repl
 
-- [ ] Name the types of API functions in Node.js.
+- [x] Name the types of API functions in Node.js.
 
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+  - **Explanation:** There are two types; **Asynchronous**, Non-blocking functions and **Synchronous**, Blocking functions
+  - **Example:** Asynchronous examples would be emails and online forums. Synchronous examples would be instant messaging and video calls.
+  - **Source:** https://www.geeksforgeeks.org/types-of-api-functions-in-node-js/
 
 - [ ] What are the functionalities of NPM in Node.js?
 
