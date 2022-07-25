@@ -1254,12 +1254,11 @@ import { name, draw, reportArea, reportPerimeter } from './modules/square.js';
   - **Example:** Asynchronous examples would be emails and online forums. Synchronous examples would be instant messaging and video calls.
   - **Source:** https://www.geeksforgeeks.org/types-of-api-functions-in-node-js/
 
-- [ ] What are the functionalities of NPM in Node.js?
+- [x] What are the functionalities of NPM in Node.js?
 
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+  - **Explanation:** NPM serves two main purposes; being an online repository of open-source Node.js projects and a command line utility for interacting with said repository.
+  - **Use:** Typically it is used to install packages, manage versions and manage project dependencies.
+  - **Source:** https://nodejs.org/en/knowledge/getting-started/npm/what-is-npm/
 
 - [ ] What is the difference between Node.js and Ajax?
 
