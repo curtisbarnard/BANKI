@@ -44,17 +44,23 @@ Most of the behavioral questions should be answered in the CAR format. At least 
   - **Action:** I noticed an opportunity to flatten the workload of the PM's, by creating a shared PM pool.
   - **Result:** This was possible by running a high level kanban of all projects assigned by PM to get visibility to workload. It also allowed knowledge sharing such that it was much easier for a PM to step in on any given team.
 - [x] Tell me about a time you had to work on several projects at once. How did you handle this?
+
   - **Cause:** I was working on two large projects for two separate clients that were at different stages of their lifecycle. One project was in production and the other project was in the implementation phase.
   - **Action:** I decided to send a less experienced colleague to the installation site while I went to do a production check-in on the other project in China. Prior to leaving I briefed my colleague in on the project and told them what to look out for.
   - **Result:** While in China I had daily calls with my colleague as well as received daily photo reports to review the installation. Both projects end up being financially successful. The tight communication and teamwork is ultimately what allowed it to be so.
+
 - [x] Describe a situation in which you felt you had not communicated well enough. What did you do? How did you handle it?
+
   - **Cause:** I had a direct report working on building a client quote within a spreadsheet template.
   - **Action:** I explained to them how to use and fill out the template and then left them to finish it.
   - **Result:** After a few hours I came to see what the final result was and found that they only partially completed it and had many mistakes. What I did then and with subsequent reports was to have them work on the quote in front of me for 30 minutes so that I could guide them and allow them to ask question. I found that technique brought people up to speed more quickly.
+
 - [x] Tell me about when you had to deal with conflict within your team. How was the conflict solved? How did you handle that? How would you deal with it now?
+
   - **Cause:** We had a rollout of shipments going on in which the schedule was tight. For the goods to come in, get assembled and leave the warehouse "orders" needed to be created in our ERP system which was a particular team members responsibility. I requested several times that they be created, but by the day in which they had to be created to not affect timing they were still not done.
   - **Action:** I gathered the team member along with two others on our team to discuss the issue. I explained the urgency of the matter along with the tasks that needed to be completed and when. I have to admit I had a rather frustrated demeanor. The responsible team member said they couldn't do it. I suggested that they build one order with all of us there and perhaps we could split the work.
   - **Result:** The orders ended up mostly being done by the responsible team member once they realized I'd provided the information in a clear to follow format. I apologized for for my foul attitude. I learned that I should've had more present and active communication with a team member that is responsible for the next task in the workflow rather than "throwing" the task over the fence per se.
+
 - [ ] Give me an example of a time you had to take a creative and unusual approach to solve coding problem. How did this idea come to your mind? Why do you think it was unusual?
   - **Cause:**
   - **Action:**
@@ -68,13 +74,17 @@ Most of the behavioral questions should be answered in the CAR format. At least 
   - **Action:**
   - **Result:**
 - [ ] Describe a situation in which you experienced difficulty in getting others to accept your ideas? What was your approach? How did this work? Were you able to successfully persuade someone to see things your way?
+
   - **Cause:**
   - **Action:**
   - **Result:**
+
 - [x] Tell me about a situation when you were responsible for project planning. Did everything go according to your plan? If not, then why and what kind of counteractions did you have to take?
+
   - **Cause:** Projects never go exactly to plan! I think one of the worst experiences I had was working on a set of brand new prototypes got a client that had a clear powder coat over steel, which is notoriously hard to produce. I was using a newer supplier to see if they could nail it, but after three tries they could not.
   - **Action:** I made the call to split some of the more important pieces out to a different supplier which had been successful in the past, but cost significantly more. I then worked with the newer supplier to look at their powder coating process and identify area's that were causing issues (pre-powder cleaning was the main culprit).
   - **Result:** I was able to deliver 95% of the parts to the client for review and was able to convince them that we were resolving some issues with other pieces and all would be fine. I was able to help the supplier adjust their cleaning process so that when final production started the QC rejection rate went from 75% on the prototypes to less than 5% on production. It sounds like a lot, but for the industry and process it was rather good.
+
 - [ ] Tell me about a situation when you made a mistake at work. What happened exactly and how did you deal with it? What steps did you take to improve the situation?
   - **Cause:**
   - **Action:**
@@ -88,13 +98,15 @@ Most of the behavioral questions should be answered in the CAR format. At least 
   - **Action:**
   - **Result:**
 - [ ] Tell me about yourself.
+
   - **Cause:**
   - **Action:**
   - **Result:**
-- [ ] Tell me about your experience at 100Devs.
-  - **Cause:**
-  - **Action:**
-  - **Result:**
+
+- [x] Tell me about your experience at 100Devs.
+
+  - 100Devs is an agency with a training program. I worked on several projects both alone and with colleagues to better flesh out my skills. The main tech stack we used with React, Node, Express and MongoDB.
+
 - [ ] What do you know about our company?
   - **Cause:**
   - **Action:**
