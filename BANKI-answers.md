@@ -1444,11 +1444,36 @@ function factorial(num) {
   - **Use:**
   - **Example:**
   - **Source:**
-- [ ] What is a Linked List?
+- [x] What is a Linked List?
   - **Explanation:**
-  - **Use:**
+    It is a linear data structure similar to an array, except that elements are not stored on a particular memory location or index but instead represent separate       objects containing a reference to the next item on the list
+    Elements (commonly called nodes) contain two items: the data and the link to the next node. The data can be of any type.
+    In a linked list, the head refers to the first node of the list. Null refers to the last node of the list. If the list is empty, the head is null.
+    There are 3 Types: Singly, Doubly and Circular Linked List.
+  - **Use:** The DOM, Blockchains, Prototypal Inheritance, Image Viewer, Music Payer and Previous And Next Page...
   - **Example:**
-  - **Source:**
+
+  A Linked List Looks like this:
+
+  ```js
+  const linkedList = {
+      head: {
+          value: 1
+          next: {
+              value: 2                                             
+              next: {
+                  value: 12
+                  next: {
+                      value: 4
+                      next: null	
+                      }
+                  }
+              }
+          }
+      }
+  };
+```
+  - **Source:** Implementing A Linked List https://www.freecodecamp.org/news/implementing-a-linked-list-in-javascript/
 - [ ] What is a Doubly Linked List?
   - **Explanation:**
   - **Use:**
