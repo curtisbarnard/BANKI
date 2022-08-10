@@ -1412,6 +1412,7 @@ function factorial(num) {
 **Source:** https://developer.mozilla.org/en-US/docs/Glossary/Recursion
 
 - [x] What are types?
+
   - **Explanation:** Types, also called data types, each have a unique set of rules/instructions of what can and can't be done with it.
   - **Use:** Types are necessary so that the computer knows how to handle data when trying to do an operation with it.
   - **Example:** A few data types that are shared by most programming language are:
@@ -1419,61 +1420,73 @@ function factorial(num) {
     - String ("hello world")
     - Float (3.1415)
   - **Source:** https://www.youtube.com/watch?v=A37-3lflh8I
+
 - [ ] What are data structures?
+
   - **Explanation:**
   - **Use:**
   - **Example:**
   - **Source:**
+
 - [ ] What is an algorithm?
+
   - **Explanation:**
   - **Use:**
   - **Example:**
   - **Source:**
+
 - [ ] What is scope / lexical scope in javascript?
+
   - **Explanation:**
   - **Use:**
   - **Example:**
   - **Source:**
+
 - [ ] What is polymorphism?
+
   - **Explanation:**
   - **Use:**
   - **Example:**
   - **Source:**
+
 - [ ] What is encapsulation?
+
   - **Explanation:**
   - **Use:**
   - **Example:**
   - **Source:**
+
 - [x] What is a Linked List?
+
   - **Explanation:**
-    It is a linear data structure similar to an array, except that elements are not stored on a particular memory location or index but instead represent separate       objects containing a reference to the next item on the list
+    It is a linear data structure similar to an array, except that elements are not stored on a particular memory location or index but instead represent separate objects containing a reference to the next item on the list
     Elements (commonly called nodes) contain two items: the data and the link to the next node. The data can be of any type.
     In a linked list, the head refers to the first node of the list. Null refers to the last node of the list. If the list is empty, the head is null.
     There are 3 Types: Singly, Doubly and Circular Linked List.
   - **Use:** The DOM, Blockchains, Prototypal Inheritance, Image Viewer, Music Payer and Previous And Next Page...
   - **Example:**
 
-  A Linked List Looks like this:
-
-  ```js
+  ```javascript
   const linkedList = {
       head: {
           value: 1
           next: {
-              value: 2                                             
+              value: 2
               next: {
                   value: 12
                   next: {
                       value: 4
-                      next: null	
+                      next: null
                       }
                   }
               }
           }
       }
   };
-```
+  ```
+
   - **Source:** Implementing A Linked List https://www.freecodecamp.org/news/implementing-a-linked-list-in-javascript/
+
 - [ ] What is a Doubly Linked List?
   - **Explanation:**
   - **Use:**
