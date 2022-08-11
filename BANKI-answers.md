@@ -1423,17 +1423,24 @@ function factorial(num) {
 
 - [ ] What are data structures?
 
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+  - **Explanation:** Data structures is storage that is used to store and organize data. It is also a way of arranging data on a computer in such a way that it can be updated and accessed efficiently.
+  - **Use:** Data structures are not only used for processing, retrieving, and storing data, but also organizing the data into more readable ways. 
+  - **Example:** There are many types of data structures, all classified as either linear or non-linear. The following are some examples:
+    - Linear Static Data Structures (Arrays)
+    - Linear Dynamic Data Structures (Queue, Stack, Linked List)
+    - Non-linear Data Structures (Tree and Graphs)
+  - **Source:** https://www.geeksforgeeks.org/data-structures/
 
 - [ ] What is an algorithm?
 
-  - **Explanation:**
-  - **Use:**
+  - **Explanation:** In literal terms, an algorithm is a set of rules to be followed in calculations or other problem-solving opterations or a procedure for solving a mathematical problem in a finite number of steps that frequently by recursive operations.
+    In other words, an Algorithm refers to a sequence of finite steps to solve a particular problem.
+  - **Use:** Algorithms can be used for many things such as building a solution by searching all available solutions, searching, and sorting.
   - **Example:**
-  - **Source:**
+    - Breadth First Search Algorithm
+    - Recursive Algorithms
+    - Brute Force Algorithms
+  - **Source:** https://www.geeksforgeeks.org/introduction-to-algorithms/
 
 - [ ] What is scope / lexical scope in javascript?
 
