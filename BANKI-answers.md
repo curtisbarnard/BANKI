@@ -1421,7 +1421,7 @@ function factorial(num) {
     - Float (3.1415)
   - **Source:** https://www.youtube.com/watch?v=A37-3lflh8I
 
-- [ ] What are data structures?
+- [x] What are data structures?
 
   - **Explanation:** Data structures is storage that is used to store and organize data. It is also a way of arranging data on a computer in such a way that it can be updated and accessed efficiently.
   - **Use:** Data structures are not only used for processing, retrieving, and storing data, but also organizing the data into more readable ways. 
@@ -1431,7 +1431,7 @@ function factorial(num) {
     - Non-linear Data Structures (Tree and Graphs)
   - **Source:** https://www.geeksforgeeks.org/data-structures/
 
-- [ ] What is an algorithm?
+- [x] What is an algorithm?
 
   - **Explanation:** In literal terms, an algorithm is a set of rules to be followed in calculations or other problem-solving opterations or a procedure for solving a mathematical problem in a finite number of steps that frequently by recursive operations.
     In other words, an Algorithm refers to a sequence of finite steps to solve a particular problem.
