@@ -588,8 +588,8 @@ setTimeout(function () {
 - [x] How do you organize your code? (module pattern, classical inheritance?)
   - **Explanation:** My preference is to use ES6 Modules to organize my code for the following reasons:
     - Easier to reuse code
-    - Easier to keep code separated leading to...
-    - Easier to maintain
+    - You can keep different parts of your code cleanly separated, which makes writing and maintaining your code much easier and less error-prone.
+    
   - **Source:** https://www.theodinproject.com/lessons/node-path-javascript-es6-modules
 - [x] What's the difference between host objects and native objects?
   - **Explanation:** Native objects are part of the language as defined by ECMAScript specification. Host objects are those provided by the runtime (browser or Node).
