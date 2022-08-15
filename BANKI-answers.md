@@ -1296,7 +1296,7 @@ import { name, draw, reportArea, reportPerimeter } from './modules/square.js';
   - **Example:**
   - **Source:**
 
-- [ ] What are Globals in Node.js?
+- [x] What are Globals in Node.js?
 
   - **Explanation:**  Node.js Global Objects are the objects that are available in all modules. Global Objects are built-in objects that are part of the JavaScript and can be used directly in the application without importing any particular module.
   - **Use:** Common built-in modules, functions, strings and objects used widely in Node. 
