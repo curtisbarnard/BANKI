@@ -1458,10 +1458,42 @@ function factorial(num) {
 
 - [ ] What is polymorphism?
 
-  - **Explanation:**
-  - **Use:**
+  - **Explanation:** Polymorphism is a concept of Object-oriented programming(OOP) Paradigm that provides a way to perform a single action in different ways.
+  - **Use:**  It provides an ability to call the same method on different JavaScript objects
   - **Example:**
-  - **Source:**
+  ```javascript
+  class A  
+  {  
+     display()  
+    {  
+      console.log("A is invoked");  
+    }  
+  }  
+
+  class B extends A  
+  {  
+    
+  }  
+
+  class C extends A  
+  {  
+    constructor(){ 
+      super()
+    }
+
+    //overrides the display function of A and hence behaves differently
+    display(){ 
+      console.log("C is invoked")
+    }
+  }  
+  var b=new B();  
+  var c = new C()
+  b.display();  //output: :"A is invoked"
+  c.display(); //Output: "C is invoked"
+  ```
+
+
+  - **Source:**https://www.javatpoint.com/javascript-oops-polymorphism, www.stackOverflow.com
 
 - [ ] What is encapsulation?
 
