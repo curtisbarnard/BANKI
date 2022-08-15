@@ -1298,10 +1298,17 @@ import { name, draw, reportArea, reportPerimeter } from './modules/square.js';
 
 - [ ] What are Globals in Node.js?
 
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+  - **Explanation:**  Node.js Global Objects are the objects that are available in all modules. Global Objects are built-in objects that are part of the JavaScript and can be used directly in the application without importing any particular module.
+  - **Use:** Common built-in modules, functions, strings and objects used widely in Node. 
+  - **Example:** setTimeout() is a global function used to run a callback after at least x milliseconds: 
+```javascript
+function printHello() {
+  console.log('Hello World!')
+}
+//call printHello() after 2 seconds
+setTimeout(printHello, 2000)
+```
+  - **Source:** https://www.tutorialspoint.com/nodejs/nodejs_global_objects.htm
 
 - [ ] What is Event-driven programming?
 
