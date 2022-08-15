@@ -487,7 +487,7 @@ class MyThing {
 **Source:** https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
 
 - [x] Explain how prototypal inheritance works
-  - **Explanation:** All JavaScript objects have a `__proto__` property that is a reference to another object, which is called the object's "prototype". If a property is accessed on an object, but not found the JavaScript engine check's that object prototype. If again it's not found it checks that prototypes prototype on up the chain until it reaches the top of the chain.
+  - **Explanation:** All JavaScript objects have a `__proto__` property that is a reference to another object, which is called the object's "prototype". If a property is accessed on an object, but not found, the JavaScript engine check's that object prototype. If again it's not found, it checks that prototype's prototype on up the chain until it reaches the top of the chain.
   - **Use:** It can help reduce redundant code.
   - **Example:**
 
@@ -496,7 +496,7 @@ function Parent() {
   this.name = 'Parent';
 }
 Parent.prototype.greet = function () {
-  console.log('Hello from ' + this.name);
+  console.log('Hello from ' + Parent.name);
 };
 const child = Object.create(Parent.prototype);
 child.cry = function () {
@@ -506,11 +506,11 @@ child.cry();
 // waaaaaahhhh!
 child.greet();
 // hello from Parent
-child.constructor;
+console.log(child.constructor);
 // ƒ Parent() {
 // this.name = 'Parent';
 // }
-child.constructor.name;
+console.log(child.constructor.name);
 // 'Parent'
 ```
 
