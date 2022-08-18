@@ -487,7 +487,7 @@ class MyThing {
 **Source:** https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
 
 - [x] Explain how prototypal inheritance works
-  - **Explanation:** All JavaScript objects have a `__proto__` property that is a reference to another object, which is called the object's "prototype". If a property is accessed on an object, but not found the JavaScript engine check's that object prototype. If again it's not found it checks that prototypes prototype on up the chain until it reaches the top of the chain.
+  - **Explanation:** All JavaScript objects have a `__proto__` property that is a reference to another object, which is called the object's "prototype". If a property is accessed on an object, but not found, the JavaScript engine check's that object prototype. If again it's not found, it checks that prototype's prototype on up the chain until it reaches the top of the chain.
   - **Use:** It can help reduce redundant code.
   - **Example:**
 
@@ -496,7 +496,7 @@ function Parent() {
   this.name = 'Parent';
 }
 Parent.prototype.greet = function () {
-  console.log('Hello from ' + this.name);
+  console.log('Hello from ' + Parent.name);
 };
 const child = Object.create(Parent.prototype);
 child.cry = function () {
@@ -506,11 +506,11 @@ child.cry();
 // waaaaaahhhh!
 child.greet();
 // hello from Parent
-child.constructor;
+console.log(child.constructor);
 // ƒ Parent() {
 // this.name = 'Parent';
 // }
-child.constructor.name;
+console.log(child.constructor.name);
 // 'Parent'
 ```
 
@@ -1297,12 +1297,19 @@ import { name, draw, reportArea, reportPerimeter } from './modules/square.js';
   - **Example:**
   - **Source:**
 
-- [ ] What are Globals in Node.js?
+- [x] What are Globals in Node.js?
 
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+  - **Explanation:**  Node.js Global Objects are the objects that are available in all modules. Global Objects are built-in objects that are part of the JavaScript and can be used directly in the application without importing any particular module.
+  - **Use:** Common built-in modules, functions, strings and objects used widely in Node. 
+  - **Example:** setTimeout() is a global function used to run a callback after at least x milliseconds: 
+```javascript
+function printHello() {
+  console.log('Hello World!')
+}
+//call printHello() after 2 seconds
+setTimeout(printHello, 2000)
+```
+  - **Source:** https://www.tutorialspoint.com/nodejs/nodejs_global_objects.htm
 
 - [ ] What is Event-driven programming?
 
@@ -1452,10 +1459,42 @@ function factorial(num) {
 
 - [ ] What is polymorphism?
 
-  - **Explanation:**
-  - **Use:**
+  - **Explanation:** Polymorphism is a concept of Object-oriented programming(OOP) Paradigm that provides a way to perform a single action in different ways.
+  - **Use:**  It provides an ability to call the same method on different JavaScript objects
   - **Example:**
-  - **Source:**
+  ```javascript
+  class A  
+  {  
+     display()  
+    {  
+      console.log("A is invoked");  
+    }  
+  }  
+
+  class B extends A  
+  {  
+    
+  }  
+
+  class C extends A  
+  {  
+    constructor(){ 
+      super()
+    }
+
+    //overrides the display function of A and hence behaves differently
+    display(){ 
+      console.log("C is invoked")
+    }
+  }  
+  var b=new B();  
+  var c = new C()
+  b.display();  //output: :"A is invoked"
+  c.display(); //Output: "C is invoked"
+  ```
+
+
+  - **Source:**https://www.javatpoint.com/javascript-oops-polymorphism, www.stackOverflow.com
 
 - [ ] What is encapsulation?
 
