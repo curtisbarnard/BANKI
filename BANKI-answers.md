@@ -831,6 +831,7 @@ function fizzBuzz() {
   - **Explanation:** `load` fires when the entire page is finished loading (HTML, CSS, Scripts, etc.). You might want to use `DOMContentLoaded` which fires when the DOM is loaded, but before stylesheets, scripts, etc. are loaded.
   - **Use:** It depends on the context, but perhaps there is some non-blocking resource that is a large file which you would wait to load until the entire page is done.
   - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
+  - **Source:** https://www.geeksforgeeks.org/difference-between-domcontentloaded-and-load-events/
 - [x] Explain what a single page app is and how to make one SEO-friendly.
   - **Explanation:** SPA's render the page client side instead of server side. The server sends the initial page, but subsequent changes to the page do not initiate a page refresh. The data on the page is typically updated via an AJAX request which is then used to dynamically update the page via JavaScript.
   - **Use:** A reason to use a SPA is that it feels more responsive to the user, fewer HTTP request are made so assets don
