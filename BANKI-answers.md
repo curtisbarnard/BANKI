@@ -438,11 +438,7 @@ h6 {
   ```html
   <img
     src="/images/test-1600.jpg"
-    srcset="
-      /images/test-400.jpg   400w,
-      /images/test-800.jpg   800w,
-      /images/test-1200.jpg 1200w
-    "
+    srcset="/images/test-400.jpg 400w, /images/test-800.jpg 800w, /images/test-1200.jpg 1200w"
   />
   ```
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
@@ -462,10 +458,7 @@ h6 {
   <div class="tile"></div>
 </div>
 <script>
-  container.addEventListener(
-    'click',
-    (event) => (event.target.style.backgroundColor = bgChange())
-  );
+  container.addEventListener('click', (event) => (event.target.style.backgroundColor = bgChange()));
 </script>
 ```
 
@@ -589,7 +582,6 @@ setTimeout(function () {
   - **Explanation:** My preference is to use ES6 Modules to organize my code for the following reasons:
     - Easier to reuse code
     - You can keep different parts of your code cleanly separated, which makes writing and maintaining your code much easier and less error-prone.
-    
   - **Source:** https://www.theodinproject.com/lessons/node-path-javascript-es6-modules
 - [x] What's the difference between host objects and native objects?
   - **Explanation:** Native objects are part of the language as defined by ECMAScript specification. Host objects are those provided by the runtime (browser or Node).
@@ -1299,17 +1291,19 @@ import { name, draw, reportArea, reportPerimeter } from './modules/square.js';
 
 - [x] What are Globals in Node.js?
 
-  - **Explanation:**  Node.js Global Objects are the objects that are available in all modules. Global Objects are built-in objects that are part of the JavaScript and can be used directly in the application without importing any particular module.
-  - **Use:** Common built-in modules, functions, strings and objects used widely in Node. 
-  - **Example:** setTimeout() is a global function used to run a callback after at least x milliseconds: 
+  - **Explanation:** Node.js Global Objects are the objects that are available in all modules. Global Objects are built-in objects that are part of the JavaScript and can be used directly in the application without importing any particular module.
+  - **Use:** Common built-in modules, functions, strings and objects used widely in Node.
+  - **Example:** setTimeout() is a global function used to run a callback after at least x milliseconds:
+
 ```javascript
 function printHello() {
-  console.log('Hello World!')
+  console.log('Hello World!');
 }
 //call printHello() after 2 seconds
-setTimeout(printHello, 2000)
+setTimeout(printHello, 2000);
 ```
-  - **Source:** https://www.tutorialspoint.com/nodejs/nodejs_global_objects.htm
+
+- **Source:** https://www.tutorialspoint.com/nodejs/nodejs_global_objects.htm
 
 - [ ] What is Event-driven programming?
 
@@ -1432,7 +1426,7 @@ function factorial(num) {
 - [x] What are data structures?
 
   - **Explanation:** Data structures is storage that is used to store and organize data. It is also a way of arranging data on a computer in such a way that it can be updated and accessed efficiently.
-  - **Use:** Data structures are not only used for processing, retrieving, and storing data, but also organizing the data into more readable ways. 
+  - **Use:** Data structures are not only used for processing, retrieving, and storing data, but also organizing the data into more readable ways.
   - **Example:** There are many types of data structures, all classified as either linear or non-linear. The following are some examples:
     - Linear Static Data Structures (Arrays)
     - Linear Dynamic Data Structures (Queue, Stack, Linked List)
@@ -1450,70 +1444,65 @@ function factorial(num) {
     - Brute Force Algorithms
   - **Source:** https://www.geeksforgeeks.org/introduction-to-algorithms/
 
-- [ ] What is scope / lexical scope in javascript?
+- [x] What is scope / lexical scope in javascript?
 
   - **Explanation:** Scope refers that the accessibility of variables, depending on where they are declared in the code they are “visible” and thus can be called. Lexically scoped variables can only be called from within the block of code they are defined, generally speaking inside of a function.
-  - **Use:** It is used to avoid scope polution, or unwated invoking of variables
-  - **Example:**
+  - **Use:** It is used to avoid scope pollution, or unwanted invoking of variables
   - **Source:**
 
-- [ ] What is polymorphism?
+- [x] What is polymorphism?
 
   - **Explanation:** Polymorphism is a concept of Object-oriented programming(OOP) Paradigm that provides a way to perform a single action in different ways.
-  - **Use:**  It provides an ability to call the same method on different JavaScript objects
+  - **Use:** It provides an ability to call the same method on different JavaScript objects
   - **Example:**
+
   ```javascript
-  class A  
-  {  
-     display()  
-    {  
-      console.log("A is invoked");  
-    }  
-  }  
+  class A {
+    display() {
+      console.log('A is invoked');
+    }
+  }
 
-  class B extends A  
-  {  
-    
-  }  
+  class B extends A {}
 
-  class C extends A  
-  {  
-    constructor(){ 
-      super()
+  class C extends A {
+    constructor() {
+      super();
     }
 
     //overrides the display function of A and hence behaves differently
-    display(){ 
-      console.log("C is invoked")
+    display() {
+      console.log('C is invoked');
     }
-  }  
-  var b=new B();  
-  var c = new C()
-  b.display();  //output: :"A is invoked"
+  }
+  var b = new B();
+  var c = new C();
+  b.display(); //output: :"A is invoked"
   c.display(); //Output: "C is invoked"
   ```
 
-
   - **Source:**https://www.javatpoint.com/javascript-oops-polymorphism, www.stackOverflow.com
 
-- [ ] What is encapsulation?
+- [x] What is encapsulation?
 
   - **Explanation:** A tenet of OOP, it is the wrapping up of data under a single unit, those being variables, and functions acting on those variables. In JS this is accomplished with objects and constructor functions
   - **Use:** Its main benefit is it allows your code to be more readable, and robust against errors.
   - **Example:**
-  ```
-    class Person {
-     #name = "Nathan";
 
-     getName() {
-       return this.#name;
-     }
+  ```javascript
+  class Person {
+    #name = 'Nathan';
 
-     setName(name) {
-       this.#name = name;
-     }
-   }
+    getName() {
+      return this.#name;
+    }
+
+    setName(name) {
+      this.#name = name;
+    }
+  }
   ```
+
   - **Source:**https://www.javatpoint.com/javascript-oops-encapsulation
 
 - [x] What is a Linked List?
@@ -1547,56 +1536,70 @@ function factorial(num) {
 
   - **Source:** Implementing A Linked List https://www.freecodecamp.org/news/implementing-a-linked-list-in-javascript/
 
-- [ ] What is a Doubly Linked List?
+- [x] What is a Doubly Linked List?
+
   - **Explanation:** It is pretty much the same as a linked list, only each node also has a pointer to the previous node and also has a null head pointer. It makes it easier to traverse the nodes and delete items, though they require more space, and take longer due to the extra pointers.
   - **Use:** They are used in stacks, hash tables, and binary trees.
   - **Example:**
-  ```
+
+  ```javascript
   const morningRoutine = {
     value: 'Make Bed',
     previous: null,
     next: {
-        value: 'Drink Tea',
-        previous: `<REFERENCE TO NODE MAKE BED>`,
-        next: {
-            value: 'Brush Teeth',
-            previous: `<REFERENCE TO NODE DRINK TEA>`,
-            next: null
-        }
-    }
-    };
+      value: 'Drink Tea',
+      previous: `<REFERENCE TO NODE MAKE BED>`,
+      next: {
+        value: 'Brush Teeth',
+        previous: `<REFERENCE TO NODE DRINK TEA>`,
+        next: null,
+      },
+    },
+  };
   ```
+
   - **Source:** https://www.geeksforgeeks.org/doubly-linked-list/
+
 - [x] What is a Queue?
+
   - **Explanation:** A Queue is a linear structure which follows a particular order in which the operations are performed. The order is First In First Out (FIFO).
   - **Use:** Queue is used when things don't have to be processed immediately, but have to be processed in First In First Out order like Breadth First Search.
   - **Example:** The Event Loop Model prioritizes all the Jobs in a Job Queue.
   - **Source:** https://www.geeksforgeeks.org/queue-data-structure/
+
 - [x] What is a Stack?
+
   - **Explanation:** A Stack is a linear data structure which follows a particular order in which the operations are performed. The order is LIFO(Last In First Out).
   - **Use:** Stacks are used to implement functions, parsers, expression evaluation, and backtracking algorithms.
   - **Example:** The Event loop uses call stack. Every time a script or function calls a function, it's added to the top of the call stack. Every time the function exits, the interpreter removes it from the call stack.
   - **Source:** https://www.geeksforgeeks.org/stack-data-structure/
-- [ ] What is a Hash Table?
-  - **Explanation:** Also known as a hash map or dictionary, is a data structure that implements a set data type, in a structure that can map keys to values. In JS  you can create them with objects as they offer an easy way to make key/value pairs. When a key is passed into the table the corresponding value is returned.
+
+- [x] What is a Hash Table?
+
+  - **Explanation:** Also known as a hash map or dictionary, is a data structure that implements a set data type, in a structure that can map keys to values. In JS you can create them with objects as they offer an easy way to make key/value pairs. When a key is passed into the table the corresponding value is returned.
   - **Use:** Hash tables are used in all manner of tasks, the most common however would be password verification
-  - **Example:** 
-  ```
-  function test() {
-  var map = {
-    'm1': 12,
-    'm2': 13,
-    'm3': 14,
-    'm4': 15
-  }
-  alert(map['m3']);
-  }
-  ```
-  - **Source:** https://www.geeksforgeeks.org/hashing-data-structure/
-- [ ] What is a Heap?
-  - **Explanation:** They are binary tree-based data structures, Heaps come in one of two forms min-heaps, and max-heaps, the only difference between the two, min and     max, is that the root node in max-heap is the biggest key working down, and min is the reverse, this must be recursively true for all sub-trees in that binary tree.
-  - **Use:** Heaps are generally used in priority queues. or to order statistics 
   - **Example:**
+
+  ```javascript
+  function test() {
+    var map = {
+      m1: 12,
+      m2: 13,
+      m3: 14,
+      m4: 15,
+    };
+    alert(map['m3']);
+  }
+  ```
+
+  - **Source:** https://www.geeksforgeeks.org/hashing-data-structure/
+
+- [x] What is a Heap?
+
+  - **Explanation:** They are binary tree-based data structures, Heaps come in one of two forms min-heaps, and max-heaps, the only difference between the two, min and max, is that the root node in max-heap is the biggest key working down, and min is the reverse, this must be recursively true for all sub-trees in that binary tree.
+  - **Use:** Heaps are generally used in priority queues. or to order statistics
+  - **Example:**
+
   ```
             10
           /     \
@@ -1611,13 +1614,17 @@ function factorial(num) {
      /    \     /     \
    10      15  50      40
           max heap
-  ```        
+  ```
+
   - **Source:** https://www.geeksforgeeks.org/heap-data-structure/?ref=lbp
-- [ ] What is a Trie?
-  - **Explanation:** It is a type of tree data structure, they are used to store associate arrays where the keys are usually strings. They are often compared to hash tables, though some key differences are that. 
- Nodes in the tree do not store keys, instead, they each store parts of keys, traversing down from the root node to a leaf allowing you to build the key as you progress, they also don't need to be a value at every node. Values are typically only associated with leaf nodes.
-  - **Use:** They are typically used for auto-complete, 
+
+- [x] What is a Trie?
+
+  - **Explanation:** It is a type of tree data structure, they are used to store associate arrays where the keys are usually strings. They are often compared to hash tables, though some key differences are that.
+    Nodes in the tree do not store keys, instead, they each store parts of keys, traversing down from the root node to a leaf allowing you to build the key as you progress, they also don't need to be a value at every node. Values are typically only associated with leaf nodes.
+  - **Use:** They are typically used for auto-complete.
   - **Example:**
+
   ```
                        root
                     /    \    \
@@ -1633,17 +1640,22 @@ function factorial(num) {
                          |
                          r
   ```
+
   - **Source:** https://www.geeksforgeeks.org/trie-insert-and-search/
-- [ ] What is a Tree?
+
+- [x] What is a Tree?
+
   - **Explanation:** Trees are non-linear data structures, they organize data hierarchically. They are a collection of nodes, that are linked via branches, each node branches to its child nodes. They are possibly the most commonly used data structure. You can think of it as a family tree, or company structure, branching down from the root node (CEO) to child nodes (managers) and terminating at leaf nodes(entry level employees)
   - **Use:** The DOM, file management, and even machine learning decision-based algorithms.
-  - **Example:** 
   - **Source:** https://www.programiz.com/dsa/trees
-- [ ] What is a Binary Search Tree?
+
+- [x] What is a Binary Search Tree?
+
   - **Explanation:** A binary search tree, or "ordered binary tree" is a type of binary tree where the nodes are arranged in order: for each node, all elements in its left subtree are less than the parent node, and all the elements in its right subtree are greater than the parent node.
   - **Use:** They are used to implement dictionaries, implement multilevel indexing in DBs. as well as Implementing search algorithms.
   - **Example:**
-  ``` 
+
+  ```
             5
           /   \
         3      6
@@ -1651,29 +1663,35 @@ function factorial(num) {
      1     4      9
 
   ```
+
   - **Source:** https://www.geeksforgeeks.org/binary-search-tree-data-structure/?ref=gcse
-- [ ] What is a Disjoint Set?
-  - **Explanation:** Disjoint-set is a data structure that keeps track of a elements broken down into sets, of which each set is unique. It is useful for keep track or elements as you can compare sets to see what set they belong to. They are two main functions used on these sets, being union and find. 
-  - **Use:** The uses for this data structure are compilers and  symbolic computation
-  - **Example:**
-  - **Source:** https://www.oodlestechnologies.com/blogs/understanding-disjoint-set-and-their-use-cases-in-computer-science/#:~:text=1)It%20is%20used%20to,used%20in%20Maze%20generation%20problems.
-- [ ] What is a Bloom Filter?
+
+- [x] What is a Disjoint Set?
+
+  - **Explanation:** Disjoint-set is a data structure that keeps track of a elements broken down into sets, of which each set is unique. It is useful for keep track or elements as you can compare sets to see what set they belong to. They are two main functions used on these sets, being union and find.
+  - **Use:** The uses for this data structure are compilers and symbolic computation
+  - **Source:** https://www.oodlestechnologies.com/blogs/understanding-disjoint-set-and-their-use-cases-in-computer-science/#:~:text=1It%20is%20used%20to,used%20in%20Maze%20generation%20problems
+
+- [x] What is a Bloom Filter?
+
   - **Explanation:** It is a probabilistic data structure that is execptionally space-efficient , it is used to check to see if an element is a member of a set. A common use case is checking the availability of a username, this approach is far more efficient than alternative solutions, however, since it is probabilistic it can return false positives so it is not suitable for mission-critical tasks. It is important to note that although it can give a false positives it is not possible to return a false negative.
   - **Use:** This used to be used in search engines, and currently has found use in blockchain technology
-  - **Example:**
   - **Source:** https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/?ref=gcse
-- [ ] Demonstrate Bubble Sort and explain when you might use it?
+
+- [x] Demonstrate Bubble Sort and explain when you might use it?
+
   - **Explanation:** A bubble sort algorithm is an algorithm that sorts an array by comparing two adjacent elements and swaps them if they are not in the intended order. Order can be anything like increasing order or decreasing order.
   - **Use:** It is generally considered a bad practice to implement this in most situations, though it is easy to implement so for a first-pass solution, on a small data set it can find use.
   - **Example:**
-  ```
+
+  ```javascript
   function bblSort(arr){
-    for(let i = 0; i < arr.length; i++){  
-      // Last i elements are already in place 
-      for(let j = 0; j < ( arr.length - i -1 ); j++){  
+    for(let i = 0; i < arr.length; i++){
+      // Last i elements are already in place
+      for(let j = 0; j < ( arr.length - i -1 ); j++){
         // Checking if the item at the present iteration
         // is greater than the next iteration
-        if(arr[ j ] > arr[ j +1 ]){  
+        if(arr[ j ] > arr[ j +1 ]){
           // If the condition is true then swap them
           let temp = arr[ j ]
           arr[ j ] = arr[ j + 1]
@@ -1682,87 +1700,99 @@ function factorial(num) {
       }
     }
   ```
+
   - **Source:** https://www.geeksforgeeks.org/bubble-sort/?ref=gcse
-- [ ] Demonstrate Insertion Sort and explain when you might use it?
+
+- [x] Demonstrate Insertion Sort and explain when you might use it?
+
   - **Explanation:** Insertion sort is a simple sorting algorithm that builds the final sorted array/list one item at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort.
   - **Use:** It is very efficient in smaller data sets, especially if they are already mostly sorted.
   - **Example:**
-  ```  
-   function insertionSort(inputArr) {
-    let n = inputArr.length
-        for (let i = 1; i < n; i++) {
-            // Choosing the first element in our unsorted subarray
-            let current = inputArr[ i ]
-            // The last element of our sorted subarray
-            let j = i-1 
-            while ((j > -1) && (current < inputArr[ j ])) {
-                inputArr[ j+1 ] = inputArr[ j ]
-                j--
-            }
-            inputArr[j+1] = current
-        }
-    return inputArr
+
+  ```javascript
+  function insertionSort(inputArr) {
+    let n = inputArr.length;
+    for (let i = 1; i < n; i++) {
+      // Choosing the first element in our unsorted subarray
+      let current = inputArr[i];
+      // The last element of our sorted subarray
+      let j = i - 1;
+      while (j > -1 && current < inputArr[j]) {
+        inputArr[j + 1] = inputArr[j];
+        j--;
+      }
+      inputArr[j + 1] = current;
     }
+    return inputArr;
+  }
   ```
+
   - **Source:** https://www.geeksforgeeks.org/insertion-sort/?ref=g
-- [ ] Demonstrate Merge Sort and explain when you might use it?
+
+- [x] Demonstrate Merge Sort and explain when you might use it?
+
   - **Explanation:** Merge sort is a sorting algorithm that uses the “divide and conquer” concept. Given an array, we first divide it in the middle and we get 2 arrays. We recursively perform this operation, until we get to arrays of 1 element. After divinding into its smallest units it starts merging the elements again based on their size.
   - **Use:** It is one of the most respected sorting algorithms. Merge sort is more efficient and works faster than quick sort in case of larger array size or datasets.
   - **Example:**
-  ```
-     const _mergeArrays = (a, b) => {
-     const c = [ ]
-     while (a.length && b.length) {
-       c.push(a[0] > b[0] ? b.shift() : a.shift())
-     }
-     // if we still have values, let's add them at the end of `c`
-     while (a.length) {
-       c.push(a.shift())
-     }
-     while (b.length) {
-       c.push(b.shift())
-     }
-     return c
-   }
 
-   const mergeSort = (a) => {
-     if (a.length < 2) return a
-     const middle = Math.floor(a.length / 2)
-     const a_l = a.slice(0, middle)
-     const a_r = a.slice(middle, a.length)
-     const sorted_l = mergeSort(a_l)
-     const sorted_r = mergeSort(a_r)
-     return _mergeArrays(sorted_l, sorted_r)
-   }
+  ```javascript
+  const _mergeArrays = (a, b) => {
+    const c = [];
+    while (a.length && b.length) {
+      c.push(a[0] > b[0] ? b.shift() : a.shift());
+    }
+    // if we still have values, let's add them at the end of `c`
+    while (a.length) {
+      c.push(a.shift());
+    }
+    while (b.length) {
+      c.push(b.shift());
+    }
+    return c;
+  };
 
+  const mergeSort = (a) => {
+    if (a.length < 2) return a;
+    const middle = Math.floor(a.length / 2);
+    const a_l = a.slice(0, middle);
+    const a_r = a.slice(middle, a.length);
+    const sorted_l = mergeSort(a_l);
+    const sorted_r = mergeSort(a_r);
+    return _mergeArrays(sorted_l, sorted_r);
+  };
   ```
+
   - **Source:** https://www.geeksforgeeks.org/merge-sort/?ref=gcse
-- [ ] Demonstrate Quicksort and explain when you might use it?
-  - **Explanation:** Quicksort is an in-place sorting algorithm. it is still a widely used algorithm for sorting. It picks an element as a pivot and partitions the given array around the picked pivot. There are many different versions of quickSort that pick pivot in different ways.  When implemented well, it can be somewhat faster than merge sort and about two or three times faster than heapsort.
+
+- [x] Demonstrate Quicksort and explain when you might use it?
+
+  - **Explanation:** Quicksort is an in-place sorting algorithm. it is still a widely used algorithm for sorting. It picks an element as a pivot and partitions the given array around the picked pivot. There are many different versions of quickSort that pick pivot in different ways. When implemented well, it can be somewhat faster than merge sort and about two or three times faster than heapsort.
   - **Use:** It is used pretty much everywhere that doesnt require a stable sort.
   - **Example:**
+
+  ```javascript
+  function quicksort(array) {
+    if (array.length <= 1) {
+      return array;
+    }
+
+    let pivot = array[0];
+    let left = [];
+    let right = [];
+
+    for (let i = 1; i < array.length; i++) {
+      array[i] < pivot ? left.push(array[i]) : right.push(array[i]);
+    }
+
+    return quicksort(left).concat(pivot, quicksort(right));
+  }
+
+  let unsorted = [23, 45, 16, 37, 3, 99, 22];
+  let sorted = quicksort(unsorted);
+
+  console.log('Sorted array', sorted);
   ```
-     function quicksort(array) {
-     if (array.length <= 1) {
-       return array;
-     }
 
-     let pivot = array[0];
-     let left = []; 
-     let right = [];
-
-     for (let i = 1; i < array.length; i++) {
-       array[i] < pivot ? left.push(array[i]) : right.push(array[i]);
-     }
-
-     return quicksort(left).concat(pivot, quicksort(right));
-   };
-
-   let unsorted = [23, 45, 16, 37, 3, 99, 22];
-   let sorted = quicksort(unsorted);
-
-   console.log('Sorted array', sorted);
-  ```
   - **Source:** https://www.geeksforgeeks.org/quick-sort/?ref=gcse
 
 ## Questions to ask your interviewer
