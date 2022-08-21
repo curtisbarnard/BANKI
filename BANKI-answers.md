@@ -133,10 +133,11 @@ Most of the behavioral questions should be answered in the CAR format. At least 
   - **Cause:**
   - **Action:**
   - **Result:**
-- [ ] Do you have any questions?
-  - **Cause:**
-  - **Action:**
-  - **Result:**
+- [x] Do you have any questions?
+  - What would you like me to accomplish for the company in six months, and a year? How much vlaue do you think is reasonable for me to provide in six months?
+  - How flexible is your work-life balance?
+  - Any Benefits and mentorship programmes this company offers I should be aware of?
+  - How did the company take care of its staff during the Covid pandemic?
 
 ## Technical Questions
 
