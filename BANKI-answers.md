@@ -143,11 +143,11 @@ Most of the behavioral questions should be answered in the CAR format. At least 
 
 #### Learn & Be Curious
 
-- [ ] Tell me about a time you realized you needed to have a deeper level of subject matter expertise to do your job well.
+- [x] Tell me about a time you realized you needed to have a deeper level of subject matter expertise to do your job well.
 
-  - **Cause:**
-  - **Action:**
-  - **Result:**
+  - **Cause:** I engaged a client that wanted a website built for their personal business which needed to be optimized for SEO as well as have a CMS to allow them to update information on the site. At the time I only knew standard HTML and CSS.
+  - **Action:** I looked into the most cost effective and speediest solutions to implement and found both an Open-Source Static Site Generator and an Open Source CMS that I could use. I'd never used either of these technologies before. I took time to read the documentation, watch a few video's and then built a small prototype project to make sure I was able to deliver all the functionality requested.
+  - **Result:** I was able to deliver the client's site on time and as expected. The client was over the moon with the ease of using the backend as well as the SEO results.
 
 - [ ] Tell me about a time you took on work outside of your comfort area and found it rewarding.
 
@@ -163,11 +163,11 @@ Most of the behavioral questions should be answered in the CAR format. At least 
 
 #### Earns Trust
 
-- [ ] Tell me about a time you significantly contributed to improving morale and productivity on your team.
+- [x] Tell me about a time you significantly contributed to improving morale and productivity on your team.
 
-  - **Cause:**
-  - **Action:**
-  - **Result:**
+  - **Cause:** At a previous job I was on a team which was merged with another team under a single manager. While we all knew each other we were not up to speed on each others communication styles and ways of working. The team felt clunky.
+  - **Action:** I spoke to my manager and suggested implementing a daily stand-up meeting with the team at a whiteboard next to our desk. We could put all the projects we were working on onto the white board and discuss any issues we were having. I also suggested making the meeting a little longer and asking a fun question on Mondays to help people get comfortable with one another and learn about each other.
+  - **Result:** Once we started doing these meetings you could see an immediate improvement in team members comfort with talking to each other. Less apprehension, less frustration, more efficient and a better overall environment outside of the meeting time.
 
 - [ ] Tell me about 3 things you’re working on to improve overall effectiveness.
 
