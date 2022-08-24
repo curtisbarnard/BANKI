@@ -149,11 +149,11 @@ Most of the behavioral questions should be answered in the CAR format. At least 
   - **Action:** I looked into the most cost effective and speediest solutions to implement and found both an Open-Source Static Site Generator and an Open Source CMS that I could use. I'd never used either of these technologies before. I took time to read the documentation, watch a few video's and then built a small prototype project to make sure I was able to deliver all the functionality requested.
   - **Result:** I was able to deliver the client's site on time and as expected. The client was over the moon with the ease of using the backend as well as the SEO results.
 
-- [ ] Tell me about a time you took on work outside of your comfort area and found it rewarding.
+- [x] Tell me about a time you took on work outside of your comfort area and found it rewarding.
 
-  - **Cause:**
-  - **Action:**
-  - **Result:**
+  - **Cause:** We had an RFP for a project due and my manager asked me to not only gather the pricing, but put together a pitch deck. I hadn't really been asked to do such visually creative task in the past and considered it outside my wheelhouse.
+  - **Action:** We had a base level template for our pitch decks, but then I needed add some client specific info to it and make it stylish. I was able to bring in some of the client design language and keep the deck clear and concise, but not lacking soul.
+  - **Result:** We ended up winning the RFP. We were told that I pricing wasn't the lowest, but that our pitch deck along with the other documents where very well structured and easy to understand. We gave off feeling that we understood the ask clearly and knew how to achieve it.
 
 - [ ] Tell me about a time you didn’t know what to do next or how to solve a challenging problem.
 
@@ -175,10 +175,10 @@ Most of the behavioral questions should be answered in the CAR format. At least 
   - **Action:**
   - **Result:**
 
-- [ ] Tell me about a time you received tough or critical feedback.
-  - **Cause:**
-  - **Action:**
-  - **Result:**
+- [x] Tell me about a time you received tough or critical feedback.
+  - **Cause:** After a particularly tough stand-up meeting where there was disagreement amongst team members I was pull aside by my boss. He asked me what I thought about my body language during the meeting. I responded that I didn't think it was bad and that I probably came across impartial. My boss pointed out that I had a tendency to shake my head and come across as dismissive as other's were talking. It was as if I had already formed and opinion and didn't want to listen.
+  - **Action:** I was pretty shocked as I hadn't really noticed it. I then started to pay close attention to how I was responding to people, not only in meetings, but one on one. He was right. I made a concerted effort to change my body language to across more inquisitive or empathetic.
+  - **Result:** It's worked wonders as I've noticed that more soft spoken/less outgoing people will often open up to me and give me their opinions. I've also not really had any confrontations with colleagues and tend to actually diffuse situations when tensions rise.
 
 #### Customer Obsession
 
@@ -194,10 +194,10 @@ Most of the behavioral questions should be answered in the CAR format. At least 
   - **Action:**
   - **Result:**
 
-- [ ] Tell me about a time where you had to balance the needs of the customer vs. the business.
-  - **Cause:**
-  - **Action:**
-  - **Result:**
+- [x] Tell me about a time where you had to balance the needs of the customer vs. the business.
+  - **Cause:** We had a customer that wanted to order fixtures on a monthly basis rather than quarterly. It would result in higher pricing from an oversea's supplier and our margin's were already thin.
+  - **Action:** I did three things, negotiated with the supplier so that the price increase wasn't as large, negotiated with the client to take ownership of the goods once they arrived and worked with the warehousing company to reduce my pricing. I also wouldn't be holding as much inventory for as long which already helped bring down warehousing cost.
+  - **Result:** We ended up having roughly the same profit margin even with the change and had less liability as the customer took more ownership of the goods.
 
 #### Bias for Action
 
