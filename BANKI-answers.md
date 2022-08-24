@@ -182,11 +182,11 @@ Most of the behavioral questions should be answered in the CAR format. At least 
 
 #### Customer Obsession
 
-- [ ] Tell me about a time you used customer feedback to drive improvement.
+- [x] Tell me about a time you used customer feedback to drive improvement.
 
-  - **Cause:**
-  - **Action:**
-  - **Result:**
+  - **Cause:** We had a longer term project (9 month+) with a client in which we were developing a new fixture suite. The client mad comments over the first couple of months that they were having difficulty with understanding where the project was and what the critical dates were that depended on input from them. While we had an account manager who was responsible for keeping the client up to date I think the length and complexity of the project made that difficult for them.
+  - **Action:** I noticed that even though the information was communicated to the client it was either forgotten from the conversation or lost in emails. I chatted with the AM and proposed publishing a live dashboard with dates and key comments on where the project was and what was needed next. We could reference the dashboard in any meetings we had and the client could pull it up at any time as the central source of truth.
+  - **Result:** The improvement was wildly successful as not only did I and the AM notice an increase in our productivity, the client mentioned throughout the rest of the project how nice having the dashboard was. On projects that followed using the live dashboard became a standard.
 
 - [ ] Tell me about your most difficult customer interaction.
 
@@ -201,10 +201,12 @@ Most of the behavioral questions should be answered in the CAR format. At least 
 
 #### Bias for Action
 
-- [ ] Tell me about a time where you’ve taken a calculated risk where speed was crucial.
-  - **Cause:**
-  - **Action:**
-  - **Result:**
+- [x] Tell me about a time where you’ve taken a calculated risk where speed was crucial.
+
+  - **Cause:** We had Dyson project that was installing and needed to be ready for store open in one week. I knew that we would only have a single night to install the fixtures and if anything was severely damaged in shipment we would likely not be able to fix it on site in time. I also knew that if we shipped the fixtures disassembled with very safe packaging we wouldn't have enough time to assemble them overnight.
+  - **Action:** I decided to have my team pre-assemble the fixtures most of the way. I then had one packaged up and did some testing to simulate rough shipping to see if any of the pieces were at risk of breaking. I felt that we would be be OK and approved the remaining fixtures to be package as the prototype.
+  - **Result:** 9/10 of the fixtures arrived in good condition. The last fixture ended up getting some damage, but luckily it was only cosmetic and not too severe. I had the appropriate supplies to bring it cosmetically back and fixed it as such.
+
 - [ ] Tell me about a time you made an important decision without consulting your manager.
   - **Cause:**
   - **Action:**
@@ -216,10 +218,12 @@ Most of the behavioral questions should be answered in the CAR format. At least 
 
 #### Dive Deep
 
-- [ ] Tell me about a time you were trying to understand a problem on your team and had to go down several layers to figure it out.
-  - **Cause:**
-  - **Action:**
-  - **Result:**
+- [x] Tell me about a time you were trying to understand a problem on your team and had to go down several layers to figure it out.
+
+  - **Cause:** At my previous job I worked on a team with a piece of ERP software to cut PO's, track inventory, and ship orders to clients. I was responsible for the supplier side and a teammate was responsible to ship orders to the client. It was setup to be a pull system where you put in orders to generate demand. We started to notice that the demand numbers it was generating were inaccurate as projects got close to shipping time there would be short a few pieces here and few pieces there.
+  - **Action:** I reached out to the support team that was located in Prague to discuss the issue. We found that the system had a scheduled task that would run multiple times throughout the day to update the demand numbers, but it was not running reliably. The team in Prague fixed that issue and we thought it would fix the problem.
+  - **Result:** Even with the problem fixed I pulled some data from the system and wrote some scripts to check the numbers in a spreadsheet and found we were still having issues. I decided to head out to our warehouse to physically verify counts. This is when I found the problem. Our inventory team was constantly moving inventory to make room and placing items in a "hidden" location which threw off the demand numbers. Our team discussed with the inventory team and came up with a weekly inventory data pull that would show any discrepancies including the "hidden" items. Ideally I would've liked a more real time solution, but we were stuck with the ERP so it was a band-aid that worked.
+
 - [ ] Tell me about a time you linked two or more problems together and identified an underlying issue.
   - **Cause:**
   - **Action:**
