@@ -8,21 +8,17 @@
 
 ## Table of Contents
 
-- [BANKI: All the questions to prep for interviews](#banki-all-the-questions-to-prep-for-interviews)
-  - [Table of Contents](#table-of-contents)
-  - [Behavioral](#behavioral)
-    - [CAR](#car)
-    - [Questions](#questions)
-  - [Technical Questions](#technical-questions)
-    - [HTML](#html)
-    - [CSS](#css)
-    - [Javascript](#javascript)
-    - [Javascript General](#javascript-general)
-    - [Node](#node)
-    - [CS Theory](#cs-theory)
-  - [Questions to ask your interviewer](#questions-to-ask-your-interviewer)
-  - [Whiteboard](#whiteboard)
-  - [Resources:](#resources)
+1. [Behaviorial](#behavioral)
+2. [Technical](#technical-questions)
+   - [HTML](#html)
+   - [CSS](#css)
+   - [Javascript](#javascript)
+   - [Javascript General](#javascript-general)
+   - [Node](#node)
+   - [CS Theory](#cs-theory)
+3. [Questions to ask your interviewer](#questions-to-ask-your-interviewer)
+4. [Whiteboard](#whiteboard)
+5. [Resources](#resources)
 
 ---
 
@@ -138,11 +134,9 @@ Most of the behavioral questions should be answered in the CAR format. At least 
   - **Action:**
   - **Result:**
 - [ ] Do you have any questions?
-  - What is the interview process like? What is the timeline?
-  - What are some of the challenges for the person in this position?
-  - What is a typical day in this position?
-  - What is the onboarding process after the offer?
-  - Are there training programs available?
+  - **Cause:**
+  - **Action:**
+  - **Result:**
 
 ## Technical Questions
 
