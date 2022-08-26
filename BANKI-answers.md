@@ -910,6 +910,21 @@ function main() {
 - [x] Explain the differences on the usage of foo between `function foo() {}` and `var foo = function() {}`
   - **Explanation:** The former is a function declaration while the latter is a function expression.
   - **Use:** The function declaration is hoisted and can therefore be accessed from anywhere, whereas the function expression can only be accessed after it's been defined.
+  - **Example:**
+  
+  ```javascript
+  console.log(name('Curtis')) // can be accessed before initialization (hoisted)
+
+   function name (str){ // function declaration
+      return str
+   }
+
+   console.log(nameTwo('Curtis')) // cannot be accused before initialization (not hoisted)
+
+   const nameTwo = function (str) { // expression
+      return str
+   }
+   ```
   - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
 - [x] What are the differences between variables created using `let`, `var` or `const`?
   - **Explanation:** Variables declared using the var keyword are scoped to the function in which they are created, or if created outside of any function, to the global object. let and const are block scoped, meaning they are only accessible within the nearest set of curly braces (function, if-else block, or for-loop).
