@@ -151,6 +151,12 @@ Most of the behavioral questions should be answered in the CAR format. At least 
   - **Action:**
   - **Result:**
 
+- [ ] What is the coolest thing you have learned on your own that has helped you better perform your job?
+
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+
 #### Earns Trust
 
 - [ ] Tell me about a time you significantly contributed to improving morale and productivity on your team.
@@ -159,7 +165,7 @@ Most of the behavioral questions should be answered in the CAR format. At least 
   - **Action:**
   - **Result:**
 
-- [ ] Tell me about 3 things you’re working on to improve overall effectiveness.
+- [ ] Tell me about a time when you uncovered a significant problem in your team.
 
   - **Cause:**
   - **Action:**
@@ -215,6 +221,41 @@ Most of the behavioral questions should be answered in the CAR format. At least 
   - **Action:**
   - **Result:**
 - [ ] Can you tell me about a specific metric you’ve used to identify a need for change in your department?
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+
+#### Deliver Results
+
+- [ ] Tell me about a time when you delivered an important project under a tight deadline? What sacrifices did you have to make?
+
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+
+- [ ] Tell me about a time when you had significant, unanticipated obstacles to overcome in achieving a key goal.
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+
+#### Have backbone; disagree and commit
+
+- [ ] Describe a time when you felt strongly about something on a project, but the team decided to go in a different direction.
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+
+#### Ownership
+
+- [ ] Tell me about a time you took on something significant outside your area of responsibility.
+  - **Cause:** M3 implementation, being a resource, testing, training
+  - **Action:**
+  - **Result:**
+
+#### Insist on the highest standards
+
+- [ ] Tell me about a time when you have been unsatisfied with the status quo. What did you do to change it?
+
   - **Cause:**
   - **Action:**
   - **Result:**
