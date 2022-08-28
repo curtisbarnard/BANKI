@@ -134,9 +134,11 @@ Most of the behavioral questions should be answered in the CAR format. At least 
   - **Action:**
   - **Result:**
 - [ ] Do you have any questions?
-  - **Cause:**
-  - **Action:**
-  - **Result:**
+- What is the interview process like? What is the timeline?
+- What are some of the challenges for the person in this position?
+- What is a typical day in this position?
+- What is the onboarding process after the offer?
+- Are there training programs available?
 
 ## Technical Questions
 
