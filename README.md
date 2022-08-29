@@ -8,7 +8,7 @@
 5. Slay your interviews!
 6. Let everyone know how BANKI helped you!
 
-## [How to contribute](https://github.com/curtisbarnard/BANKI/CONTRIBUTING.md)
+## [How to contribute](https://github.com/curtisbarnard/BANKI/blob/main/CONTRIBUTING.md)
 - If you find any of the following please submit an issue:
   - Typos
   - Possible enhancements
