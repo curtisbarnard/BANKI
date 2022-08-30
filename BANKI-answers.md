@@ -39,101 +39,129 @@ Most of the behavioral questions should be answered in the CAR format. At least 
 
 ### Questions
 
-- [x] Give me an example of a project or initiative that you started on your own. What prompted you to get started?
+- [x] B1) Give me an example of a project or initiative that you started on your own. What prompted you to get started?
+
   - **Cause:** At a previous company we had project managers assigned to several different teams where workload would fluctuate quite a bit.
   - **Action:** I noticed an opportunity to flatten the workload of the PM's, by creating a shared PM pool.
   - **Result:** This was possible by running a high level kanban of all projects assigned by PM to get visibility to workload. It also allowed knowledge sharing such that it was much easier for a PM to step in on any given team.
-- [x] Tell me about a time you had to work on several projects at once. How did you handle this?
+
+- [x] B2) Tell me about a time you had to work on several projects at once. How did you handle this?
 
   - **Cause:** I was working on two large projects for two separate clients that were at different stages of their lifecycle. One project was in production and the other project was in the implementation phase.
   - **Action:** I decided to send a less experienced colleague to the installation site while I went to do a production check-in on the other project in China. Prior to leaving I briefed my colleague in on the project and told them what to look out for.
   - **Result:** While in China I had daily calls with my colleague as well as received daily photo reports to review the installation. Both projects end up being financially successful. The tight communication and teamwork is ultimately what allowed it to be so.
 
-- [x] Describe a situation in which you felt you had not communicated well enough. What did you do? How did you handle it?
+- [x] B3) Describe a situation in which you felt you had not communicated well enough. What did you do? How did you handle it?
 
   - **Cause:** I had a direct report working on building a client quote within a spreadsheet template.
   - **Action:** I explained to them how to use and fill out the template and then left them to finish it.
   - **Result:** After a few hours I came to see what the final result was and found that they only partially completed it and had many mistakes. What I did then and with subsequent reports was to have them work on the quote in front of me for 30 minutes so that I could guide them and allow them to ask question. I found that technique brought people up to speed more quickly.
 
-- [x] Tell me about when you had to deal with conflict within your team. How was the conflict solved? How did you handle that? How would you deal with it now?
+- [x] B4) ell me about when you had to deal with conflict within your team. How was the conflict solved? How did you handle that? How would you deal with it now?
 
   - **Cause:** We had a rollout of shipments going on in which the schedule was tight. For the goods to come in, get assembled and leave the warehouse "orders" needed to be created in our ERP system which was a particular team members responsibility. I requested several times that they be created, but by the day in which they had to be created to not affect timing they were still not done.
   - **Action:** I gathered the team member along with two others on our team to discuss the issue. I explained the urgency of the matter along with the tasks that needed to be completed and when. I have to admit I had a rather frustrated demeanor. The responsible team member said they couldn't do it. I suggested that they build one order with all of us there and perhaps we could split the work.
   - **Result:** The orders ended up mostly being done by the responsible team member once they realized I'd provided the information in a clear to follow format. I apologized for for my foul attitude. I learned that I should've had more present and active communication with a team member that is responsible for the next task in the workflow rather than "throwing" the task over the fence per se.
 
-- [ ] Give me an example of a time you had to take a creative and unusual approach to solve coding problem. How did this idea come to your mind? Why do you think it was unusual?
-  - **Cause:**
-  - **Action:**
-  - **Result:**
-- [ ] Describe a situation in which you worked diligently on a project and it did not produce the desired results. Why didn't you get the desired results? What did you learn from the experience?
-  - **Cause:**
-  - **Action:**
-  - **Result:**
-- [ ] Give an example of an important project goal you reached and how you achieved it.
-  - **Cause:**
-  - **Action:**
-  - **Result:**
-- [ ] Describe a situation in which you experienced difficulty in getting others to accept your ideas? What was your approach? How did this work? Were you able to successfully persuade someone to see things your way?
+- [ ] B5) Give me an example of a time you had to take a creative and unusual approach to solve coding problem. How did this idea come to your mind? Why do you think it was unusual?
 
-  - **Cause:**
-  - **Action:**
-  - **Result:**
+  - **Cause:** Yes, while building out my portfolio site, I ran into an issue while looking to implement some intuitive and instinctive effects that enhanced the user experience (UX).
+  - **Action:** As I was not making progress, I stepped away to clear my head and began working on another project where I was implementing some animations. Realizing that I was essentially adding what I had originally meant to implement into my portfolio site I was able to parse out sections of my code and implement them into my site, accomplishing what I had set out to do. 
+  - **Result:** I was quick to learn that while stubbornness has its place when solving problems, sometimes stepping away produces results in unique ways when given the opportunity to do so. 
 
-- [x] Tell me about a situation when you were responsible for project planning. Did everything go according to your plan? If not, then why and what kind of counteractions did you have to take?
+- [ ] B6) Describe a situation in which you worked diligently on a project and it did not produce the desired results. Why didn't you get the desired results? What did you learn from the experience?
+
+  - **Cause:** In one of my earlier opportunities, I was tasked with a project that had a very tight deadline. Looking to impress my boss, I accepted it without hesitation. Unfortunately, I wasn’t able to get the project finished on time.
+  - **Action:** After that, I sought help and discovered the under-promise, over-deliver method. I learned to keep track of the project schedule from day one, how to identify potential problems, and how to act quickly, all the while keeping communication open with all parties. 
+  - **Result:** That failure was, in the long run, one of the best things that have ever happened to me and I am conscious of it with every new project I take on.
+
+- [ ] B7) Give an example of an important project goal you reached and how you achieved it.
+
+  - **Cause:** In all of my experiences, I have found that getting the goals clear right at the start and creating a realistic plan with milestones, sets every project up for success. I typically break down large tasks into smaller chunks so that it is both easier to manage and I have a starting point.
+  - **Action:** Most recently, while building a project I broke the project down into four differnet sections. Breaking down what steps would be taken to see the project completed. This allowed me to manage each piece in sections that ensured I was able to focus on the task at hand and not become overwhelmed or distracted by the bigger picture
+  - **Result:** Detailed planning is important and I feel it ensures the project goes smoothly when done correctly. Combined with an under-promise approach, I completed my project ahead of time and was able to add some additional functionality that over-delivered what my original goal had entailed. 
+
+- [ ] B8) Describe a situation in which you experienced difficulty in getting others to accept your ideas? What was your approach? How did this work? Were you able to successfully persuade someone to see things your way?
+
+  - **Cause:** In my previous opportunity, I tried to convince the owner of the company to change the organization of the entire floor plan and layout in our retail locations. I proposed a concept to them, but they were comfortable and considered the existing system 'effective' enough.
+  - **Action:** Not give up, I prepared a visualization with a mocked up a store layout, a data analysis including forecasts, and showed exactly, in numbers, how my proposed changes would increase a customer's time spent in the store, ultimately increasing profits.
+  - **Result:** Finally convinced, I was given the green light to test pilot the concept with a small budget. Not even 60 days into the pilot my proposal became the company-wide standard. 
+
+- [x] B9) Tell me about a situation when you were responsible for project planning. Did everything go according to your plan? If not, then why and what kind of counteractions did you have to take?
 
   - **Cause:** Projects never go exactly to plan! I think one of the worst experiences I had was working on a set of brand new prototypes got a client that had a clear powder coat over steel, which is notoriously hard to produce. I was using a newer supplier to see if they could nail it, but after three tries they could not.
   - **Action:** I made the call to split some of the more important pieces out to a different supplier which had been successful in the past, but cost significantly more. I then worked with the newer supplier to look at their powder coating process and identify area's that were causing issues (pre-powder cleaning was the main culprit).
   - **Result:** I was able to deliver 95% of the parts to the client for review and was able to convince them that we were resolving some issues with other pieces and all would be fine. I was able to help the supplier adjust their cleaning process so that when final production started the QC rejection rate went from 75% on the prototypes to less than 5% on production. It sounds like a lot, but for the industry and process it was rather good.
 
-- [ ] Tell me about a situation when you made a mistake at work. What happened exactly and how did you deal with it? What steps did you take to improve the situation?
-  - **Cause:**
-  - **Action:**
-  - **Result:**
-- [ ] Tell me about a time when you worked with someone who was not completing his or her share of the work. How did you handle the situation? Did you discuss your concern with your coworker? With your manager? If yes, how did your coworker respond to your concern? What was your manager's response?
-  - **Cause:**
-  - **Action:**
-  - **Result:**
-- [ ] Describe a situation when you worked effectively under pressure. How did you feel when working under pressure? What was going on, and how did you get through it?
-  - **Cause:**
-  - **Action:**
-  - **Result:**
-- [ ] Tell me about yourself.
+- [ ] B10) Tell me about a situation when you made a mistake at work. What happened exactly and how did you deal with it? What steps did you take to improve the situation?
+
+  - **Cause:** Early on, into my first freelance Graphic Designer career. There was this time I worked on a client's annual holiday design. The customer asked for a small revision after the project had completed. Since everything was completed and it was an easy adjustment to make, I quickly made the change and sent the final proof off to my printer. 
+  - **Action:**  Not noticing that I converted the project to a hexadecimal color instead of the original and intended CMYK system, the colors did not meet the expectations the client had agreed to. As you could imagine, the customer was disappointed and very upset about the final product. With days to go before their event, I met with my printer and we were able to work out a solution that allowed me to deliver a final product worth delivering.
+  - **Result:** From that point forward I made some adjustments to my process. One of of which was to never make additional revisions after a project is completed and signed off on. And two, ALWAYS double-check that my print jobs are colored. And then double check again.
+
+- [ ] B11) Tell me about a time when you worked with someone who was not completing his or her share of the work. How did you handle the situation? Did you discuss your concern with your coworker? With your manager? If yes, how did your coworker respond to your concern? What was your manager's response?
+
+  - **Cause:** while I have encountered this situation a few times, In my experiences, I have found the key first step is open and honest communication. In one of my past experiences, I met a recently promoted manager who was not meeting expectations. Talking with them privately, I explained my concerns about the quality of thier work and ask them to help me understand the cause of the problem. You would be surprised at what a little honest one-to-one conversation can do. The team-member said they knew that their work was not upto par but they were afraid to address the issue with me. Simply feeling overwhelmed by the influx of new responsibilities. 
+  - **Action:** With the channels of communication now open, I reassured them by investing in them. Divising a plan of action that also had me spending more time training one-on-one with this new manager and seeing they received additional resources as needed.
+  - **Result:** Upon my revist with this manager, the results were instantaneous and from there on out, they prospered.
+
+- [ ] B12) Describe a situation when you worked effectively under pressure. How did you feel when working under pressure? What was going on, and how did you get through it?
+  - **Cause:** I’m sure you hear this a lot, I have done some of my best work under pressure. And while I thrive when not under pressure there is a certain rush that comes from things riding on the line. In my last opportunity, I was training two district managers while overseeing the grand opening of ten new locations. It was a lot to get through but pressure invigorates me - rather than getting overwhelmed and stressed out, my adrenaline kicks in and I feel energized.  
+  - **Action:** During that chaotic period of time, I fine-tuned my time management skills, breaking each day into manageable blocks of time that allowed me to hyper-focus and manage the multitude of projects going on all the while maintaining my normal responsibilities and ensuring my trainees were getting the experience and education I needed them to. 
+  - **Result:**I ended the month with two developing District Managers who were able to learn more than what was ever expected of them while also seeing ten new stores open. When I’m under pressure, I take control, stay positive, plan accordingly and continue to move forward. 
+
+- [ ] B13) Tell me about yourself.
 
   - **Cause:**
   - **Action:**
   - **Result:**
 
-- [x] Tell me about your experience at 100Devs.
+- [x] B14) Tell me about your experience at 100Devs.
 
   - 100Devs is an agency with a training program. I worked on several projects both alone and with colleagues to better flesh out my skills. The main tech stack we used with React, Node, Express and MongoDB.
 
-- [ ] What do you know about our company?
-  - **Cause:**
+- [ ] b15) What do you know about our company?
+
+  - **Cause:** 
   - **Action:**
   - **Result:**
-- [ ] Why do you want to work for us?
-  - **Cause:**
-  - **Action:**
-  - **Result:**
-- [ ] Why are you interested in this opportunity?
-  - **Cause:**
-  - **Action:**
-  - **Result:**
-- [ ] Tell me about your dream job?  What do you really want to do with your career?
-  - **Cause:**
-  - **Action:**
-  - **Result:**
-- [ ] Tell me a time when you failed.
-  - **Cause:**
-  - **Action:**
-  - **Result:**
-- [x] What do you read on a regular basis?
+
+- [ ] B16) Why do you want to work for us?
+
+  - **Non-Car Answer:** I’ve seen your company reviews listed, and I’ve seen the way your customers talk about you. I’ve read employee testimonials and even reached out to a few on LinkedIn where I has able to learned more. And just as important, I hear your enthusiasm for…. [A, B, and maybe C]. From my experiences, I know that an engaged employee will always produce better work, thrive and have more opportunities for growth. That opportunity is evident in my research and I would love to join your innovativ team, continue to create great work, and grow within the company while further developing my own skills.
+  
+
+- [ ] B17) Why are you interested in this opportunity?
+
+  
+
+ - **Non-Car Answer:**I'm interested in this job, at this company, because...  I can see that in this role my skills could help solve the problems your company is wanting to solve. I also see an opportunity for me to learn and grow these skills, allowing everyone to benefit personally, professionally, and financially. I know that If I can come in and solve thos problems, accomplish those goals, my career will develop in the direction I want it to. 
+ 
+ Also, I like the culture of this organization. From what I've heard and what I've been reading about the company, it seems like a great fit for my personality and my values. I really connect with your mission statement, and feel passionate about the work that you do.
+
+- [ ] B18) Tell me about your dream job?  What do you really want to do with your career?
+
+  - **Non-Car Answer:**My dream job would allow me to make a positive impact on people every day by solving problems. I would love to work for a company like yours that makes/ does [insert : a, b, c] that thousands of people are using every day. I would love to be part of a team that finds innovative ways to make products more efficient and effective while I continue to push myself to grow and develop. 
+  
+  To be honest, my dream job is this. This is what I wanted to do and I have dedicated myself to getting here. So thank you. 
+
+- [ ] B19) Tell me a time when you failed.
+
+  - **Cause:**In an earlier opportunity, my company had just landed a large client and I was managing the implementation rollout for. Eager to please them, I told the client that we could be done in two weeks. I thought this was doable, but it ended up taking a little over three weeks and they were not happy. 
+  - **Action:**Looking back, I realized I should have been more conservative in my estimate to the client. Understanding that a client isn't going ot be upset if you're clear about the timeline in advance, but they are going to be disappointed if you promise something that can't be deliver. 
+  - **Result:**I took this experience and used it to become much better at managing the expectations of clients during projects I oversee. For example, on the next project with a different client, I told them it would  take 6 weeks, we finished in 4, and as you could imagine, they were very happy about this. 
+
+- [x] B20) What do you read on a regular basis?
   - I tend to go through phases of topics. Recently I've been reading various books on Data Structures & Algorithms along with books about Design/Graphic Design. I'll also typically read about the natural world (plant/animal species identification, geology, environmental issues), history (particularly Pacific Northwest and Japan), architecture and travel writing. I'm a huge fan of our public library system and I regularly use it.
-- [ ] What's some critical feedback you've gotten recently?
-  - **Cause:**
-  - **Action:**
-  - **Result:**
-- [ ] Do you have any questions?
+
+- [ ] B21) What's some critical feedback you've gotten recently?
+
+  - **Cause:**In an earlier opportunity, I was asked to revise a project that I was exceptionally proud of, having invested an exceptional amount of time into it while putting my best effort forth. With the final result being something I thought was going to blow them away. However, I found the client not as thrilled as I would have hoped.
+  - **Action:**After listening carefully to them critique how I had not fully grasped what they had communicated, I saw an opportunity to fine-tune and strengthen my communication skills.
+  - **Action:**While I was able to salvage and rectify my mistakes, I learned a valuable lesson in effective communication that has served me well over my successful career.
+  
+
+- [ ] B22) Do you have any questions?
 - What is the interview process like? What is the timeline?
 - What are some of the challenges for the person in this position?
 - What is a typical day in this position?
@@ -150,17 +178,19 @@ Most of the technical questions should have a three sentence response in the EUE
 
 ### HTML
 
-- [x] What does a doctype do?
+- [x] T-HTML-1) What does a doctype do?
   - **Explanation:** Instructions to the browser about what version of HTML the webpage is written in, ensuring the web page is parsed the same way across web browsers.
   - **Use:** It's the first line of code in the HTML document.
   - **Example:** For an HTML5 document the tag would be `<!DOCTYPE html>`
   - **Source:** https://www.freecodecamp.org/news/what-is-the-doctype-declaration-in-html/
-- [x] How do you serve a page with content in multiple languages?
+
+- [x] T-HTML-2) How do you serve a page with content in multiple languages?
   - **Explanation:** By setting the lang attributes on the various elements within the page.
   - **Use:** The lang attribute can be used on various elements (typically html, p, li...)
   - **Example:** You can set the whole site as being english by setting the html element `<html lang="en">` Or you could set a paragraph as spanish with `<p lang="es">`
   - **Source:** https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang
-- [x] What kinds of things must you be wary of when designing or developing for multilingual sites?
+
+- [x] T-HTML-3) What kinds of things must you be wary of when designing or developing for multilingual sites?
   - **Explanation:** There are quite a few different nuances to pay attention to including:
     - Including the `lang` attribute
     - Allowing users to change the language
@@ -171,12 +201,14 @@ Most of the technical questions should have a three sentence response in the EUE
     - Language reading direction
     - Don't concatenate translated strings
   - **Source:** https://www.frontendinterviewhandbook.com/html-questions
-- [x] What are `data-` attributes good for?
+  
+- [x] T-HTML-4) What are `data-` attributes good for?
   - **Explanation:** They store data private to the page or application.
   - **Use:** They were often used for storing extra data in the DOM, but are generally discouraged now.
   - **Example:** The exception is to add a hook for end to end testing frameworks like Selenium.
   - **Source:** https://www.frontendinterviewhandbook.com/html-questions
-- [x] Consider HTML5 as an open web platform. What are the building blocks of HTML5?
+
+- [x] T-HTML-5) Consider HTML5 as an open web platform. What are the building blocks of HTML5?
   - **Explanation:**
     - Semantics: Describe the content
     - Connectivity: Communicate with the server
@@ -187,11 +219,13 @@ Most of the technical questions should have a three sentence response in the EUE
     - Device access: Various input and output devices
     - Styling: More sophisticated themes
   - **Source:** https://www.frontendinterviewhandbook.com/html-questions
-- [x] Describe the difference between a cookie, sessionStorage and localStorage.
+
+- [x] T-HTML-6) Describe the difference between a cookie, sessionStorage and localStorage.
   - **Explanation:** Cookies can be initiated by the server, have a manually set expiration date are small file size and are sent to the server with HTTP request. Local and session are both initiated by the client, are a relatively large file and aren't sent to the server. The main difference between local and session is that local storage will persist forever until cleared manually.
   - **Use:** They are all used for client side storage of strings in key-value pairs.
   - **Source:** https://www.frontendinterviewhandbook.com/html-questions
-- [x] Describe the difference between `<script>, <script async> and <script defer>`.
+  
+- [x] T-HTML-7) Describe the difference between `<script>, <script async> and <script defer>`.
   - **Explanation:**
     - `<script>` HTML parsing is blocked, script is fetched and executed immediately.
     - `<script async>` script fetched in parallel to HTML parsing and executed as soon as it is available.
@@ -203,32 +237,37 @@ Most of the technical questions should have a three sentence response in the EUE
     - `async` could be used for analytics scripts.
     - A deferred script must not contain `document.write`
   - **Source:** https://www.frontendinterviewhandbook.com/html-questions
-- [x] Why is it generally a good idea to position CSS `<link>`s within `<head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
+
+- [x] T-HTML-8) Why is it generally a good idea to position CSS `<link>`s within `<head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
   - **Explanation:** Putting `<link>`s in the `<head>` allows for quick "first meaningful paint". When a page first loads, HTML and CSS are being parsed simultaneously. Conversely `<script>` tags block HTML parsing while they are being downloaded and executed which can slow down your page. Placing the scripts at the bottom will allow the HTML to be parsed and displayed to the user first.
   - **Exceptions:** When your script contains `document.write`, however it isn't consider good practice to use `document.write`. Also if you need scripts to run on page load it may be beneficial to split them out from your main script and place in the head.
   - **Source:** https://www.frontendinterviewhandbook.com/html-questions
-- [x] What is progressive rendering?
+
+- [x] T-HTML-9) hat is progressive rendering?
   - **Explanation:** Techniques used to improve the performance of a webpage to render content for display as quickly as possible.
   - **Use:** Improving perceived load time
   - **Example:** Lazy loading of images, Prioritizing visible content (or above-the-fold rendering) and Async HTML fragments
   - **Source:** https://www.frontendinterviewhandbook.com/html-questions
-- [x] Why you would use a `srcset` attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.
+
+- [x] T-HTML-10) Why you would use a `srcset` attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.
   - **Explanation:** When you want to serve different images to users depending on their device display width.
   - **Use:** Sending lower resolution to limit data waste and increase performance or sending larger images to a higher resolution display to enhance the UX.
   - **Example:** `<img srcset="small.jpg 500w, medium.jpg 1000w, large.jpg 2000w" src="..." alt="">`
   - **Source:** https://www.frontendinterviewhandbook.com/html-questions
-- [x] Have you used different HTML templating languages before?
+
+- [x] T-HTML-11) Have you used different HTML templating languages before?
   - I've used nunjucks, haml and markdown. They seem relatively similar and have helpful features.
   - **Source:** https://www.frontendinterviewhandbook.com/html-questions
 
 ### CSS
 
-- [x] What is CSS selector specificity and how does it work?
+- [x] T-CSS-1) What is CSS selector specificity and how does it work?
   - **Explanation:** The means by which browsers decide which CSS property values are the most relevant to an element and, therefore, will be applied.
   - **Use:** Specificity is a weight that is applied to a given CSS declaration, determined by the number of each selector type in the matching selector.
   - **Example:** A selector of `#id .class tag` would have 111 points as id's count for 100, classes for 10 and tags 1.
   - **Source:** https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
-- [x] What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
+
+- [x] T-CSS-2) What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
   - **Explanation:** "Normalize" alters the default styles of various browser to match each other. "Reset" will remove the browsers default styles so you are starting from scratch.
   - **Use:** Applying one or the other is done to try and make websites visually consistent across different browsers. I prefer to use a mix of both. Starting with the normalize to keep it conscise and then add some elements like anchors and headers with a reset. Going full "nuke" is often unnecessary and creates a larger, harder to debug file.
   - **Example:**
@@ -265,15 +304,17 @@ h6 {
 
 **Source:** https://elad.medium.com/normalize-css-or-css-reset-9d75175c5d1e
 
-- [x] Describe floats and how they work.
+- [x] T-CSS-3) Describe floats and how they work.
   - **Explanation:** Floats are a positioning property where the element that is floated will be removed from the flow of the page and affect the elements around it. A parent element will collapse to zero height if it contains only floated elements, to fix this it was common to use a `.clearfix` hack.
   - **Use:** It was used prior to flex and grid to layout pages in a more flexible manner.
   - **Example:** You could float three elements left and give them widths of 33% to create three even width columns.
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
-- [x] Describe z-index and how stacking context is formed.
+
+- [x] T-CSS-4) Describe z-index and how stacking context is formed.
   - **Explanation:** The `z-index` property in CSS controls the vertical stacking order of elements that overlap. A stacking context is an element that contains a set of layers. The z-index values of its children are set relative to that element rather than to the document root. Layers outside of that context can't sit between layers within it.
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
-- [x] Describe BFC (Block Formatting Context) and how it works.
+
+- [x] T-CSS-5) Describe BFC (Block Formatting Context) and how it works.
   - **Explanation:** A BFC is an HTML box that satisfies at least one of the following conditions:
     - The value of float is not none.
     - The value of position is neither static nor relative.
@@ -282,27 +323,33 @@ h6 {
   - **Use:** Knowing how to establish a block formatting context is important, because without doing so, the containing box will not contain floated children.
   - **Example:** Without forming a BFC you could have content of a float that is taller than the content alongside it. The border of the parent element could then "cut-through" the floated box.
   - **Source:** https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context
-- [x] What are the various clearing techniques and which is appropriate for what context?
+
+- [x] T-CSS-6) What are the various clearing techniques and which is appropriate for what context?
   - **Explanation:**
     - Empty `div` method
     - Clearfix method
     - `overflow: auto` or `overflow: hidden` method
   - **Use:** `.clearfix` utility class is probably the best method to use in general as it doesn't take long to construct and doesn't suffer from clipping issues like the overflow methods.
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
-- [x] Explain CSS sprites, and how you would implement them on a page or site.
+
+- [x] T-CSS-7) Explain CSS sprites, and how you would implement them on a page or site.
   - **Explanation:** CSS Sprites are a means of combining multiple images into a single image file for use on a website, to help with performance.
   - **Use:** Browsers limit the number of concurrent requests a site can make so leading several images with a single HTTP request helps increase page load speed.
   - **Example:** An example would be combining press logo's for Wired, NY Times and The Washington Post into a single image file. Then on the site, with CSS, placing the file three times and moving/cropping it to display the applicable logo.
   - **Source:** https://css-tricks.com/css-sprites/
-- [x] How would you approach fixing browser-specific styling issues?
+
+- [x] T-CSS-8) How would you approach fixing browser-specific styling issues?
   - **Explanation:** There are a handful of ways to solve the issue such as browser specific stylesheets, using a library like bootstrap, etc. MY preference would be to use a combination normalize/reset style sheet. I'd rather use a combination as going full nuke with a reset isn't necessary and makes it a little harder to debug.
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
-- [x] How do you serve your pages for feature-constrained browsers? What techniques/processes do you use?
+
+- [x] T-CSS-9) How do you serve your pages for feature-constrained browsers? What techniques/processes do you use?
+
   - **Explanation:** My preference is to try and build lightweight simple websites that incorporate progressive enhancement.
   - **Use:** Build the base level of HTML/CSS with semantics and accessibility in the forefront you get a site that works well on feature-constrained browsers. I would then add any CSS on JavaScript enhancements deliberately, checking [caniuse.com](https://caniuse.com/) and using vendor prefixs and polyfills if required.
   - **Example:** Instead of filling the site with `<div>` using more semantically appropriate tags like `<section> <aside> <article> <header> <footer>`
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
-- [x] What are the different ways to visually hide content (and make it available only for screen readers)?
+
+- [x] T-CSS-10) What are the different ways to visually hide content (and make it available only for screen readers)?
   - **Explanation:**
     - Make the element have a size of zero `width: 0; height: 0`
     - Absolute position off screen `position: absolute; left: -99999px`
@@ -310,23 +357,26 @@ h6 {
     - aria-label which will read the string given to the attribute.
   - **Use:** I typically absolutely position the element off screen as it covers the most scenarios.
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
-- [x] Have you ever used a grid system, and if so, what do you prefer?
+
+- [x] T-CSS-11) Have you ever used a grid system, and if so, what do you prefer?
   - **Explanation:** I typically use a 12 column "grid" system when doing my initial web layout.
   - **Use:** I find that it works well for laying out the average website and giving the site some visual consistency. When if comes to coding the site I find it helps speed up the layout immensely.
   - **Source:** https://www.flux-academy.com/blog/how-to-use-a-grid-in-web-design
-- [x] Have you used or implemented media queries or mobile specific layouts/CSS?
+
+- [x] T-CSS-12) Have you used or implemented media queries or mobile specific layouts/CSS?
   - **Explanation:** I use them quite frequently.
   - **Use:** I use them on every website and typically build mobile first. The breakpoints and media queries are then used to convert the layout from mobile to desktop.
   - **Example:** Some examples is changing a bunch of cards from being a single column stack on mobile to a three column layout on desktop.
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
-- [x] Are you familiar with styling SVG?
+
+- [x] T-CSS-13) Are you familiar with styling SVG?
   - **Explanation:** Yes there are a few ways to style them including inline CSS, embedded CSS or an external style sheet. Basic coloring can be done with the fill and stroke attributes.
   - **Example:**
   ```html
   <rect width="100" height="100" stroke="blue" fill="purple" />
   ```
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
-- [x] Can you give an example of an `@media` property other than screen?
+- [x] T-CSS-14) Can you give an example of an `@media` property other than screen?
   - **Explanation & Use:** There are four types:
     - `all` - for all media type devices
     - `print` - for printers
@@ -341,12 +391,14 @@ h6 {
   }
   ```
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
-- [x] What are two "gotchas" for writing efficient CSS?
+
+- [x] T-CSS-15) What are two "gotchas" for writing efficient CSS?
   - **Explanation:**
     - Browsers match selectors from rightmost (key selector) to left. The shorter the length of the chain the faster the browser can find a match. Avoid using tag and universal selectors for your key selector.
     - Avoid using styles that trigger reflow.
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
-- [x] What are the advantages/disadvantages of using CSS preprocessors?
+
+- [x] T-CSS-16) What are the advantages/disadvantages of using CSS preprocessors?
 
   - **Explanation:** Some advantages would be:
 
@@ -362,32 +414,39 @@ h6 {
 
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
 
-- [x] Describe what you like and dislike about the CSS preprocessors you have used.
+- [x] T-CSS-17) Describe what you like and dislike about the CSS preprocessors you have used.
   - **Explanation:** I've found that being able to split files and nest selectors is the most useful. A couple of downsides are that debugging is a little more difficult and having to wait for compilation.
   - **Source:** https://adamsilver.io/blog/the-disadvantages-of-css-preprocessors/
-- [x] How would you implement a web design comp that uses non-standard fonts?
+
+- [x] T-CSS-18) How would you implement a web design comp that uses non-standard fonts?
   - **Explanation:** Use @font-face and define font-family
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
-- [x] Explain how a browser determines what elements match a CSS selector.
+
+- [x] T-CSS-19) Explain how a browser determines what elements match a CSS selector.
   - **Explanation:** Browsers match selectors from rightmost (key selector) to left.
   - **Example:** For example with this selector `p span`, browsers firstly find all the `<span>` elements and traverse up its parent all the way up to the root to find the `<p>` element. For a particular `<span>`, as soon as it finds a `<p>`, it knows that the `<span>` matches and can stop its matching.
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
-- [x] Describe pseudo-elements and discuss what they are used for.
+
+- [x] T-CSS-20) Describe pseudo-elements and discuss what they are used for.
   - **Explanation & Use:** A CSS pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element(s)
   - **Example:** ::first-line can be used to change the font of the first line of a paragraph
   - **Source:** https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
-- [x] Explain your understanding of the box model and how you would tell the browser, through CSS, to render your layout in different box models.
+
+- [x] T-CSS-21) Explain your understanding of the box model and how you would tell the browser, through CSS, to render your layout in different box models.
   - **Explanation:** The CSS box model describes the rectangular boxes that are generated for elements in the document tree and laid out according to the visual formatting model. Each box has a content area and optional surrounding padding, border, and margin areas.
   - **Use:** The standard box model calculates box size by taking a specified `height` and `width`, then adding the padding and border. However to change to the alternative box model you would set `box-sizing: border-box` which allows you to set the box size with `height` and `width`.
   - **Source:** https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#what_is_the_css_box_model
-- [x] What does `* { box-sizing: border-box; }` do? What are its advantages?
+
+- [x] T-CSS-22) What does `* { box-sizing: border-box; }` do? What are its advantages?
   - **Explanation & Use:** It allows you to specify the actual width and height of a box using the `width` and `height` properties. This allows you to input true sizes and not have to do any math to take padding and borders into account.
   - **Source:** https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#the_alternative_css_box_model
-- [x] What is the CSS `display` property and can you give a few examples of its use?
+
+- [x] T-CSS-23) What is the CSS `display` property and can you give a few examples of its use?
   - **Explanation & Use:** The display CSS property sets whether an element is treated as a block or inline element and the layout used for its children, such as flow layout, grid or flex.
   - **Example:** `display: block` would make the element consume the whole line width. `display: grid` would allow you to layout children in a grid system. If you wanted three columns you could pair it with something like `grid-template-columns: 1fr 1fr 1fr`
   - **Source:** https://developer.mozilla.org/en-US/docs/Web/CSS/display
-- [x] What's the difference between `inline` and `inline-block`?
+
+- [x] T-CSS-24) What's the difference between `inline` and `inline-block`?
   - **Explanation:**
     - `inline`
       - CANNOT specify width and height
@@ -396,22 +455,26 @@ h6 {
       - CAN specify width and height
       - Can set margin and padding on all sides
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
-- [x] What's the difference between a `relative`, `fixed`, `absolute` and `static` positioned element?
+
+- [x] T-CSS-25) What's the difference between a `relative`, `fixed`, `absolute` and `static` positioned element?
   - **Explanation:**
     - Relative - Position is relative to it's original static position. Original space on the page is preserved.
     - Fixed - Element removed from page flow and placed in spot relative to viewport. It won't move when scrolled.
     - Absolute - Element removed from page flow and positioned relative to it closest "positioned" ancestor. Original space on the page is not preserved
     - Static - The default position. `top`, `right`, `bottom`, `left` and `z-index` properties do not apply.
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
-- [x] What existing CSS frameworks have you used locally, or in production? How would you change/improve them?
+
+- [x] T-CSS-26) What existing CSS frameworks have you used locally, or in production? How would you change/improve them?
   - Bootstrap - It takes a while to get the latest CSS features added. Your sites end up looking very similar to others.
   - Tailwind - The HTML can feel very cluttered. Reusing styles is a bit clunky.
-- [x] Have you played around with the new CSS Flexbox or Grid specs?
+
+- [x] T-CSS-27) Have you played around with the new CSS Flexbox or Grid specs?
   - **Explanation:** I have used both flexbox and grid and like to employ both of them.
   - **Use:** I find grid to be useful for the top level page layout and any elements which have a typical grid layout. I prefer using flexbox for sections and other elements which don't need a rigid grid alignment.
   - **Example:** If I had something like a tic-tac-toe board I would use grid as it is easy to get the boxes to align and be the same size. If I had some sort of information card with multiple pieces of information I would likely use flexbox.
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
-- [x] Can you explain the difference between coding a web site to be responsive versus using a mobile-first strategy?
+
+- [x] T-CSS-28) Can you explain the difference between coding a web site to be responsive versus using a mobile-first strategy?
   - **Explanation:** Making a website responsive means the some elements will respond by adapting its size or other functionality according to the device's screen size. A mobile-first strategy is also responsive, however it agrees we should default and define all the styles for mobile devices, and only add specific responsive rules to other devices later.
   - **Use:** You would use media queries to make the above changes at certain screen size breakpoints.
   - **Example:** An example of mobile first and responsive would be:
@@ -429,11 +492,13 @@ h6 {
 ```
 
 - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
-- [x] How is responsive design different from adaptive design?
+
+- [x] T-CSS-29) How is responsive design different from adaptive design?
   - **Explanation:** Both responsive and adaptive design attempt to optimize the user experience across different devices.
   - **Use:** Responsive design works on the principle of flexibility - a single fluid website that can look good on any device. Instead of one flexible design, adaptive design detects the device then provides the appropriate feature and layout based on a predefined set of viewport sizes and other characteristics. I believe responsive is the best approach to provide a great experience for all users.
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
-- [x] Have you ever worked with retina graphics? If so, when and what techniques did you use?
+  
+- [x] T-CSS-30) Have you ever worked with retina graphics? If so, when and what techniques did you use?
   - **Explanation:** Retina is just a marketing term to refer to high resolution screens with a pixel ratio bigger than 1. In order to have crisp, good-looking graphics that make the best of retina displays we need to use high resolution images whenever possible. However using highest resolution images will have an impact on page load times.
   - **Use:** To overcome this problem, we can use responsive images, as specified in HTML5 with the `srcset` attribute.
   - **Example:**
@@ -444,13 +509,15 @@ h6 {
   />
   ```
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
-- [x] Is there any reason you'd want to use `translate()` instead of `absolute` positioning, or vice-versa? And why?
+  
+- [x] T-CSS-31) Is there any reason you'd want to use `translate()` instead of `absolute` positioning, or vice-versa? And why?
   - **Explanation:** `translate()` is a value of CSS `transform`. `transform` causes the browser to create a GPU layer for the element but changing absolute positioning properties uses the CPU. `translate()` would be the more efficient solution with shorter paint times. If you do not want the original space of the element preserved you would want to use `absolute` positioning.
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
 
 ### Javascript
 
-- [x] Explain event delegation
+
+- [x] T-JS-1) Explain event delegation
   - **Explanation:** Setting an event listener on a parent element an having events that happen on a child element bubble up to the parent.
   - **Use:** When you want some code to run when the user interacts with any one of a large number of child elements.
   - **Example:**
@@ -466,7 +533,8 @@ h6 {
 
 **Source:** https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#event_delegation
 
-- [x] Explain how `this` works in JavaScript
+
+- [x] T-JS-2) Explain how `this` works in JavaScript
   - **Explanation:** `this` references an object. When inside of a constructor function or class it will reference the object on instantiation.
   - **Use:** It is used to assign properties and values to an object on instantiation.
   - **Example:**
@@ -481,7 +549,8 @@ class MyThing {
 
 **Source:** https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
 
-- [x] Explain how prototypal inheritance works
+
+- [x] T-JS-3) Explain how prototypal inheritance works
   - **Explanation:** All JavaScript objects have a `__proto__` property that is a reference to another object, which is called the object's "prototype". If a property is accessed on an object, but not found, the JavaScript engine check's that object prototype. If again it's not found, it checks that prototype's prototype on up the chain until it reaches the top of the chain.
   - **Use:** It can help reduce redundant code.
   - **Example:**
@@ -510,14 +579,17 @@ console.log(child.constructor.name);
 ```
 
 - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions
-- [x] What do you think of AMD vs CommonJS?
+
+- [x] T-JS-4) What do you think of AMD vs CommonJS?
   - **Explanation:** I would actually prefer to use ESM (ECMAScript Modules) due to it's simple syntax and async nature. Historically CommonJS was used in the back end and runs synchronous and AMD was used in the front end and runs asynchronous.
   - **Use:** CJS has been used in node.js for a while, but the current version of node now allows the use of EMS.
   - **Source:** https://dev.to/iggredible/what-the-heck-are-cjs-amd-umd-and-esm-ikm
-- [x] Explain why the following doesn't work as an IIFE: `function foo(){ }();`. What needs to be changed to properly make it an IIFE?
+
+- [x] T-JS-5) Explain why the following doesn't work as an IIFE: `function foo(){ }();`. What needs to be changed to properly make it an IIFE?
   - **Explanation:** The parser reads it as two seperate statements. First the function declaration `function foo(){ }` and then a blank function call attempt `();` The best way to fix this would be to add another set of parenthesis wrapping the function declaration `(function foo(){ })()` This changes it from a function declaration to a function expression.
   - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions
-- [x] What's the difference between a variable that is: `null`, `undefined` or undeclared? How would you go about checking for any of these states?
+
+- [x] T-JS-6) What's the difference between a variable that is: `null`, `undefined` or undeclared? How would you go about checking for any of these states?
   - **Explanation:**
     - `null`: the value is intentionally absent (points to nothing in memory).
     - `undefined`: not yet assigned a value or not yet declared.
@@ -525,7 +597,8 @@ console.log(child.constructor.name);
   - **Use:** null can be used to assign the primitive value of null to a variable. undeclared throws an error where as null and undefined can be checked with a conditional
   - **Example:** `null` and `undefined` can be checked using strict equality `===`. Undeclared will throw it's own error so you could use `try...catch`
   - **Source:** https://www.30secondsofcode.org/articles/s/javascript-undeclared-undefined-null
-- [x] What is a closure, and how/why would you use one?
+
+- [x] T-JS-7) What is a closure, and how/why would you use one?
   - **Explanation:** Closure allows you to use an outer function’s scope (go into a parent, grandparent function, etc.) from within an inner function. In JavaScript a closure is created every time a function is created.
   - **Use:** It allows you to combine data with the function that will operate on that data. It is similar to OOP.
   - **Example:**
@@ -543,7 +616,8 @@ init();
 ```
 
 - **Source:** https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
-- [x] Can you describe the main difference between a `.forEach()` loop and a `.map()` loop and why you would pick one versus the other?
+
+- [x] T-JS-8) Can you describe the main difference between a `.forEach()` loop and a `.map()` loop and why you would pick one versus the other?
   - **Explanation:** `.forEach()` executes a callback function on each element, but does not return a value. `.map()` executes a callback function on each element and "maps" the result to a new array. The new array is returned.
   - **Use:** If you need the result and don't want to mutate the original array, use map. If you only need to iterate over the array then forEach can be used.
   - **Example:**
@@ -568,7 +642,8 @@ const doubled = a.map((num) => {
 ```
 
 - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
-- [x] What's a typical use case for anonymous functions?
+
+- [x] T-JS-9) What's a typical use case for anonymous functions?
   - **Explanation:** I've typically encountered them as callback functions that don't need to be used anywhere else.
   - **Use:** Essentially when you don't need a named function and the function is bound to some other action.
   - **Example:**
@@ -580,16 +655,19 @@ setTimeout(function () {
 ```
 
 - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
-- [x] How do you organize your code? (module pattern, classical inheritance?)
+
+- [x] T-JS-10) How do you organize your code? (module pattern, classical inheritance?)
   - **Explanation:** My preference is to use ES6 Modules to organize my code for the following reasons:
     - Easier to reuse code
     - You can keep different parts of your code cleanly separated, which makes writing and maintaining your code much easier and less error-prone.
   - **Source:** https://www.theodinproject.com/lessons/node-path-javascript-es6-modules
-- [x] What's the difference between host objects and native objects?
+
+- [x] T-JS-11) What's the difference between host objects and native objects?
   - **Explanation:** Native objects are part of the language as defined by ECMAScript specification. Host objects are those provided by the runtime (browser or Node).
   - **Example:** Some native objects are `String`, `Math`, `RegExp`, and `Object`. A couple of host objects are `window` and `console`
   - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
-- [x] What is the difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
+
+- [x] T-JS-12) What is the difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
   - **Explanation & Use:**
     - `function Person(){}` is likely being used as a constructor.
     - `var person = new Person()`is instantiated a new Person object as person.
@@ -611,17 +689,21 @@ console.log(person.name); // "john"
 ```
 
 - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
-- [x] What's the difference between `.call()` and `.apply()`?
+
+- [x] T-JS-13) What's the difference between `.call()` and `.apply()`?
   - **Explanation:** They are both used to invoke functions the difference is in how they take arguments. `.call()` takes them as comma-separated values and `.apply()` takes them as an array.
   - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
-- [x] Explain `Function.prototype.bind`.
+
+- [x] T-JS-14) Explain `Function.prototype.bind`.
   - **Explanation:** Creates a new function that, when called, has its `this` keyword set to the provided value.
   - **Use:** For binding the value of `this` in methods of classes that you want to pass into other functions. This is frequently done in React components.
   - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
-- [x] When would you use `document.write()`?
+
+- [x] T-JS-15) When would you use `document.write()`?
   - **Explanation:** It is usually considered dangerous and prone to misuse. I would not use it in a modern day website.
   - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
-- [x] What's the difference between feature detection, feature inference, and using the UA string?
+
+- [x] T-JS-16) What's the difference between feature detection, feature inference, and using the UA string?
   - **Explanation:**
     - **Feature Detection:** Working out whether a browser supports a certain block of code, and running different code depending on whether it does, so that the browser can provide a working experience rather crashing/erroring in some browsers.
     - **Feature Inference:** Checks for a feature just like feature detection, but uses another function because it assumes it will also exist. Feature Detection is the better approach.
@@ -637,12 +719,14 @@ if ('geolocation' in navigator) {
 ```
 
 - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
-- [x] Explain Ajax in as much detail as possible.
+
+- [x] T-JS-17) Explain Ajax in as much detail as possible.
   - **Explanation:** Ajax (asynchronous JavaScript and XML) is a set of web development techniques using many web technologies on the client side to create asynchronous web applications. With Ajax, web applications can send data to and retrieve from a server asynchronously (in the background) without interfering with the display and behavior of the existing page.
   - **Use:** By decoupling the data interchange layer from the presentation layer, Ajax allows for web pages, and by extension web applications, to change content dynamically without the need to reload the entire page. In practice, modern implementations commonly use JSON instead of XML, due to the advantages of JSON being native to JavaScript.
   - **Example:** The `fetch` API is typically used nowadays for asynchronous communication.
   - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
-- [x] What are the advantages and disadvantages of using Ajax?
+
+- [x] T-JS-18) What are the advantages and disadvantages of using Ajax?
   - **Advantages:**
     - Better interactivity. New content from the server can be changed dynamically without the need to reload the entire page.
     - Reduce connections to the server since scripts and stylesheets only have to be requested once.
@@ -653,7 +737,8 @@ if ('geolocation' in navigator) {
     - Some webcrawlers do not execute JavaScript and would not see content that has been loaded by JavaScript.
     - JavaScript will have to be parsed and executed on the browser, and low-end mobile devices might struggle with this.
   - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
-- [x] Explain how JSONP works (and how it's not really Ajax).
+
+- [x] T-JS-19) Explain how JSONP works (and how it's not really Ajax).
   - **Explanation:** JSONP (JSON with Padding) is a method commonly used to bypass the cross-domain policies in web browsers because Ajax requests from the current page to a cross-origin domain is not allowed.
   - **Use:** JSONP can be unsafe as it can do everything else JavaScript can so you need to trust the provider of data. These days, CORS is the recommended approach and JSONP is seen as a hack.
   - **Example:**
@@ -670,7 +755,8 @@ if ('geolocation' in navigator) {
 ```
 
 - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions
-- [x] Have you ever used JavaScript templating? If so, what libraries have you used?
+
+- [x] T-JS-20) Have you ever used JavaScript templating? If so, what libraries have you used?
   - **Explanation:** The only one I've used is JSX in React, which I don't think it quite javascript templating.
   - **Use:** It's more of an extension to ECMAScript that allows you to easily structure components with familiar HTML syntax.
   - **Example:**
@@ -681,7 +767,8 @@ const element = <h1>Hello, {name}</h1>;
 ```
 
 - **Source:** https://reactjs.org/docs/introducing-jsx.html
-- [x] Explain "hoisting".
+
+- [x] T-JS-21) Explain "hoisting".
   - **Explanation:** It's the process whereby the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, prior to execution of the code. Think of it as moving the code up to the top. Note that the assignment stays where it is despite this.
   - **Use:** Allows you to execute code before they're declared. Function declaration and var are initialized before delaration whereas const, let, and function expressions are not. This means the first two can be accessed globally and the last 3 only after they've been declared.
   - **Example:**
@@ -695,7 +782,8 @@ function eat(){
 ```
 
 - **Source:** https://developer.mozilla.org/en-US/docs/Glossary/Hoisting
-- [x] Describe event bubbling.
+
+- [x] T-JS-22) Describe event bubbling.
   - **Explanation & Use:** When an event happens on an element, it first runs the handlers on it, then on its parent, then all the way up on other ancestors. The most deeply nested element that caused the event is called a target element, accessible as event.target.
   - **Example:**
 
@@ -716,7 +804,8 @@ function eat(){
 ```
 
 - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
-- [x] What's the difference between an "attribute" and a "property"?
+
+- [x] T-JS-23) What's the difference between an "attribute" and a "property"?
   - **Explanation & Use:** Attributes are defined on the HTML markup but properties are defined on the DOM. An attribute is the initial state when rendered in the DOM. A property is the current state.
   - **Example:**
 
@@ -734,14 +823,17 @@ console.log(input.value); // Hello World!
 ```
 
 - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/#whats-the-difference-between-an-attribute-and-a-property
-- [x] Why is extending built-in JavaScript objects not a good idea?
+
+- [x] T-JS-24) Why is extending built-in JavaScript objects not a good idea?
   - **Explanation:** Extending a built-in/native JavaScript object means adding properties/functions to its prototype. While this may seem like a good idea at first, it is dangerous in practice. Imagine your code uses a few libraries that both extend the Array.prototype by adding the same contains method, the implementations will overwrite each other and your code will break if the behavior of these two methods is not the same.
   - **Use:** The only time you may want to extend a native object is when you want to create a polyfill, essentially providing your own implementation for a method that is part of the JavaScript specification but might not exist in the user's browser due to it being an older browser.
   - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/#why-is-extending-built-in-javascript-objects-not-a-good-idea
-- [x] What is the difference between window `load` event and document `DOMContentLoaded` event?
+
+- [x] T-JS-25) What is the difference between window `load` event and document `DOMContentLoaded` event?
   - **Explanation:** The DOMContentLoaded event is fired when the initial HTML document has been completely loaded and parsed, without waiting for stylesheets, images, and subframes to finish loading. window's load event is only fired after the DOM and all dependent resources and assets have loaded.
   - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/#difference-between-document-load-event-and-document-domcontentloaded-event
-- [x] What is the difference between `==` and `===`?
+
+- [x] T-JS-26) What is the difference between `==` and `===`?
   - **Explanation:** == checks for value equality while === checks for value and data type equality
   - **Use:** == should generally be avoided unless for null or undefined
   - **Example:**
@@ -756,10 +848,12 @@ console.log(input.value); // Hello World!
 ```
 
 - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
-- [x] Explain the same-origin policy with regards to JavaScript.
+
+- [x] T-JS-27) Explain the same-origin policy with regards to JavaScript.
   - **Explanation:** The same-origin policy prevents JavaScript from making requests across domain boundaries only allowing one webpage to access another webpage if they have the same origin . An origin is defined as a combination of URI scheme, hostname, and port number. This policy prevents a malicious script on one page from obtaining access to sensitive data on another web page through that page's Document Object Model.
   - **Source:** https://en.wikipedia.org/wiki/Same-origin_policy
-- [x] Make this work: `duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5] `
+
+- [x] T-JS-28) Make this work: `duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5] `
   - **Example:**
 
 ```javascript
@@ -769,7 +863,8 @@ function duplicate(arr) {
 ```
 
 - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
-- [x] Why is it called a ternary expression, what does the word "ternary" indicate?
+
+- [x] T-JS-29) Why is it called a ternary expression, what does the word "ternary" indicate?
   - **Explanation:** "Ternary" means "composed of three parts", as the expression accepts 3 operands. First, a condition followed by a question mark (?), then an expression to execute if the condition is truthy followed by a colon (:), and finally the expression to execute if the condition is falsy.
   - **Use:** Can simplify code over if...else statements.
   - **Example:**
@@ -780,7 +875,8 @@ const beverage = age >= 21 ? 'Beer' : 'Juice';
 ```
 
 - **Source:** https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator
-- [x] What is "use strict";? what are the advantages and disadvantages to using it?
+
+- [x] T-JS-30) What is "use strict";? what are the advantages and disadvantages to using it?
 
   - **Explanation:** 'use strict' is a statement used to enable strict mode to entire scripts or individual functions. Strict mode is a way to opt into a restricted variant of JavaScript. Overall, I think the benefits outweigh the disadvantages, and I never had to rely on the features that strict mode blocks. I would recommend using strict mode.
   - **Use:**
@@ -801,7 +897,8 @@ const beverage = age >= 21 ? 'Beer' : 'Juice';
       - Concatenation of scripts written in different strict modes might cause issues.
 
 - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/#what-is-use-strict-what-are-the-advantages-and-disadvantages-to-using-it
-- [x] Create a for loop that iterates up to 100 while outputting "fizz" at multiples of 3, "buzz" at multiples of 5 and "fizzbuzz" at multiples of 3 and 5
+
+- [x] T-JS-31) Create a for loop that iterates up to 100 while outputting "fizz" at multiples of 3, "buzz" at multiples of 5 and "fizzbuzz" at multiples of 3 and 5
   - **Example:**
 
 ```javascript
@@ -818,23 +915,28 @@ function fizzBuzz() {
 }
 ```
 
-- [x] Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?
+
+- [x] T-JS-32) Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?
   - **Explanation:** Every script has access to the global scope, and if everyone uses the global namespace to define their variables, collisions will likely occur. Use the module pattern (IIFEs) to encapsulate your variables within a local namespace.
   - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
-- [x] Why would you use something like the `load` event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?
+
+- [x] T-JS-33) Why would you use something like the `load` event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?
   - **Explanation:** `load` fires when the entire page is finished loading (HTML, CSS, Scripts, etc.). You might want to use `DOMContentLoaded` which fires when the DOM is loaded, but before stylesheets, scripts, etc. are loaded.
   - **Use:** It depends on the context, but perhaps there is some non-blocking resource that is a large file which you would wait to load until the entire page is done.
   - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
   - **Source:** https://www.geeksforgeeks.org/difference-between-domcontentloaded-and-load-events/
-- [x] Explain what a single page app is and how to make one SEO-friendly.
+
+- [x] T-JS-34) Explain what a single page app is and how to make one SEO-friendly.
   - **Explanation:** SPA's render the page client side instead of server side. The server sends the initial page, but subsequent changes to the page do not initiate a page refresh. The data on the page is typically updated via an AJAX request which is then used to dynamically update the page via JavaScript.
   - **Use:** A reason to use a SPA is that it feels more responsive to the user, fewer HTTP request are made so assets don
     t have to be downloaded multiple times and there is a clear separation between client and server. As long as the API is the same either side can be modified without affecting the other. Some downsides would be heavier initial page load, additional server config needed and SEO can be more difficult. To overcome the SEO problem you could render your pages server side or use a service such as Prerender.
   - **Source:** https://github.com/grab/front-end-guide
-- [x] What is the extent of your experience with Promises and/or their polyfills?
+
+- [x] T-JS-35) What is the extent of your experience with Promises and/or their polyfills?
   - **Explanation:** I've used Promises extensively as they are a main component in modern asynchronous JavaScript. They are used for operations that will produce a resolved value in the future. I haven't used polyfills much as they aren't required much these days.
   - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
-- [x] What are the pros and cons of using Promises instead of callbacks?
+
+- [x] T-JS-36) What are the pros and cons of using Promises instead of callbacks?
 
   - **Pros:**
     - Avoid callback
@@ -851,7 +953,8 @@ function fizzBuzz() {
     - Older browsers may require a polyfill.
   - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
 
-- [x] What are some of the advantages/disadvantages of writing JavaScript code in a language that compiles to JavaScript?
+
+- [x] T-JS-37) What are some of the advantages/disadvantages of writing JavaScript code in a language that compiles to JavaScript?
   - **Advantages:**
     - Adds some syntatic sugar allowing you to write shorter code.
     - Static types may be available which helps for large projects that need to be maintainable.
@@ -864,13 +967,15 @@ function fizzBuzz() {
     - Debugging may be difficult if mapping from compiled to pre-compiled code is not done well.
   - **Example:** Some more well known examples of these types of languages are CoffeeScript and TypeScript.
   - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions#what-are-some-of-the-advantagesdisadvantages-of-writing-javascript-code-in-a-language-that-compiles-to-javascript
-- [x] What tools and techniques do you use debugging JavaScript code?
+
+- [x] T-JS-38) What tools and techniques do you use debugging JavaScript code?
   - **Explanation & Use:** I typically will watch variables as they change over time to make sure they are carrying the correct values or states. The three most common tools I use are:
     - Browser Devtools (Typically Chrome & Firefox)
     - `console.log`
     - `debugger` statement
   - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions#what-tools-and-techniques-do-you-use-for-debugging-javascript-code
-- [x] What language constructions do you use for iterating over object properties and array items?
+
+- [x] T-JS-39) What language constructions do you use for iterating over object properties and array items?
   - **Objects:**
     - `for...in` loops: When I don't need to access properties that are non-enumerable and that are keyed by Symbols.
     - `Object.keys()`: Only when I need to access the enumerable properties.
@@ -883,12 +988,14 @@ function fizzBuzz() {
     - https://www.frontendinterviewhandbook.com/javascript-questions#what-language-constructions-do-you-use-for-iterating-over-object-properties-and-array-items
     - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in
     - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
-- [x] Explain the difference between mutable and immutable objects.
+
+- [x] T-JS-40) Explain the difference between mutable and immutable objects.
   - **Explanation:** A mutable object is an object whose state can be modified after it is created. An immutable object is an object whose state cannot be modified after it is created.
   - **Use:** Immutable objects make it easier to detect changes, make programs less complicated to think about and sharing is easy with references. If immutable objects are setup incorrectly though it could lead to poor performance due to multiple copies being made.
   - **Example:** To make an object immutable you could `Object.freeze()` which prevents new properties from being added and existing properties from being altered or removed.
   - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
-- [x] Explain the difference between synchronous and asynchronous functions.
+
+- [x] T-JS-41) Explain the difference between synchronous and asynchronous functions.
   - **Explanation:** Synchronous functions are blocking while asynchronous functions are not. In synchronous functions, statements complete before the next statement is run. In this case, the program is evaluated exactly in order of the statements and execution of the program is paused if one of the statements take a very long time.
   - **Use:** Note that JavaScript is synchronous and it's actually the browser and Node.js that's actually asynchronous (think callbacks and promises)
   - **Example:**
@@ -906,10 +1013,12 @@ function main() {
 
 - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
 
-- [x] What is event loop? What is the difference between call stack and task queue?
+
+- [x] T-JS-42) What is event loop? What is the difference between call stack and task queue?
   - **Explanation:** The event loop is a single-threaded loop that monitors the call stack and checks if there is any work to be done in the task queue. If the call stack is empty and there are callback functions in the task queue, a function is dequeued and pushed onto the call stack to be executed.
   - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
-- [x] Explain the differences on the usage of foo between `function foo() {}` and `var foo = function() {}`
+
+- [x] T-JS-43) Explain the differences on the usage of foo between `function foo() {}` and `var foo = function() {}`
   - **Explanation:** The former is a function declaration while the latter is a function expression.
   - **Use:** The function declaration is hoisted and can therefore be accessed from anywhere, whereas the function expression can only be accessed after it's been defined.
   - **Example:**
@@ -928,7 +1037,8 @@ function main() {
    }
    ```
   - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
-- [x] What are the differences between variables created using `let`, `var` or `const`?
+
+- [x] T-JS-44) What are the differences between variables created using `let`, `var` or `const`?
   - **Explanation:** Variables declared using the var keyword are scoped to the function in which they are created, or if created outside of any function, to the global object. let and const are block scoped, meaning they are only accessible within the nearest set of curly braces (function, if-else block, or for-loop).
   - **Use:** var is hoisted and can be redeclared, whereas let and const cannot be redeclared. let and var can be reassigned, but const cannot be.
   - **Example:**
@@ -949,7 +1059,8 @@ console.log(thing3); // ReferenceError: qux is not defined
 
 - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
 
-- [x] What are the differences between ES6 class and ES5 function constructors?
+
+- [x] T-JS-45) What are the differences between ES6 class and ES5 function constructors?
   - **Explanation & Example:** Simple constructors are fairly similar in length and ease of use. The main difference in the constructor comes when using inheritance. If we want to create a Student class that subclasses Person and add a studentId field, this is what we have to do:
 
 ```javascript
@@ -976,7 +1087,8 @@ class Student extends Person {
 
 - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions#what-are-the-differences-between-es6-class-and-es5-function-constructors
 
-- [x] Can you offer a use case for the new arrow => function syntax? How does this new syntax differ from other functions?
+
+- [x] T-JS-46) Can you offer a use case for the new arrow => function syntax? How does this new syntax differ from other functions?
   - **Explanation & Use:** It simplifies the syntax needed to create functions and `this` is lexically bound meaning it uses `this` from the code that contains the arrow function.
   - **Example:** Notice that you do not need to `.bind(this)` for the below to work.
 
@@ -993,7 +1105,8 @@ var obj = {
 
 - **Source:** https://www.freecodecamp.org/news/when-and-why-you-should-use-es6-arrow-functions-and-when-you-shouldnt-3d851d7f0b26/
 
-- [x] What advantage is there for using the arrow syntax for a method in a constructor?
+
+- [x] T-JS-47) What advantage is there for using the arrow syntax for a method in a constructor?
 
   - **Explanation & Use:** The main advantage is that the value of `this` gets set at the time of the function creation and can't change after that. This is helpful in React class components when for example you may pass a click handler down into a child component as a prop.
   - **Example:**
@@ -1027,13 +1140,15 @@ var obj = {
 
   - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions#what-advantage-is-there-for-using-the-arrow-syntax-for-a-method-in-a-constructor
 
-- [x] What is the definition of a higher-order function?
+
+- [x] T-JS-48) What is the definition of a higher-order function?
   - **Explanation:** A higher-order function is any function that takes one or more functions as arguments, which it uses to operate on some data, and/or returns a function as a result.
   - **Use:** To abstract some operation that is performed repeatedly.
   - **Example:** The classic example of this is `map`, which takes an array and a function as arguments. map then uses this function to transform each item in the array, returning a new array with the transformed data.
   - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions#what-is-the-definition-of-a-higher-order-function
-- [x] Can you give an example for destructuring an object or an array?
-  - **Explanation:** Destructuring is an expression which enables a convenient way to extract values of Objects or Arrays and place them into distinct variables.
+
+- [x] T-JS-49) Can you give an example for destructuring an object or an array?
+  - **Explanation:** Destructuring is an expression that enables a convenient way to extract properties from Objects and values from Arrays and place them into distinct variables.
   - **Use:** It's a more concise way to assign values to variables and can be particularly handy when passing function arguments.
   - **Example:** An example of destructing a simple object:
 
@@ -1051,7 +1166,8 @@ console.log(q); // true
   - https://www.frontendinterviewhandbook.com/javascript-questions#can-you-give-an-example-for-destructuring-an-object-or-an-array
   - https://betterprogramming.pub/why-i-find-javascripts-destructuring-so-useful-7be41d9ba609
 
-- [x] ES6 Template Literals offer a lot of flexibility in generating strings, can you give an example?
+
+- [x] T-JS-50) ES6 Template Literals offer a lot of flexibility in generating strings, can you give an example?
   - **Explanation:** Template literals are a way to do string interpolation, or to include variables in a string.
   - **Use:** It is simpler and more readable than using concatenation methods prior to ES2015.
   - **Example:**
@@ -1066,7 +1182,8 @@ console.log(q); // true
 
 - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions#es6-template-literals-offer-a-lot-of-flexibility-in-generating-strings-can-you-give-an-example
 
-- [x] Can you give an example of a curry function and why this syntax offers an advantage?
+
+- [x] T-JS-51) Can you give an example of a curry function and why this syntax offers an advantage?
   - **Explanation:** Currying is a pattern where a function with more than one parameter is broken into multiple functions taking a single parameter each that, when called in series, will accumulate all of the required parameters one at a time.
   - **Use:** This technique can be useful for making code written in a functional style easier to read and compose.
   - **Example:**
@@ -1092,7 +1209,8 @@ function sum3(x) {
   - https://www.frontendinterviewhandbook.com/javascript-questions#can-you-give-an-example-of-a-curry-function-and-why-this-syntax-offers-an-advantage
   - https://hackernoon.com/currying-in-js-d9ddc64f162e
 
-- [x] What are the benefits of using spread syntax and how is it different from rest syntax?
+
+- [x] T-JS-52) What are the benefits of using spread syntax and how is it different from rest syntax?
   - **Explanation:** Spread syntax is used to "unpack" data from an array, while rest syntax is the opposite and is used to put data into an array.
   - **Use:** When coding in a functional paradigm it is easier to create copies of arrays or objects with spread syntax versus using `Object.create`, `slice`, or a library function. Rest syntax is useful when used as a function parameter where there will be an arbitrary number of arguments.
   - **Example:**
@@ -1109,7 +1227,8 @@ const copyOfTodd = { ...person };
 
 - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions#what-are-the-benefits-of-using-spread-syntax-and-how-is-it-different-from-rest-syntax
 
-- [x] How can you share code between files?
+
+- [x] T-JS-53) How can you share code between files?
   - **Explanation:** With ES6 modules via the `import ... export` syntax. Prior to ES6 modules you could use Asynchronous Module Definition for the client side scripts or CommonJS for server side scripts.
   - **Use:** To better organize and abstract code bases.
   - **Example:**
@@ -1127,22 +1246,26 @@ import { name, draw, reportArea, reportPerimeter } from './modules/square.js';
   - https://www.frontendinterviewhandbook.com/javascript-questions#how-can-you-share-code-between-files
   - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
-- [x] Why might you want to create static class members?
+
+- [x] T-JS-54) Why might you want to create static class members?
   - **Explanation:** Static class members are properties and methods that do not change.
   - **Use:** You would use them for properties that stay the same throughout the application and every instance of the object needs to know that property. They could also be used for utility functions so they can be called without instantiating any object.
   - **Source:** https://stackoverflow.com/questions/21155438/when-to-use-static-variables-methods-and-when-to-use-instance-variables-methods
 
 ### Javascript General
 
-- [x] Can you name two programming paradigms important for JavaScript app developers?
+
+- [x] T-JSGeneral-1) Can you name two programming paradigms important for JavaScript app developers?
   - OOP and Functional Programming are the most often used. OOP allows inheritance via different "classes". Functional is pure-functions without side effects.
   - **Source:** https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95
-- [x] What is functional programming?
+
+- [x] T-JSGeneral-2) What is functional programming?
   - **Explanation:** Using pure functions with no side effects to compose your program.
   - **Use:** You avoid mutable data and shared states and instead make use of simple functions. It makes the code more predictable.
   - **Example:** Instead of having a function with two parameters that does two tasks, you break it into two functions. Each function would have a single parameter and do a single task.
   - **Source:** https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95
-- [x] What is the difference between classical inheritance and prototypal inheritance?
+
+- [x] T-JSGeneral-3) What is the difference between classical inheritance and prototypal inheritance?
   - **Explanation:** Classical instances inherit from class "templates" and create sub-class relationships. They are typically instantiated via constructor functions or the class keyword. Prototypal instances inherit directly from other objects and typically instantiated via factory functions or the `Object.create()` method.
   - **Use:** It's generally considered better practice to use Prototypal inheritance for a few reasons:
     - Protoypes are more flexible than classes
@@ -1151,18 +1274,21 @@ import { name, draw, reportArea, reportPerimeter } from './modules/square.js';
   - **Source:**
     - https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95
     - https://dev.to/crishanks/classical-vs-prototypal-inheritance-2o5a
-- [ ] What are the pros and cons of functional programming vs object-oriented programming?
+
+- [ ] T-JSGeneral-4) What are the pros and cons of functional programming vs object-oriented programming?
   - **Explanation:**
   - **Use:**
   - **Example:**
   - **Source:**
-- [x] What are two-way data binding and one-way data flow, and how are they different?
+
+- [x] T-JSGeneral-5) What are two-way data binding and one-way data flow, and how are they different?
   - **Explanation:**
     - Two-way data: UI fields are bound to model data dynamically. When a UI field changes, the model data changes with it and vice-versa. Side effects can occur.
     - One-way data: The model is the single source of truth. Changes in the UI signal user intent to the model (or “store” in React). Only the model has the access to change the app’s state. The effect is that data always flows in a single direction. It is deterministic meaning no side effects will occur.
   - **Use:** React is a popular framework which uses one-way data flow. Angular on the other hand uses two-way data binding.
   - **Source:** https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95
-- [x] What is asynchronous programming, and why is it important in JavaScript?
+
+- [x] T-JSGeneral-6) What is asynchronous programming, and why is it important in JavaScript?
   - **Explanation:** It allows you to run blocking code outside of the single thread so that the program can continue to run while it waits for the blocking code to complete. Javascript is synchronous by nature, but the runtime (browser or node) has an event loop which allows developers to write asynchronous programs.
   - **Use:** It is important for user interfaces, where you are waiting for user input, and for network requests, where you are waiting for some data back from a server.
   - **Example:** Using `async...await` and `fetch` to fetch resources from an API is a common implementation of async programming.
@@ -1170,41 +1296,45 @@ import { name, draw, reportArea, reportPerimeter } from './modules/square.js';
 
 ### Node
 
-- [x] What is Node.js? Where can you use it?
+
+- [x] T-Node-1) What is Node.js? Where can you use it?
 
   - Node.js is a single-threaded, open-source, cross-platform runtime environment used to build server-side and networking applications. It uses event-driven, non-blocking I/O architecture, which makes it efficient and suitable for real-time applications.
   - **Source:** https://kinsta.com/knowledgebase/what-is-node-js/
 
-- [x] Why use Node.js?
+
+- [x] T-Node-2) Why use Node.js?
 
   - **Explanation:** It uses fewer resources and memory because it is single threaded, it has wide adoption with many open source pacakages available, it is multi-platform and it simplifies the full stack as you can use just one language: Javascript.
   - **Use:** It's best used for real time applications that aren't data intensive. For programs that require more data processing a multi-threaded language like Java is a better choice.
   - **Source:** https://kinsta.com/knowledgebase/what-is-node-js/
 
-- [ ] What are the features of Node.js?
+
+- [ ] T-Node-3) What are the features of Node.js?
 
   - **Explanation:**
   - **Use:**
   - **Example:**
   - **Source:**
 
-- [x] How do you update NPM to a new version in Node.js?
+
+- [x] T-Node-4) How do you update NPM to a new version in Node.js?
 
   - **Explanation:** With Mac or Linux systems it is rather easy just type the command `npm install -g npm@latest` into the terminal to update npm. With Windows it's a little more complex as you will need to either modify the Window's installation PATH or remove the npm files from the nodejs install directory then update npm in the terminal.
   - **Source:** https://docs.npmjs.com/try-the-latest-stable-version-of-npm
 
-- [x] Why is Node.js Single-threaded?
+- [x] T-Node-5) Why is Node.js Single-threaded?
 
   - **Explanation:** Node.js is single-threaded for async processing. By doing async processing on a single-thread under typical web loads, more performance and scalability can be achieved instead of the typical thread-based implementation.
   - **Source:** https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions
 
-- [x] Explain callback in Node.js.
+- [x] T-Node-6) Explain callback in Node.js.
 
   - **Explanation:** A callback function is called after a given task. All APIs of Node are written to support callbacks.
   - **Use:** Callbacks allow other code to be run in the meantime and prevents any blocking. Being an asynchronous platform, Node.js heavily relies on callback.
   - **Source:** https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions
 
-- [x] What is callback hell in Node.js?
+- [x] T-Node-7) What is callback hell in Node.js?
 
   - **Explanation:** This is a big issue caused by coding with complex nested callbacks. Imagine each and every callback takes an argument that is a result of the previous callbacks. In this manner, The code structure looks like a pyramid, making it difficult to read and maintain. Also, if there is an error in one function, then all other functions get affected.
   - **Use:** This should be avoided.
@@ -1239,7 +1369,7 @@ import { name, draw, reportArea, reportPerimeter } from './modules/square.js';
 
   - **Source:**
 
-- [x] How do you prevent/fix callback hell?
+- [x] T-Node-8) How do you prevent/fix callback hell?
 
   - **Explanation:** One of the most common ways is to use promises (an object that represents the eventual completion or failure of an async operation and its value). Once each step is finished and we have our value, we can run then() method to call the async callback or if it fails we can catch an error. We could also just keep our code shallow and modularize (make each block of code do one thing only).
   - **Example:**
@@ -1254,7 +1384,7 @@ import { name, draw, reportArea, reportPerimeter } from './modules/square.js';
 
   - **Source:** https://www.geeksforgeeks.org/what-is-callback-hell-in-node-js/
 
-- [x] Explain the role of REPL in Node.js.
+- [x] T-Node-9) Explain the role of REPL in Node.js.
 
   - **Explanation:** The Node.js Read-Eval-Print-Loop (REPL) is an interactive shell that processes Node.js expressions. The shell reads JavaScript code the user enters, evaluates the result of interpreting the line of code, prints the result to the user, and loops until the user signals to quit.
   - **Use:** The REPL is bundled with with every Node.js installation and allows you to quickly test and explore JavaScript code within the Node environment without having to store it in a file. Entering "node" in the terminal starts the REPL
@@ -1270,26 +1400,26 @@ import { name, draw, reportArea, reportPerimeter } from './modules/square.js';
 
   - **Source:** https://www.digitalocean.com/community/tutorials/how-to-use-the-node-js-repl
 
-- [x] Name the types of API functions in Node.js.
+- [x] T-Node-10) Name the types of API functions in Node.js.
 
   - **Explanation:** There are two types; **Asynchronous**, Non-blocking functions and **Synchronous**, Blocking functions
   - **Example:** Asynchronous examples would be emails and online forums. Synchronous examples would be instant messaging and video calls.
   - **Source:** https://www.geeksforgeeks.org/types-of-api-functions-in-node-js/
 
-- [x] What are the functionalities of NPM in Node.js?
+- [x] T-Node-11) What are the functionalities of NPM in Node.js?
 
   - **Explanation:** NPM serves two main purposes; being an online repository of open-source Node.js projects and a command line utility for interacting with said repository.
   - **Use:** Typically it is used to install packages, manage versions and manage project dependencies.
   - **Source:** https://nodejs.org/en/knowledge/getting-started/npm/what-is-npm/
 
-- [ ] What is the difference between Node.js and Ajax?
+- [ ] T-Node-12) What is the difference between Node.js and Ajax?
 
   - **Explanation:**
   - **Use:**
   - **Example:**
   - **Source:**
 
-- [x] What are “streams” in Node.js? Explain the different types of streams present in Node.js.
+- [x] T-Node-13) What are “streams” in Node.js? Explain the different types of streams present in Node.js.
 
   - **Explanation:** Streams are objects that enable you to read data or write data continuously.
   - **Use:** There are four types of streams:
@@ -1299,14 +1429,14 @@ import { name, draw, reportArea, reportPerimeter } from './modules/square.js';
     - Transform − A type of duplex stream where the output is computed based on input
   - **Source:** https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions
 
-- [ ] Explain chaining in Node.js.
+- [ ] T-Node-14) Explain chaining in Node.js.
 
   - **Explanation:**
   - **Use:**
   - **Example:**
   - **Source:**
 
-- [x] What are Globals in Node.js?
+- [x] T-Node-15) What are Globals in Node.js?
 
   - **Explanation:** Node.js Global Objects are the objects that are available in all modules. Global Objects are built-in objects that are part of the JavaScript and can be used directly in the application without importing any particular module.
   - **Use:** Common built-in modules, functions, strings and objects used widely in Node.
@@ -1322,41 +1452,42 @@ setTimeout(printHello, 2000);
 
 - **Source:** https://www.tutorialspoint.com/nodejs/nodejs_global_objects.htm
 
-- [ ] What is Event-driven programming?
+- [ ] T-Node-16) What is Event-driven programming?
 
   - **Explanation:**
   - **Use:**
   - **Example:**
   - **Source:**
 
-- [x] What is Event loop in Node.js? And How does it work?
+- [x] T-Node-17) What is Event loop in Node.js? And How does it work?
 
   - **Explanation:** The Event loop handles all async callbacks. We can attach listeners to events, and when a said event fires, the listener executes the callback we provided.
   - **Use:** Whenever we call `setTimeout`, `http.get` and `fs.readFile`, Node.js runs the operation and continues to run other code without waiting for the output. When the operation is finished, it receives the output and runs our callback function. All the callback functions are queued in an loop, and will run one-by-one when the response has been received.
   - **Source:** https://vigowebs.medium.com/frequently-asked-node-js-interview-questions-and-answers-b74fa1f20678
 
-- [x] What is the purpose of `module.exports` in Node.js?
+- [x] T-Node-18) What is the purpose of `module.exports` in Node.js?
   - **Explanation:** In Node.js, a module encapsulates all related code into a single unit of code by moving all relevant functions into a single file.
   - **Use:** You may export a module with the `module.exports` function, which lets it be imported into another file using `require`
   - **Source:** https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions
-- [x] What is the difference between Asynchronous and Non-blocking?
+
+- [x] T-Node-19) What is the difference between Asynchronous and Non-blocking?
 
   - **Explanation:** **Asynchronous** literally means not synchronous. HTTP requests which are asynchronous, means we are not waiting for the server response. The program continues with other code blocks and deals with the server response when it is received. The term **Non-Blocking** is widely used with I/O. For example non-blocking read/write calls return with whatever they can do and expect caller to execute the call again. Read will wait until it has some data and put the calling thread to sleep.
 
 - **Source:** https://vigowebs.medium.com/frequently-asked-node-js-interview-questions-and-answers-b74fa1f20678
 
-- [x] What is Tracing in Node.js?
+- [x] T-Node-20) What is Tracing in Node.js?
 
   - **Explanation:** Tracing provides a mechanism to collect tracing information generated by V8, Node core and userspace code in a log file.
   - **Use:** Tracing can be enabled by passing the `--trace-events-enabled` flag when starting a Node.js application. The set of categories for which traces are recorded can be specified using the `--trace-event-categories` flag followed by a list of comma separated category names. By default the `node` and `v8` categories are enabled. Log files can be opened in the `chrome://tracing` tab of Chrome.
   - **Source:** https://vigowebs.medium.com/frequently-asked-node-js-interview-questions-and-answers-b74fa1f20678
 
-- [x] How will you debug an application in Node.js?
+- [x] T-Node-21) How will you debug an application in Node.js?
 
   - **Explanation:** Typically using the `debugger` utility and `console.log()`. I would place `debugger` statements in the code wherever I would like a breakpoint inserted and then run the script with node and `debug` enabled.
   - **Source:** https://vigowebs.medium.com/frequently-asked-node-js-interview-questions-and-answers-b74fa1f20678
 
-- [x] Difference between `setImmediate()` and `setTimeout()`?
+- [x] T-Node-22) Difference between `setImmediate()` and `setTimeout()`?
 
   - **Explanation:** setImmediate() is to schedule the immediate execution of callback after I/O (input/output) event callbacks and before setTimeout and setInterval. setTimeout() is to schedule execution of a one-time callback after delay milliseconds. both are async.
   - **Use:** Inside an I/O cycle, the setImmediate() should execute before setTimeout({},0).
@@ -1377,7 +1508,7 @@ setTimeout(printHello, 2000);
 
   - **Source:** https://dev.to/ynmanware/setimmediate-settimeout-and-process-nexttick-3mfd
 
-- [x] What is `process.nextTick()`?
+- [x] T-Node-23) What is `process.nextTick()`?
 
   - **Explanation:** Every time the event loop takes a full trip, we call it a tick. When we pass a function to process.nextTick(), we instruct the engine to invoke this function at the end of the current operation, before the next event loop tick starts. process.nextTick() is actually faster
   - **Use:** Calling setTimeout(() => {}, 0) will execute the function at the end of next tick, much later than when using nextTick() which prioritizes the call and executes it just before the beginning of the next tick.
@@ -1391,30 +1522,30 @@ setTimeout(printHello, 2000);
 
   - **Source:** https://nodejs.dev/learn/understanding-process-nexttick
 
-- [x] What is package.json? What is it used for?
+- [x] T-Node-24) What is package.json? What is it used for?
 
   - **Explanation:** All npm packages contain a file, usually in the project root, called package.json - this file holds various metadata relevant to the project. It's a central repository of configuration for tools, for example. It's also where npm and yarn store the names and versions for all the installed packages.
   - **Use:** This file is used to give information to npm that allows it to identify the project as well as handle **the project's dependencies**. It can also contain other metadata such as a project description, the version of the project in a particular distribution, license information, even configuration data - all of which can be vital to both npm and to the end users of the package. The package.json file is normally located at the root directory of a Node.js project.
   - **Source:** https://nodejs.org/en/knowledge/getting-started/npm/what-is-the-file-package-json/
 
-- [ ] What is libuv?
+- [ ] T-Node-25) What is libuv?
   - **Explanation:**
   - **Use:**
   - **Example:**
   - **Source:**
-- [ ] What are some of the most popular modules of Node.js?
+- [ ] T-Node-26) What are some of the most popular modules of Node.js?
   - **Explanation:**
   - **Use:**
   - **Example:**
   - **Source:**
-- [x] What is `EventEmitter` in Node.js?
+- [x] T-Node-27) What is `EventEmitter` in Node.js?
   - **Explanation:** EventEmitter is a class that holds all the objects that can emit events.
   - **Use:** Whenever an object from the EventEmitter class throws an event, all attached functions are called upon synchronously.
   - **Source:** https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions
 
 ### CS Theory 
 
-- [x] What is recursion and give an example using javascript?
+- [x] T-CSTheory-1) What is recursion and give an example using javascript?
 - **Explanation:** Recursion is when a function calls itself within its own body. Besides the recursive call, it should always have a base case which stops it from calling itself to prevent infinite loops.
 - **Use:** Recursion is made for solving problems that can be broken down into smaller, repetitive problems. It is especially good for working on things that have many possible branches and are too complex for an iterative approach.
 - **Example:** A classic example is computing a factorial given a number `num`:
@@ -1430,7 +1561,7 @@ function factorial(num) {
 
 **Source:** https://developer.mozilla.org/en-US/docs/Glossary/Recursion
 
-- [x] What are types?
+- [x] T-CSTheory-2) What are types?
 
   - **Explanation:** Types, also called data types, each have a unique set of rules/instructions of what can and can't be done with it.
   - **Use:** Types are necessary so that the computer knows how to handle data when trying to do an operation with it.
@@ -1440,7 +1571,7 @@ function factorial(num) {
     - Float (3.1415)
   - **Source:** https://www.youtube.com/watch?v=A37-3lflh8I
 
-- [x] What are data structures?
+- [x] T-CSTheory-3) What are data structures?
 
   - **Explanation:** Data structures is storage that is used to store and organize data. It is also a way of arranging data on a computer in such a way that it can be updated and accessed efficiently.
   - **Use:** Data structures are not only used for processing, retrieving, and storing data, but also organizing the data into more readable ways.
@@ -1450,7 +1581,7 @@ function factorial(num) {
     - Non-linear Data Structures (Tree and Graphs)
   - **Source:** https://www.geeksforgeeks.org/data-structures/
 
-- [x] What is an algorithm?
+- [x] T-CSTheory-4) What is an algorithm?
 
   - **Explanation:** In literal terms, an algorithm is a set of rules to be followed in calculations or other problem-solving opterations or a procedure for solving a mathematical problem in a finite number of steps that frequently by recursive operations.
     In other words, an Algorithm refers to a sequence of finite steps to solve a particular problem.
@@ -1461,13 +1592,13 @@ function factorial(num) {
     - Brute Force Algorithms
   - **Source:** https://www.geeksforgeeks.org/introduction-to-algorithms/
 
-- [x] What is scope / lexical scope in javascript?
+- [x] T-CSTheory-5) What is scope / lexical scope in javascript?
 
   - **Explanation:** Scope refers that the accessibility of variables, depending on where they are declared in the code they are “visible” and thus can be called. Lexically scoped variables can only be called from within the block of code they are defined, generally speaking inside of a function.
   - **Use:** It is used to avoid scope pollution, or unwanted invoking of variables
   - **Source:**
 
-- [x] What is polymorphism?
+- [x] T-CSTheory-6) What is polymorphism?
 
   - **Explanation:** Polymorphism is a concept of Object-oriented programming(OOP) Paradigm that provides a way to perform a single action in different ways.
   - **Use:** It provides an ability to call the same method on different JavaScript objects
@@ -1500,7 +1631,7 @@ function factorial(num) {
 
   - **Source:**https://www.javatpoint.com/javascript-oops-polymorphism, www.stackOverflow.com
 
-- [x] What is encapsulation?
+- [x] T-CSTheory-7) What is encapsulation?
 
   - **Explanation:** A tenet of OOP, it is the wrapping up of data under a single unit, those being variables, and functions acting on those variables. In JS this is accomplished with objects and constructor functions
   - **Use:** Its main benefit is it allows your code to be more readable, and robust against errors.
@@ -1522,7 +1653,7 @@ function factorial(num) {
 
   - **Source:**https://www.javatpoint.com/javascript-oops-encapsulation
 
-- [x] What is a Linked List?
+- [x] T-CSTheory-8) What is a Linked List?
 
   - **Explanation:**
     It is a linear data structure similar to an array, except that elements are not stored on a particular memory location or index but instead represent separate objects containing a reference to the next item on the list
@@ -1553,7 +1684,7 @@ function factorial(num) {
 
   - **Source:** Implementing A Linked List https://www.freecodecamp.org/news/implementing-a-linked-list-in-javascript/
 
-- [x] What is a Doubly Linked List?
+- [x] T-CSTheory-1) What is a Doubly Linked List?
 
   - **Explanation:** It is pretty much the same as a linked list, only each node also has a pointer to the previous node and also has a null head pointer. It makes it easier to traverse the nodes and delete items, though they require more space, and take longer due to the extra pointers.
   - **Use:** They are used in stacks, hash tables, and binary trees.
@@ -1577,21 +1708,21 @@ function factorial(num) {
 
   - **Source:** https://www.geeksforgeeks.org/doubly-linked-list/
 
-- [x] What is a Queue?
+- [x] T-CSTheory-9) What is a Queue?
 
   - **Explanation:** A Queue is a linear structure which follows a particular order in which the operations are performed. The order is First In First Out (FIFO).
   - **Use:** Queue is used when things don't have to be processed immediately, but have to be processed in First In First Out order like Breadth First Search.
   - **Example:** The Event Loop Model prioritizes all the Jobs in a Job Queue.
   - **Source:** https://www.geeksforgeeks.org/queue-data-structure/
 
-- [x] What is a Stack?
+- [x] T-CSTheory-10) What is a Stack?
 
   - **Explanation:** A Stack is a linear data structure which follows a particular order in which the operations are performed. The order is LIFO(Last In First Out).
   - **Use:** Stacks are used to implement functions, parsers, expression evaluation, and backtracking algorithms.
   - **Example:** The Event loop uses call stack. Every time a script or function calls a function, it's added to the top of the call stack. Every time the function exits, the interpreter removes it from the call stack.
   - **Source:** https://www.geeksforgeeks.org/stack-data-structure/
 
-- [x] What is a Hash Table?
+- [x] T-CSTheory-11) What is a Hash Table?
 
   - **Explanation:** Also known as a hash map or dictionary, is a data structure that implements a set data type, in a structure that can map keys to values. In JS you can create them with objects as they offer an easy way to make key/value pairs. When a key is passed into the table the corresponding value is returned.
   - **Use:** Hash tables are used in all manner of tasks, the most common however would be password verification
@@ -1611,7 +1742,7 @@ function factorial(num) {
 
   - **Source:** https://www.geeksforgeeks.org/hashing-data-structure/
 
-- [x] What is a Heap?
+- [x] T-CSTheory-12) What is a Heap?
 
   - **Explanation:** They are binary tree-based data structures, Heaps come in one of two forms min-heaps, and max-heaps, the only difference between the two, min and max, is that the root node in max-heap is the biggest key working down, and min is the reverse, this must be recursively true for all sub-trees in that binary tree.
   - **Use:** Heaps are generally used in priority queues. or to order statistics
@@ -1635,7 +1766,7 @@ function factorial(num) {
 
   - **Source:** https://www.geeksforgeeks.org/heap-data-structure/?ref=lbp
 
-- [x] What is a Trie?
+- [x] T-CSTheory-13) What is a Trie?
 
   - **Explanation:** It is a type of tree data structure, they are used to store associate arrays where the keys are usually strings. They are often compared to hash tables, though some key differences are that.
     Nodes in the tree do not store keys, instead, they each store parts of keys, traversing down from the root node to a leaf allowing you to build the key as you progress, they also don't need to be a value at every node. Values are typically only associated with leaf nodes.
@@ -1660,13 +1791,13 @@ function factorial(num) {
 
   - **Source:** https://www.geeksforgeeks.org/trie-insert-and-search/
 
-- [x] What is a Tree?
+- [x] T-CSTheory-14) What is a Tree?
 
   - **Explanation:** Trees are non-linear data structures, they organize data hierarchically. They are a collection of nodes, that are linked via branches, each node branches to its child nodes. They are possibly the most commonly used data structure. You can think of it as a family tree, or company structure, branching down from the root node (CEO) to child nodes (managers) and terminating at leaf nodes(entry level employees)
   - **Use:** The DOM, file management, and even machine learning decision-based algorithms.
   - **Source:** https://www.programiz.com/dsa/trees
 
-- [x] What is a Binary Search Tree?
+- [x] T-CSTheory-15) What is a Binary Search Tree?
 
   - **Explanation:** A binary search tree, or "ordered binary tree" is a type of binary tree where the nodes are arranged in order: for each node, all elements in its left subtree are less than the parent node, and all the elements in its right subtree are greater than the parent node.
   - **Use:** They are used to implement dictionaries, implement multilevel indexing in DBs. as well as Implementing search algorithms.
@@ -1683,19 +1814,19 @@ function factorial(num) {
 
   - **Source:** https://www.geeksforgeeks.org/binary-search-tree-data-structure/?ref=gcse
 
-- [x] What is a Disjoint Set?
+- [x] T-CSTheory-16) What is a Disjoint Set?
 
   - **Explanation:** Disjoint-set is a data structure that keeps track of a elements broken down into sets, of which each set is unique. It is useful for keep track or elements as you can compare sets to see what set they belong to. They are two main functions used on these sets, being union and find.
   - **Use:** The uses for this data structure are compilers and symbolic computation
   - **Source:** https://www.oodlestechnologies.com/blogs/understanding-disjoint-set-and-their-use-cases-in-computer-science/#:~:text=1It%20is%20used%20to,used%20in%20Maze%20generation%20problems
 
-- [x] What is a Bloom Filter?
+- [x] T-CSTheory-17) What is a Bloom Filter?
 
   - **Explanation:** It is a probabilistic data structure that is execptionally space-efficient , it is used to check to see if an element is a member of a set. A common use case is checking the availability of a username, this approach is far more efficient than alternative solutions, however, since it is probabilistic it can return false positives so it is not suitable for mission-critical tasks. It is important to note that although it can give a false positives it is not possible to return a false negative.
   - **Use:** This used to be used in search engines, and currently has found use in blockchain technology
   - **Source:** https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/?ref=gcse
 
-- [x] Demonstrate Bubble Sort and explain when you might use it?
+- [x] T-CSTheory-18) Demonstrate Bubble Sort and explain when you might use it?
 
   - **Explanation:** A bubble sort algorithm is an algorithm that sorts an array by comparing two adjacent elements and swaps them if they are not in the intended order. Order can be anything like increasing order or decreasing order.
   - **Use:** It is generally considered a bad practice to implement this in most situations, though it is easy to implement so for a first-pass solution, on a small data set it can find use.
@@ -1720,7 +1851,7 @@ function factorial(num) {
 
   - **Source:** https://www.geeksforgeeks.org/bubble-sort/?ref=gcse
 
-- [x] Demonstrate Insertion Sort and explain when you might use it?
+- [x] T-CSTheory-19) Demonstrate Insertion Sort and explain when you might use it?
 
   - **Explanation:** Insertion sort is a simple sorting algorithm that builds the final sorted array/list one item at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort.
   - **Use:** It is very efficient in smaller data sets, especially if they are already mostly sorted.
@@ -1746,7 +1877,7 @@ function factorial(num) {
 
   - **Source:** https://www.geeksforgeeks.org/insertion-sort/?ref=g
 
-- [x] Demonstrate Merge Sort and explain when you might use it?
+- [x] T-CSTheory-20) Demonstrate Merge Sort and explain when you might use it?
 
   - **Explanation:** Merge sort is a sorting algorithm that uses the “divide and conquer” concept. Given an array, we first divide it in the middle and we get 2 arrays. We recursively perform this operation, until we get to arrays of 1 element. After divinding into its smallest units it starts merging the elements again based on their size.
   - **Use:** It is one of the most respected sorting algorithms. Merge sort is more efficient and works faster than quick sort in case of larger array size or datasets.
@@ -1781,7 +1912,7 @@ function factorial(num) {
 
   - **Source:** https://www.geeksforgeeks.org/merge-sort/?ref=gcse
 
-- [x] Demonstrate Quicksort and explain when you might use it?
+- [x] T-CSTheory-21) Demonstrate Quicksort and explain when you might use it?
 
   - **Explanation:** Quicksort is an in-place sorting algorithm. it is still a widely used algorithm for sorting. It picks an element as a pivot and partitions the given array around the picked pivot. There are many different versions of quickSort that pick pivot in different ways. When implemented well, it can be somewhat faster than merge sort and about two or three times faster than heapsort.
   - **Use:** It is used pretty much everywhere that doesnt require a stable sort.
