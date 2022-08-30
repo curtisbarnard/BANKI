@@ -917,6 +917,7 @@ Most of the technical questions should have a three sentence response in the EUE
 4. What traits are hard to find in an engineer that Bob’s Burgers would like to have?
 5. How is critique given to engineers at Bob’s Burgers?
 6. Do you have any questions or concerns about my qualifications?
+7. If Bob's Burgers hired me today how would you know in a years time that I was the right fit?
 
 Here is a helpful list of other reverse interview questions: [https://github.com/viraptor/reverse-interview](https://github.com/viraptor/reverse-interview)
 
