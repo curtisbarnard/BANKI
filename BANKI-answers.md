@@ -8,17 +8,21 @@
 
 ## Table of Contents
 
-1. [Behaviorial](#behavioral)
-2. [Technical](#technical-questions)
-   - [HTML](#html)
-   - [CSS](#css)
-   - [Javascript](#javascript)
-   - [Javascript General](#javascript-general)
-   - [Node](#node)
-   - [CS Theory](#cs-theory)
-3. [Questions to ask your interviewer](#questions-to-ask-your-interviewer)
-4. [Whiteboard](#whiteboard)
-5. [Resources](#resources)
+- [BANKI: All the questions to prep for interviews](#banki-all-the-questions-to-prep-for-interviews)
+  - [Table of Contents](#table-of-contents)
+  - [Behavioral](#behavioral)
+    - [CAR](#car)
+    - [Questions](#questions)
+  - [Technical Questions](#technical-questions)
+    - [HTML](#html)
+    - [CSS](#css)
+    - [Javascript](#javascript)
+    - [Javascript General](#javascript-general)
+    - [Node](#node)
+    - [CS Theory](#cs-theory)
+  - [Questions to ask your interviewer](#questions-to-ask-your-interviewer)
+  - [Whiteboard](#whiteboard)
+  - [Resources:](#resources)
 
 ---
 
@@ -1181,12 +1185,17 @@ import { name, draw, reportArea, reportPerimeter } from './modules/square.js';
   - **Use:** It's best used for real time applications that aren't data intensive. For programs that require more data processing a multi-threaded language like Java is a better choice.
   - **Source:** https://kinsta.com/knowledgebase/what-is-node-js/
 
-- [ ] What are the features of Node.js?
+- [x] What are the features of Node.js?
 
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+  - **Explanation:** Node innately offers valuable resources that standalone JavaScript environment doesn’t allow, such as access to http and fs modules.
+  - **Use:** Through node we have access to the V8 Engine via JavaScript, where we have browser functionalities in our JavaScript environment. We can access packages via npm to install established libraries, or require pre-established modules for things like server creation and file storage.
+  - **Example:** const http = require('http')
+    Allows us to access Node.js web server module (ES6) so we can use http methods such as createServer.
+
+    const fs = require('fs');
+    Allows us actions such as reading and writing to files in a file system
+  - **Source:** https://nodejs.dev/en/learn/the-nodejs-fs-module
+    https://nodejs.dev/en/learn/the-nodejs-http-module
 
 - [x] How do you update NPM to a new version in Node.js?
 
