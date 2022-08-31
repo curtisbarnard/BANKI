@@ -65,29 +65,27 @@ Most of the behavioral questions should be answered in the CAR format. At least 
 
 - [ ] B5) Give me an example of a time you had to take a creative and unusual approach to solve coding problem. How did this idea come to your mind? Why do you think it was unusual?
 
-  - **Cause:** 
-  - **Action:** 
-  - **Result:** 
+  - **Cause:** Yes, while building out my portfolio site, I ran into an issue while looking to implement some intuitive and instinctive effects that enhanced the user experience (UX).
+  - **Action:** As I was not making progress, I stepped away to clear my head and began working on another project where I was implementing some animations. Realizing that I was essentially adding what I had originally meant to implement into my portfolio site I was able to parse out sections of my code and implement them into my site, accomplishing what I had set out to do. 
+  - **Result:** I was quick to learn that while stubbornness has its place when solving problems, sometimes stepping away produces results in unique ways when given the opportunity to do so. 
 
 - [ ] B6) Describe a situation in which you worked diligently on a project and it did not produce the desired results. Why didn't you get the desired results? What did you learn from the experience?
 
-  - **Cause:** 
-  - **Action:** 
-  - **Result:** 
+  - **Cause:** In one of my earlier opportunities, I was tasked with a project that had a very tight deadline. Looking to impress my boss, I accepted it without hesitation. Unfortunately, I wasn’t able to get the project finished on time.
+  - **Action:** After that, I sought help and discovered the under-promise, over-deliver method. I learned to keep track of the project schedule from day one, how to identify potential problems, and how to act quickly, all the while keeping communication open with all parties. 
+  - **Result:** That failure was, in the long run, one of the best things that have ever happened to me and I am conscious of it with every new project I take on.
 
 - [ ] B7) Give an example of an important project goal you reached and how you achieved it.
 
-
-  - **Cause:** 
-  - **Action:** 
-  - **Result:** 
+  - **Cause:** In all of my experiences, I have found that getting the goals clear right at the start and creating a realistic plan with milestones, sets every project up for success. I typically break down large tasks into smaller chunks so that it is both easier to manage and I have a starting point.
+  - **Action:** Most recently, while building a project I broke the project down into four differnet sections. Breaking down what steps would be taken to see the project completed. This allowed me to manage each piece in sections that ensured I was able to focus on the task at hand and not become overwhelmed or distracted by the bigger picture
+  - **Result:** Detailed planning is important and I feel it ensures the project goes smoothly when done correctly. Combined with an under-promise approach, I completed my project ahead of time and was able to add some additional functionality that over-delivered what my original goal had entailed. 
 
 - [ ] B8) Describe a situation in which you experienced difficulty in getting others to accept your ideas? What was your approach? How did this work? Were you able to successfully persuade someone to see things your way?
 
-
-  - **Cause:** 
-  - **Action:** 
-  - **Result:** 
+  - **Cause:** In my previous opportunity, I tried to convince the owner of the company to change the organization of the entire floor plan and layout in our retail locations. I proposed a concept to them, but they were comfortable and considered the existing system 'effective' enough.
+  - **Action:** Not give up, I prepared a visualization with a mocked up a store layout, a data analysis including forecasts, and showed exactly, in numbers, how my proposed changes would increase a customer's time spent in the store, ultimately increasing profits.
+  - **Result:** Finally convinced, I was given the green light to test pilot the concept with a small budget. Not even 60 days into the pilot my proposal became the company-wide standard. 
 
 - [x] B9) Tell me about a situation when you were responsible for project planning. Did everything go according to your plan? If not, then why and what kind of counteractions did you have to take?
 
@@ -97,23 +95,20 @@ Most of the behavioral questions should be answered in the CAR format. At least 
 
 - [ ] B10) Tell me about a situation when you made a mistake at work. What happened exactly and how did you deal with it? What steps did you take to improve the situation?
 
-
-  - **Cause:** 
-  - **Action:** 
-  - **Result:** 
+  - **Cause:** Early on, into my first freelance Graphic Designer career. There was this time I worked on a client's annual holiday design. The customer asked for a small revision after the project had completed. Since everything was completed and it was an easy adjustment to make, I quickly made the change and sent the final proof off to my printer. 
+  - **Action:**  Not noticing that I converted the project to a hexadecimal color instead of the original and intended CMYK system, the colors did not meet the expectations the client had agreed to. As you could imagine, the customer was disappointed and very upset about the final product. With days to go before their event, I met with my printer and we were able to work out a solution that allowed me to deliver a final product worth delivering.
+  - **Result:** From that point forward I made some adjustments to my process. One of of which was to never make additional revisions after a project is completed and signed off on. And two, ALWAYS double-check that my print jobs are colored. And then double check again.
 
 - [ ] B11) Tell me about a time when you worked with someone who was not completing his or her share of the work. How did you handle the situation? Did you discuss your concern with your coworker? With your manager? If yes, how did your coworker respond to your concern? What was your manager's response?
 
-
-  - **Cause:** 
-  - **Action:** 
-  - **Result:** 
+  - **Cause:** while I have encountered this situation a few times, In my experiences, I have found the key first step is open and honest communication. In one of my past experiences, I met a recently promoted manager who was not meeting expectations. Talking with them privately, I explained my concerns about the quality of thier work and ask them to help me understand the cause of the problem. You would be surprised at what a little honest one-to-one conversation can do. The team-member said they knew that their work was not upto par but they were afraid to address the issue with me. Simply feeling overwhelmed by the influx of new responsibilities. 
+  - **Action:** With the channels of communication now open, I reassured them by investing in them. Divising a plan of action that also had me spending more time training one-on-one with this new manager and seeing they received additional resources as needed.
+  - **Result:** Upon my revist with this manager, the results were instantaneous and from there on out, they prospered.
 
 - [ ] B12) Describe a situation when you worked effectively under pressure. How did you feel when working under pressure? What was going on, and how did you get through it?
-
-  - **Cause:** 
-  - **Action:** 
-  - **Result:** 
+  - **Cause:** I’m sure you hear this a lot, I have done some of my best work under pressure. And while I thrive when not under pressure there is a certain rush that comes from things riding on the line. In my last opportunity, I was training two district managers while overseeing the grand opening of ten new locations. It was a lot to get through but pressure invigorates me - rather than getting overwhelmed and stressed out, my adrenaline kicks in and I feel energized.  
+  - **Action:** During that chaotic period of time, I fine-tuned my time management skills, breaking each day into manageable blocks of time that allowed me to hyper-focus and manage the multitude of projects going on all the while maintaining my normal responsibilities and ensuring my trainees were getting the experience and education I needed them to. 
+  - **Result:**I ended the month with two developing District Managers who were able to learn more than what was ever expected of them while also seeing ten new stores open. When I’m under pressure, I take control, stay positive, plan accordingly and continue to move forward. 
 
 - [ ] B13) Tell me about yourself.
 
@@ -133,38 +128,37 @@ Most of the behavioral questions should be answered in the CAR format. At least 
 
 - [ ] B16) Why do you want to work for us?
 
-
-  - **Cause:** 
-  - **Action:** 
-  - **Result:** 
+  - **Non-Car Answer:** I’ve seen your company reviews listed, and I’ve seen the way your customers talk about you. I’ve read employee testimonials and even reached out to a few on LinkedIn where I has able to learned more. And just as important, I hear your enthusiasm for…. [A, B, and maybe C]. From my experiences, I know that an engaged employee will always produce better work, thrive and have more opportunities for growth. That opportunity is evident in my research and I would love to join your innovativ team, continue to create great work, and grow within the company while further developing my own skills.
   
 
 - [ ] B17) Why are you interested in this opportunity?
 
-  - **Cause:** 
-  - **Action:** 
-  - **Result:** 
+  
+
+ - **Non-Car Answer:**I'm interested in this job, at this company, because...  I can see that in this role my skills could help solve the problems your company is wanting to solve. I also see an opportunity for me to learn and grow these skills, allowing everyone to benefit personally, professionally, and financially. I know that If I can come in and solve thos problems, accomplish those goals, my career will develop in the direction I want it to. 
+ 
+ Also, I like the culture of this organization. From what I've heard and what I've been reading about the company, it seems like a great fit for my personality and my values. I really connect with your mission statement, and feel passionate about the work that you do.
 
 - [ ] B18) Tell me about your dream job?  What do you really want to do with your career?
 
-  - **Cause:** 
-  - **Action:** 
-  - **Result:** 
+  - **Non-Car Answer:**My dream job would allow me to make a positive impact on people every day by solving problems. I would love to work for a company like yours that makes/ does [insert : a, b, c] that thousands of people are using every day. I would love to be part of a team that finds innovative ways to make products more efficient and effective while I continue to push myself to grow and develop. 
+  
+  To be honest, my dream job is this. This is what I wanted to do and I have dedicated myself to getting here. So thank you. 
 
 - [ ] B19) Tell me a time when you failed.
 
-  - **Cause:** 
-  - **Action:** 
-  - **Result:** 
+  - **Cause:**In an earlier opportunity, my company had just landed a large client and I was managing the implementation rollout for. Eager to please them, I told the client that we could be done in two weeks. I thought this was doable, but it ended up taking a little over three weeks and they were not happy. 
+  - **Action:**Looking back, I realized I should have been more conservative in my estimate to the client. Understanding that a client isn't going ot be upset if you're clear about the timeline in advance, but they are going to be disappointed if you promise something that can't be deliver. 
+  - **Result:**I took this experience and used it to become much better at managing the expectations of clients during projects I oversee. For example, on the next project with a different client, I told them it would  take 6 weeks, we finished in 4, and as you could imagine, they were very happy about this. 
 
 - [x] B20) What do you read on a regular basis?
   - I tend to go through phases of topics. Recently I've been reading various books on Data Structures & Algorithms along with books about Design/Graphic Design. I'll also typically read about the natural world (plant/animal species identification, geology, environmental issues), history (particularly Pacific Northwest and Japan), architecture and travel writing. I'm a huge fan of our public library system and I regularly use it.
 
 - [ ] B21) What's some critical feedback you've gotten recently?
 
-  - **Cause:** 
-  - **Action:** 
-  - **Result:** 
+  - **Cause:**In an earlier opportunity, I was asked to revise a project that I was exceptionally proud of, having invested an exceptional amount of time into it while putting my best effort forth. With the final result being something I thought was going to blow them away. However, I found the client not as thrilled as I would have hoped.
+  - **Action:**After listening carefully to them critique how I had not fully grasped what they had communicated, I saw an opportunity to fine-tune and strengthen my communication skills.
+  - **Action:**While I was able to salvage and rectify my mistakes, I learned a valuable lesson in effective communication that has served me well over my successful career.
   
 
 - [ ] B22) Do you have any questions?
