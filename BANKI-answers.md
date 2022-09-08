@@ -524,7 +524,7 @@ h6 {
 
 
 - [x] T-JS-1) Explain event delegation
-  - **Explanation:** Setting an event listener on a parent element an having events that happen on a child element bubble up to the parent.
+  - **Explanation:** Setting an event listener on a parent element and having events that happen on a child element bubble up to the parent.
   - **Use:** When you want some code to run when the user interacts with any one of a large number of child elements.
   - **Example:**
 
