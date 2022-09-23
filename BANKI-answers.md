@@ -1315,13 +1315,17 @@ import { name, draw, reportArea, reportPerimeter } from './modules/square.js';
   - **Use:** It's best used for real time applications that aren't data intensive. For programs that require more data processing a multi-threaded language like Java is a better choice.
   - **Source:** https://kinsta.com/knowledgebase/what-is-node-js/
 
-
 - [ ] T-Node-3) What are the features of Node.js?
 
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+  - **Explanation:** Node innately offers valuable resources that standalone JavaScript environment doesn’t allow, such as access to http and fs modules.
+  - **Use:** Through node we have access to the V8 Engine via JavaScript, where we have browser functionalities in our JavaScript environment. We can access packages via npm to install established libraries, or require pre-established modules for things like server creation and file storage.
+  - **Example:** const http = require('http')
+    Allows us to access Node.js web server module (ES6) so we can use http methods such as createServer.
+
+    const fs = require('fs');
+    Allows us actions such as reading and writing to files in a file system
+  - **Source:** https://nodejs.dev/en/learn/the-nodejs-fs-module
+    https://nodejs.dev/en/learn/the-nodejs-http-module
 
 
 - [x] T-Node-4) How do you update NPM to a new version in Node.js?
