@@ -1539,10 +1539,10 @@ setTimeout(printHello, 2000);
   - **Source:** https://nodejs.org/en/knowledge/getting-started/npm/what-is-the-file-package-json/
 
 - [ ] T-Node-25) What is libuv?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+  - **Explanation:** Node.js has two major dependencies, written in C. One is the V8 engine, which converts JavaScript into machine code, and the other is libuv, which provides access to the event loop and the thread pool.
+  - **Use:** Similar to how client-side JavaScript utilizes Web APIs to take advantage of asynchronous processes, libuv allows Node.js to perform non-blocking input-output (I/0) operations with the event loop. More expensive tasks are offloaded to the thread pool. 
+  - **Example:** setTimeout() works the same in the libuv event loop as it would in a browser environment, executing a callback function after a minimum time is specified. The thread pool handles more intensive tasks, such as DNS lookup and encryption. 
+  - **Source:** https://nodejs.org/en/docs/meta/topics/dependencies/
 - [ ] T-Node-26) What are some of the most popular modules of Node.js?
   - **Explanation:**
   - **Use:**
