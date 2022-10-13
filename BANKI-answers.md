@@ -249,7 +249,7 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Exceptions:** When your script contains `document.write`, however it isn't consider good practice to use `document.write`. Also if you need scripts to run on page load it may be beneficial to split them out from your main script and place in the head.
   - **Source:** https://www.frontendinterviewhandbook.com/html-questions
 
-- [x] T-HTML-9) hat is progressive rendering?
+- [x] T-HTML-9) What is progressive rendering?
   - **Explanation:** Techniques used to improve the performance of a webpage to render content for display as quickly as possible.
   - **Use:** Improving perceived load time
   - **Example:** Lazy loading of images, Prioritizing visible content (or above-the-fold rendering) and Async HTML fragments
@@ -264,6 +264,17 @@ Most of the technical questions should have a three sentence response in the EUE
 - [x] T-HTML-11) Have you used different HTML templating languages before?
   - I've used nunjucks, haml and markdown. They seem relatively similar and have helpful features.
   - **Source:** https://www.frontendinterviewhandbook.com/html-questions
+  
+  - Yes, I have used EJS. The popular templating languages include Ejs, Jade, Pug, Mustache, HandlebarsJS, Jinja2, and Blade.
+  - **Explanation**: Template engines are mostly used for server-side applications. When you build a server-side application with a template engine, it allows you to embed some variables and features inside the HTML tags. The template engine replaces the variables in a template file with actual values, and displays this value to the client, which gives your application the flexibility of diplaying data dynamically. For a server-side application written with NodeJS runtime, you can use a templating engine like Embedded JS.
+  - **Use**: With server-side applications that need to display dynamic content.
+  - **Example**: 
+                  <% if (user) { %>
+                     <h2><%= user.name %></h2>
+                  <% } %>
+  - **Source:** https://www.frontendinterviewhandbook.com/html-questions
+                https://betterprogramming.pub/templating-languages-to-use-instead-of-html-eb3682443958
+
 
 ### CSS
 
