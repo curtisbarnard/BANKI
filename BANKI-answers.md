@@ -1476,7 +1476,7 @@ setTimeout(printHello, 2000);
 
   - **Explanation:** Event-driven programming is a programming paradigm where the control flow of the program is determined by occurance of events. The events are usually user interactions with the website such as clicking buttons, filling out forms, etc. 
   - **Use:** The events are monitored by code known as event listeners. 
-  - **Example:** element.addEventListener('click', function) will call a function upong clicking element
+  - **Example:** element.addEventListener('click', function) will call a function upon clicking element
   - **Source:** https://www.computerhope.com/jargon/e/event-driven-prog.htm
 
 - [x] T-Node-17) What is Event loop in Node.js? And How does it work?
