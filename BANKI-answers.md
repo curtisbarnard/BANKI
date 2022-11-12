@@ -1433,12 +1433,11 @@ import { name, draw, reportArea, reportPerimeter } from './modules/square.js';
   - **Use:** Typically it is used to install packages, manage versions and manage project dependencies.
   - **Source:** https://nodejs.org/en/knowledge/getting-started/npm/what-is-npm/
 
-- [ ] T-Node-12) What is the difference between Node.js and Ajax?
+- [x] T-Node-12) What is the difference between Node.js and Ajax?
 
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+  - **Explanation:** Node.js is an open-source server-side environment that makes it possible to run JavaScript outside of the browser. Ajax is a client-side web development technique used for making asynchronous calls to the server.
+  - **Use:** You would use Node.js to create a server environment to interact with local files or dynamic files on the internet. Ajax is used to communicate with servers. 
+  - **Source:** https://www.geeksforgeeks.org/difference-between-nodejs-ajax-and-jquery/#:~:text=NodeJs%20is%20an%20open%2Dsource,javascript%20outside%20of%20the%20browser.
 
 - [x] T-Node-13) What are “streams” in Node.js? Explain the different types of streams present in Node.js.
 
@@ -1450,12 +1449,12 @@ import { name, draw, reportArea, reportPerimeter } from './modules/square.js';
     - Transform − A type of duplex stream where the output is computed based on input
   - **Source:** https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions
 
-- [ ] T-Node-14) Explain chaining in Node.js.
+- [x] T-Node-14) Explain chaining in Node.js.
 
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+  - **Explanation:** Promise chaining allows you to chain together multiple asynchronous tasks in a specific order. 
+  - **Use:** Chaining is great when you have complex code that has any number of asynchronous tasks that need to be performed after the completion of a different asynchronous task.
+  - **Example:** The .then handler is used for promise chaining. After the initial promise resolves, the .then handler creates a new promise based on the result of the previous promise, and so on and so forth. 
+  - **Source:** https://javascript.info/promise-chaining
 
 - [x] T-Node-15) What are Globals in Node.js?
 
@@ -1473,12 +1472,12 @@ setTimeout(printHello, 2000);
 
 - **Source:** https://www.tutorialspoint.com/nodejs/nodejs_global_objects.htm
 
-- [ ] T-Node-16) What is Event-driven programming?
+- [x] T-Node-16) What is Event-driven programming?
 
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+  - **Explanation:** Event-driven programming is a programming paradigm where the control flow of the program is determined by occurance of events. The events are usually user interactions with the website such as clicking buttons, filling out forms, etc. 
+  - **Use:** The events are monitored by code known as event listeners. 
+  - **Example:** element.addEventListener('click', function) will call a function upon clicking element
+  - **Source:** https://www.computerhope.com/jargon/e/event-driven-prog.htm
 
 - [x] T-Node-17) What is Event loop in Node.js? And How does it work?
 
