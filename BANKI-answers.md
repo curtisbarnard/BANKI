@@ -8,17 +8,21 @@
 
 ## Table of Contents
 
-1. [Behaviorial](#behavioral)
-2. [Technical](#technical-questions)
-   - [HTML](#html)
-   - [CSS](#css)
-   - [Javascript](#javascript)
-   - [Javascript General](#javascript-general)
-   - [Node](#node)
-   - [CS Theory](#cs-theory)
-3. [Questions to ask your interviewer](#questions-to-ask-your-interviewer)
-4. [Whiteboard](#whiteboard)
-5. [Resources](#resources)
+- [BANKI: All the questions to prep for interviews](#banki-all-the-questions-to-prep-for-interviews)
+  - [Table of Contents](#table-of-contents)
+  - [Behavioral](#behavioral)
+    - [CAR](#car)
+    - [Questions](#questions)
+  - [Technical Questions](#technical-questions)
+    - [HTML](#html)
+    - [CSS](#css)
+    - [Javascript](#javascript)
+    - [Javascript General](#javascript-general)
+    - [Node](#node)
+    - [CS Theory ](#cs-theory)
+  - [Questions to ask your interviewer](#questions-to-ask-your-interviewer)
+  - [Whiteboard](#whiteboard)
+  - [Resources:](#resources)
 
 ---
 
@@ -1322,7 +1326,7 @@ import { name, draw, reportArea, reportPerimeter } from './modules/square.js';
 
 - [x] T-Node-2) Why use Node.js?
 
-  - **Explanation:** It uses fewer resources and memory because it is single threaded, it has wide adoption with many open source pacakages available, it is multi-platform and it simplifies the full stack as you can use just one language: Javascript.
+  - **Explanation:** It uses fewer resources and memory because it is single threaded, it has wide adoption with many open source packages available, it is multi-platform and it simplifies the full stack as you can use just one language: Javascript.
   - **Use:** It's best used for real time applications that aren't data intensive. For programs that require more data processing a multi-threaded language like Java is a better choice.
   - **Source:** https://kinsta.com/knowledgebase/what-is-node-js/
 
