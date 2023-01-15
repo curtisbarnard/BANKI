@@ -1322,7 +1322,7 @@ import { name, draw, reportArea, reportPerimeter } from './modules/square.js';
 
 - [x] T-Node-2) Why use Node.js?
 
-  - **Explanation:** It uses fewer resources and memory because it is single threaded, it has wide adoption with many open source pacakages available, it is multi-platform and it simplifies the full stack as you can use just one language: Javascript.
+  - **Explanation:** It uses fewer resources and memory because it is single threaded, it has wide adoption with many open source packages available, it is multi-platform and it simplifies the full stack as you can use just one language: Javascript.
   - **Use:** It's best used for real time applications that aren't data intensive. For programs that require more data processing a multi-threaded language like Java is a better choice.
   - **Source:** https://kinsta.com/knowledgebase/what-is-node-js/
 
