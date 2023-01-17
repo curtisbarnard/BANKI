@@ -246,7 +246,7 @@ Most of the technical questions should have a three sentence response in the EUE
 
 - [x] T-HTML-8) Why is it generally a good idea to position CSS `<link>`s within `<head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
   - **Explanation:** Putting `<link>`s in the `<head>` allows for quick "first meaningful paint". When a page first loads, HTML and CSS are being parsed simultaneously. Conversely `<script>` tags block HTML parsing while they are being downloaded and executed which can slow down your page. Placing the scripts at the bottom will allow the HTML to be parsed and displayed to the user first.
-  - **Exceptions:** When your script contains `document.write`, however it isn't consider good practice to use `document.write`. Also if you need scripts to run on page load it may be beneficial to split them out from your main script and place in the head.
+  - **Exceptions:** When your script contains `document.write`, however, it isn't considered good practice to use `document.write`. Also, if you need scripts to run on page load it may be beneficial to split them out from your main script and place them in the head.
   - **Source:** https://www.frontendinterviewhandbook.com/html-questions
 
 - [x] T-HTML-9) What is progressive rendering?
