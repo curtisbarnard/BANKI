@@ -9,13 +9,14 @@
 ## Table of Contents
 
 1. [Behaviorial](#behavioral)
+   - [Amazon Leadership Principles](#amazon-leadership-principles)
 2. [Technical](#technical-questions)
-    - [HTML](#html)
-    - [CSS](#css)
-    - [Javascript](#javascript)
-    - [Javascript General](#javascript-general)
-    - [Node](#node)
-    - [CS Theory](#cs-theory)
+   - [HTML](#html)
+   - [CSS](#css)
+   - [Javascript](#javascript)
+   - [Javascript General](#javascript-general)
+   - [Node](#node)
+   - [CS Theory](#cs-theory)
 3. [Questions to ask your interviewer](#questions-to-ask-your-interviewer)
 4. [Whiteboard](#whiteboard)
 5. [Resources](#resources)
@@ -124,6 +125,137 @@ Most of the behavioral questions should be answered in the CAR format. At least 
   - **Action:**
   - **Result:**
 - [ ] Do you have any questions?
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+
+### Amazon Leadership Principles
+
+#### Learn & Be Curious
+
+- [ ] Tell me about a time you realized you needed to have a deeper level of subject matter expertise to do your job well.
+
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+
+- [ ] Tell me about a time you took on work outside of your comfort area and found it rewarding.
+
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+
+- [ ] Tell me about a time you didn’t know what to do next or how to solve a challenging problem.
+
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+
+- [ ] What is the coolest thing you have learned on your own that has helped you better perform your job?
+
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+
+#### Earns Trust
+
+- [ ] Tell me about a time you significantly contributed to improving morale and productivity on your team.
+
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+
+- [ ] Tell me about a time when you uncovered a significant problem in your team.
+
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+
+- [ ] Tell me about a time you received tough or critical feedback.
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+
+#### Customer Obsession
+
+- [ ] Tell me about a time you used customer feedback to drive improvement.
+
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+
+- [ ] Tell me about your most difficult customer interaction.
+
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+
+- [ ] Tell me about a time where you had to balance the needs of the customer vs. the business.
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+
+#### Bias for Action
+
+- [ ] Tell me about a time where you’ve taken a calculated risk where speed was crucial.
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+- [ ] Tell me about a time you made an important decision without consulting your manager.
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+- [ ] Tell me about a time when you were able to remove a serious roadblock/barrier preventing your team from making progress?
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+
+#### Dive Deep
+
+- [ ] Tell me about a time you were trying to understand a problem on your team and had to go down several layers to figure it out.
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+- [ ] Tell me about a time you linked two or more problems together and identified an underlying issue.
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+- [ ] Can you tell me about a specific metric you’ve used to identify a need for change in your department?
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+
+#### Deliver Results
+
+- [ ] Tell me about a time when you delivered an important project under a tight deadline? What sacrifices did you have to make?
+
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+
+- [ ] Tell me about a time when you had significant, unanticipated obstacles to overcome in achieving a key goal.
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+
+#### Have backbone; disagree and commit
+
+- [ ] Describe a time when you felt strongly about something on a project, but the team decided to go in a different direction.
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+
+#### Ownership
+
+- [ ] Tell me about a time you took on something significant outside your area of responsibility.
+  - **Cause:** M3 implementation, being a resource, testing, training
+  - **Action:**
+  - **Result:**
+
+#### Insist on the highest standards
+
+- [ ] Tell me about a time when you have been unsatisfied with the status quo. What did you do to change it?
+
   - **Cause:**
   - **Action:**
   - **Result:**

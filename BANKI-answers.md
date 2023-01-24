@@ -9,6 +9,7 @@
 ## Table of Contents
 
 1. [Behaviorial](#behavioral)
+   - [Amazon Leadership Principles](#amazon-leadership-principles)
 2. [Technical](#technical-questions)
    - [HTML](#html)
    - [CSS](#css)
@@ -173,6 +174,141 @@ Most of the behavioral questions should be answered in the CAR format. At least 
 - What is a typical day in this position?
 - What is the onboarding process after the offer?
 - Are there training programs available?
+
+### Amazon Leadership Principles
+
+#### Learn & Be Curious
+
+- [x] Tell me about a time you realized you needed to have a deeper level of subject matter expertise to do your job well.
+
+  - **Cause:** I engaged a client that wanted a website built for their personal business which needed to be optimized for SEO as well as have a CMS to allow them to update information on the site. At the time I only knew standard HTML and CSS.
+  - **Action:** I looked into the most cost effective and speediest solutions to implement and found both an Open-Source Static Site Generator and an Open Source CMS that I could use. I'd never used either of these technologies before. I took time to read the documentation, watch a few video's and then built a small prototype project to make sure I was able to deliver all the functionality requested.
+  - **Result:** I was able to deliver the client's site on time and as expected. The client was over the moon with the ease of using the backend as well as the SEO results.
+
+- [x] Tell me about a time you took on work outside of your comfort area and found it rewarding.
+
+  - **Cause:** We had an RFP for a project due and my manager asked me to not only gather the pricing, but put together a pitch deck. I hadn't really been asked to do such visually creative task in the past and considered it outside my wheelhouse.
+  - **Action:** We had a base level template for our pitch decks, but then I needed add some client specific info to it and make it stylish. I was able to bring in some of the client design language and keep the deck clear and concise, but not lacking soul.
+  - **Result:** We ended up winning the RFP. We were told that I pricing wasn't the lowest, but that our pitch deck along with the other documents where very well structured and easy to understand. We gave off feeling that we understood the ask clearly and knew how to achieve it.
+
+- [ ] Tell me about a time you didn’t know what to do next or how to solve a challenging problem.
+
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+
+- [ ] What is the coolest thing you have learned on your own that has helped you better perform your job?
+
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+
+#### Earns Trust
+
+- [x] Tell me about a time you significantly contributed to improving morale and productivity on your team.
+
+  - **Cause:** At a previous job I was on a team which was merged with another team under a single manager. While we all knew each other we were not up to speed on each others communication styles and ways of working. The team felt clunky.
+  - **Action:** I spoke to my manager and suggested implementing a daily stand-up meeting with the team at a whiteboard next to our desk. We could put all the projects we were working on onto the white board and discuss any issues we were having. I also suggested making the meeting a little longer and asking a fun question on Mondays to help people get comfortable with one another and learn about each other.
+  - **Result:** Once we started doing these meetings you could see an immediate improvement in team members comfort with talking to each other. Less apprehension, less frustration, more efficient and a better overall environment outside of the meeting time.
+
+- [ ] Tell me about a time when you uncovered a significant problem in your team.
+
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+
+- [x] Tell me about a time you received tough or critical feedback.
+  - **Cause:** After a particularly tough stand-up meeting where there was disagreement amongst team members I was pull aside by my boss. He asked me what I thought about my body language during the meeting. I responded that I didn't think it was bad and that I probably came across impartial. My boss pointed out that I had a tendency to shake my head and come across as dismissive as other's were talking. It was as if I had already formed and opinion and didn't want to listen.
+  - **Action:** I was pretty shocked as I hadn't really noticed it. I then started to pay close attention to how I was responding to people, not only in meetings, but one on one. He was right. I made a concerted effort to change my body language to across more inquisitive or empathetic.
+  - **Result:** It's worked wonders as I've noticed that more soft spoken/less outgoing people will often open up to me and give me their opinions. I've also not really had any confrontations with colleagues and tend to actually diffuse situations when tensions rise.
+
+#### Customer Obsession
+
+- [x] Tell me about a time you used customer feedback to drive improvement.
+
+  - **Cause:** We had a longer term project (9 month+) with a client in which we were developing a new fixture suite. The client mad comments over the first couple of months that they were having difficulty with understanding where the project was and what the critical dates were that depended on input from them. While we had an account manager who was responsible for keeping the client up to date I think the length and complexity of the project made that difficult for them.
+  - **Action:** I noticed that even though the information was communicated to the client it was either forgotten from the conversation or lost in emails. I chatted with the AM and proposed publishing a live dashboard with dates and key comments on where the project was and what was needed next. We could reference the dashboard in any meetings we had and the client could pull it up at any time as the central source of truth.
+  - **Result:** The improvement was wildly successful as not only did I and the AM notice an increase in our productivity, the client mentioned throughout the rest of the project how nice having the dashboard was. On projects that followed using the live dashboard became a standard.
+
+- [ ] Tell me about your most difficult customer interaction.
+
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+
+- [x] Tell me about a time where you had to balance the needs of the customer vs. the business.
+  - **Cause:** We had a customer that wanted to order fixtures on a monthly basis rather than quarterly. It would result in higher pricing from an oversea's supplier and our margin's were already thin.
+  - **Action:** I did three things, negotiated with the supplier so that the price increase wasn't as large, negotiated with the client to take ownership of the goods once they arrived and worked with the warehousing company to reduce my pricing. I also wouldn't be holding as much inventory for as long which already helped bring down warehousing cost.
+  - **Result:** We ended up having roughly the same profit margin even with the change and had less liability as the customer took more ownership of the goods.
+
+#### Bias for Action
+
+- [x] Tell me about a time where you’ve taken a calculated risk where speed was crucial.
+
+  - **Cause:** We had Dyson project that was installing and needed to be ready for store open in one week. I knew that we would only have a single night to install the fixtures and if anything was severely damaged in shipment we would likely not be able to fix it on site in time. I also knew that if we shipped the fixtures disassembled with very safe packaging we wouldn't have enough time to assemble them overnight.
+  - **Action:** I decided to have my team pre-assemble the fixtures most of the way. I then had one packaged up and did some testing to simulate rough shipping to see if any of the pieces were at risk of breaking. I felt that we would be be OK and approved the remaining fixtures to be package as the prototype.
+  - **Result:** 9/10 of the fixtures arrived in good condition. The last fixture ended up getting some damage, but luckily it was only cosmetic and not too severe. I had the appropriate supplies to bring it cosmetically back and fixed it as such.
+
+- [ ] Tell me about a time you made an important decision without consulting your manager.
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+- [ ] Tell me about a time when you were able to remove a serious roadblock/barrier preventing your team from making progress?
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+
+#### Dive Deep
+
+- [x] Tell me about a time you were trying to understand a problem on your team and had to go down several layers to figure it out.
+
+  - **Cause:** At my previous job I worked on a team with a piece of ERP software to cut PO's, track inventory, and ship orders to clients. I was responsible for the supplier side and a teammate was responsible to ship orders to the client. It was setup to be a pull system where you put in orders to generate demand. We started to notice that the demand numbers it was generating were inaccurate as projects got close to shipping time there would be short a few pieces here and few pieces there.
+  - **Action:** I reached out to the support team that was located in Prague to discuss the issue. We found that the system had a scheduled task that would run multiple times throughout the day to update the demand numbers, but it was not running reliably. The team in Prague fixed that issue and we thought it would fix the problem.
+  - **Result:** Even with the problem fixed I pulled some data from the system and wrote some scripts to check the numbers in a spreadsheet and found we were still having issues. I decided to head out to our warehouse to physically verify counts. This is when I found the problem. Our inventory team was constantly moving inventory to make room and placing items in a "hidden" location which threw off the demand numbers. Our team discussed with the inventory team and came up with a weekly inventory data pull that would show any discrepancies including the "hidden" items. Ideally I would've liked a more real time solution, but we were stuck with the ERP so it was a band-aid that worked.
+
+- [ ] Tell me about a time you linked two or more problems together and identified an underlying issue.
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+- [ ] Can you tell me about a specific metric you’ve used to identify a need for change in your department?
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+
+#### Deliver Results
+
+- [ ] Tell me about a time when you delivered an important project under a tight deadline? What sacrifices did you have to make?
+
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+
+- [ ] Tell me about a time when you had significant, unanticipated obstacles to overcome in achieving a key goal.
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+
+#### Have backbone; disagree and commit
+
+- [ ] Describe a time when you felt strongly about something on a project, but the team decided to go in a different direction.
+  - **Cause:**
+  - **Action:**
+  - **Result:**
+
+#### Ownership
+
+- [ ] Tell me about a time you took on something significant outside your area of responsibility.
+  - **Cause:** M3 implementation, being a resource, testing, training
+  - **Action:**
+  - **Result:**
+
+#### Insist on the highest standards
+
+- [ ] Tell me about a time when you have been unsatisfied with the status quo. What did you do to change it?
+
+  - **Cause:**
+  - **Action:**
+  - **Result:**
 
 ## Technical Questions
 
