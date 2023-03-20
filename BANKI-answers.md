@@ -8,7 +8,7 @@
 
 ## Table of Contents
 
-1. [Behaviorial](#behavioral)
+1. [Behavioral](#behavioral)
 2. [Technical](#technical-questions)
    - [HTML](#html)
    - [CSS](#css)
