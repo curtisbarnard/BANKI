@@ -1408,7 +1408,7 @@ import { name, draw, reportArea, reportPerimeter } from './modules/square.js';
 - [x] T-Node-9) Explain the role of REPL in Node.js.
 
   - **Explanation:** The Node.js Read-Eval-Print-Loop (REPL) is an interactive shell that processes Node.js expressions. The shell reads JavaScript code the user enters, evaluates the result of interpreting the line of code, prints the result to the user, and loops until the user signals to quit.
-  - **Use:** The REPL is bundled with with every Node.js installation and allows you to quickly test and explore JavaScript code within the Node environment without having to store it in a file. Entering "node" in the terminal starts the REPL
+  - **Use:** The REPL is bundled with every Node.js installation and allows you to quickly test and explore JavaScript code within the Node environment without having to store it in a file. Entering "node" in the terminal starts the REPL
   - **Example:**
 
   ```promises and then() method
