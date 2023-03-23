@@ -1293,10 +1293,23 @@ import { name, draw, reportArea, reportPerimeter } from './modules/square.js';
     - https://dev.to/crishanks/classical-vs-prototypal-inheritance-2o5a
 
 - [ ] T-JSGeneral-4) What are the pros and cons of functional programming vs object-oriented programming?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+- ** Functional programming:**
+Pros:
+-	Leads to reliable results without side effects
+-	Has an emphasis on efficiency and optimisation
+-	Very reusable
+Cons:
+-	Newer paradigm so not easy to find documentation
+-	Can be harder to read due to the large number of functions
+-	File structure can be more difficult to organise
+- ** Object-oriented programming:**
+Pros:
+-	Easy to understand the basic concept of objects and methods
+-	Easy to understand due to imperative style (like a simple set of instructions)
+Cons:
+-	OOP models can become very complex
+-	Programmers need to have brilliant designing skill and programming skill along with proper planning because using OOP is little bit tricky
+  - **Source:** https://farida-alv04.medium.com/functional-vs-object-oriented-programming-pros-and-cons-cecfbb4054ca
 
 - [x] T-JSGeneral-5) What are two-way data binding and one-way data flow, and how are they different?
   - **Explanation:**
