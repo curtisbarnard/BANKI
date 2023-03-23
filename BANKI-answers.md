@@ -1554,10 +1554,11 @@ setTimeout(printHello, 2000);
   - **Example:** setTimeout() works the same in the libuv event loop as it would in a browser environment, executing a callback function after a minimum time is specified. The thread pool handles more intensive tasks, such as DNS lookup and encryption. 
   - **Source:** https://nodejs.org/en/docs/meta/topics/dependencies/
 - [ ] T-Node-26) What are some of the most popular modules of Node.js?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+  - **Explanation:** Node modules provide a way to re-use code in your Node application. At its core, a module is a piece of re-usable code with a defined interface. You bring a module into scope using require(). Thanks to the modules and libraries available through the NPM package manager, creating a website takes only a few minutes.
+   - **Use:** Node modules can provide additional functionality or utilities that would be time-consuming or difficult to implement from scratch. 
+   - **Example:** Some common Node modules that I have used are: express, mongoose, passport, cloudinary
+   - **Source:** https://www.codemag.com/article/1709061/Introduction-to-Node-Modules
+                        
 - [x] T-Node-27) What is `EventEmitter` in Node.js?
   - **Explanation:** EventEmitter is a class that holds all the objects that can emit events.
   - **Use:** Whenever an object from the EventEmitter class throws an event, all attached functions are called upon synchronously.
