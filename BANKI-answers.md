@@ -265,7 +265,7 @@ Most of the technical questions should have a three sentence response in the EUE
   - I've used nunjucks, haml and markdown. They seem relatively similar and have helpful features.
   - **Source:** https://www.frontendinterviewhandbook.com/html-questions
   
-  - Yes, I have used EJS. The popular templating languages include Ejs, Jade, Pug, Mustache, HandlebarsJS, Jinja2, and Blade.
+  - Yes, I have used EJS. The popular templating languages include Ejs, Pug, Mustache, HandlebarsJS, Jinja2, and Blade.
   - **Explanation**: Template engines are mostly used for server-side applications. When you build a server-side application with a template engine, it allows you to embed some variables and features inside the HTML tags. The template engine replaces the variables in a template file with actual values, and displays this value to the client, which gives your application the flexibility of diplaying data dynamically. For a server-side application written with NodeJS runtime, you can use a templating engine like Embedded JS.
   - **Use**: With server-side applications that need to display dynamic content.
   - **Example**: 
