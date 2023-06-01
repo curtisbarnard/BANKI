@@ -3,7 +3,7 @@
 1. Fork or download the [template](https://github.com/curtisbarnard/BANKI/blob/main/BANKI-template.md)
 2. Start filling in your answers.
    - If you are having trouble with an answer take a look at the [completed sheet](https://github.com/curtisbarnard/BANKI/blob/main/BANKI-answers.md) for resources/inspiration.
-3. For each answer immediately add it to your ANKI deck and start reviewing.
+3. For each answer immediately add it to your BANKI deck and start reviewing.
 4. Review your cards everyday.
 5. Slay your interviews!
 6. Let everyone know how BANKI helped you!
